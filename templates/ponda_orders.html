@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/favicon.png">
+    <title>Ponda Orders</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <div class="flex-box">
+        <div>
+            <header>
+                <h1>Chefs Bhojan - Ponda Orders</h1>
+            </header>
+            <div class="orders" >
+                {% if orders %}
+                    <p>Displaying {{ orders|length }} orders</p>
+                    <div id="ordersList">
+                        {% for order in orders %}
+                            <div class="order" id="{{ order.orderId }}">
+                                <p><strong>Name:</strong> {{ order['name'] }}</p>
+                                <p><strong>Phone:</strong> {{ order['phone'] }}</p>
+                                <p><strong>Address:</strong> {{ order['address'] }}</p>
+                                <p><strong>Pincode:</strong> {{ order['pincode'] }}</p>
+                                <p><strong>Date Created:</strong> {{ order['date_created'] }}</p>
+                                <div class="items">
+                                    <p><strong>Items:</strong></p>
+                                    <ul>
+                                        {% for item in order['items_list'] %}
+                                            <li>
+                                                <strong>Name:</strong> {{ item['name'] }}<br>
+                                                <strong>Quantity:</strong> {{ item['quantity'] }}<br>
+                                                <strong>Price:</strong> {{ item['price'] }}<br>
+                                                <strong>Total for Item:</strong> {{ item['item_total'] }}
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <p><strong>Total Amount:</strong> {{ order['total_amount'] }}</p>
+                                {% if not order.fulfilled %}
+                                    <button onclick="orderFulfilled('{{ order.orderId }}')">
+                                        Fulfill Order 
+                                    </button>
+                                {% else %}
+                                    <span class="fullfilled-message">&#10004; Order Fullfilled</span><br>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <p>No orders found.</p>
+                    {% endif %}
+                    </div>
+                </div>
+        </div>
+        <div>
+            <header>
+                <h1>Orders Dashboard</h1>
+            </header>
+            <div id="orderStats">
+                <div>
+                    <h1>Today's Orders: <span id="ordersToday">0</span></h1>
+                    <h1>Today's Orders Revenue: <span id="ordersTodayValue">0</span></h1>
+                </div>
+                <div>
+                    <h1>Yesterday's Orders: <span id="ordersYesterday">0</span></h1>
+                    <h1>Yesterday's Orders Revenue: <span id="ordersYesterdayValue">0</span></h1>
+                </div>
+                <div>
+                    <h1>This Week's Orders: <span id="ordersThisWeek">0</span></h1>
+                    <h1>This Week's Orders Revenue: <span id="ordersWeekValue">0</span></h1>
+                </div>
+                <div>
+                    <h1>Lifetime Orders: <span id="ordersLifetime">0</span></h1>
+                    <h1>Lifetime Orders Revenue: <span id="ordersLifetimeValue">0</span></h1>
+                </div>
+            </div>
+        </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        const socket = io()
+        const audio = new Audio('/static/beep.mp3')
+
+        if (Notification.permission === "default") {
+            Notification.requestPermission().then(permission => {
+                if (permission === "granted") {
+                    console.log("Notification permission granted.")
+                }
+            })
+        }
+
+        socket.on('connect', function () {
+            console.log('Connected to server')
+            refreshOrders()
+        })
+
+        socket.on('new_order', function (data) {
+            if (data.outlet === 'Ponda') {
+            if (Notification.permission === "granted") {
+                const options = {
+                    body: `New order received for ${data.order.name}`,
+                    icon: '/static/icon.png'
+                }
+                const notification = new Notification("New Order", options)
+                notification.onclick = () => {
+                    window.focus()
+                    notification.close()
+                }
+                playNotificationSound()
+            } else {
+                console.log("Notification permission denied.")
+            }
+            
+            const ordersList = document.getElementById('ordersList')
+                const order = data.order
+
+                const orderElement = document.createElement('div')
+                orderElement.classList.add('order','newOrder')
+                orderElement.id = `order-${order._id}`
+                orderElement.innerHTML = `
+                    <p><strong>Name:</strong> ${order.name}</p>
+                    <p><strong>Phone:</strong> ${order.phone}</p>
+                    <p><strong>Address:</strong> ${order.address}</p>
+                    <p><strong>Pincode:</strong> ${order.pincode}</p>
+                    <p><strong>Date Created:</strong> ${new Date(order.date_created).toLocaleString('en-US', { timeZone: 'Asia/Kolkata' })}</p>
+                    <div class="items">
+                        <p><strong>Items:</strong></p>
+                        <ul>
+                            ${order.items.map(item => `
+                                <li>
+                                    <strong>Name:</strong> ${item.name}<br>
+                                    <strong>Quantity:</strong> ${item.quantity}<br>
+                                    <strong>Price:</strong> ${item.price}<br>
+                                    <strong>Total for Item:</strong> ${item.price * item.quantity}
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                `
+                ordersList.prepend(orderElement)
+
+            }
+        })
+
+        function playNotificationSound() {
+            audio.play()
+                .then(() => {
+                    console.log("Played notification sound")
+                })
+                .catch((error) => {
+                    console.error("Failed to play audio:", error)
+                })
+        }
+
+        function refreshOrders() {
+            setTimeout(function () {
+                location.reload()
+            }, 60000)
+        }
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp);
+            return date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+        }
+
+        function countOrders(orders) {
+            const now = new Date()
+            const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+            const startOfYesterday = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1)
+            const startOfWeek = new Date(now.getFullYear(), now.getMonth(), now.getDate() - now.getDay())
+
+            let todayCount = 0
+            let yesterdayCount = 0
+            let thisWeekCount = 0
+            let lifetimeCount = orders.length
+            let todayRevenue = 0
+            let yesterdayRevenue = 0
+            let thisWeekRevenue = 0
+            let lifetimeRevenue = 0
+
+            orders.forEach(order => {
+                const orderDate = new Date(order.date_created)
+
+                if (orderDate >= startOfToday) {
+                    todayCount++
+                    todayRevenue += order.total_amount
+                } else if (orderDate >= startOfYesterday && orderDate < startOfToday) {
+                    yesterdayCount++;
+                    yesterdayRevenue += order.total_amount
+                }
+
+                if (orderDate >= startOfWeek) {
+                    thisWeekCount++
+                    thisWeekRevenue += order.total_amount
+                }
+
+                lifetimeRevenue += order.total_amount
+            })
+
+            return { todayCount, yesterdayCount, thisWeekCount, lifetimeCount,todayRevenue,yesterdayRevenue,thisWeekRevenue,lifetimeRevenue}
+        }
+
+        async function fetchOrders() {
+            const orders = JSON.parse('{{ orders|tojson|safe }}')
+            return orders
+        }
+
+        async function displayOrderStats() {
+            const orders = await fetchOrders()
+            const counts = countOrders(orders)
+
+            document.getElementById('ordersToday').textContent = counts.todayCount
+            document.getElementById('ordersYesterday').textContent = counts.yesterdayCount
+            document.getElementById('ordersThisWeek').textContent = counts.thisWeekCount
+            document.getElementById('ordersLifetime').textContent = counts.lifetimeCount
+            document.getElementById('ordersTodayValue').textContent = counts.todayRevenue.toFixed(2)
+            document.getElementById('ordersYesterdayValue').textContent = counts.yesterdayRevenue.toFixed(2)
+            document.getElementById('ordersWeekValue').textContent = counts.thisWeekRevenue.toFixed(2)
+            document.getElementById('ordersLifetimeValue').textContent = counts.lifetimeRevenue.toFixed(2)
+        }
+
+        displayOrderStats()
+
+        function orderFulfilled(orderId) {
+            console.log(orderId)
+            alert("Order fulfilled successfully!")
+            fetch('/api/fulfill_order_Ponda', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({orderId: orderId}) 
+            })
+            .catch(error => {
+                console.error('Error:', error)
+            })
+        }
+    </script>
+</body>
+</html>

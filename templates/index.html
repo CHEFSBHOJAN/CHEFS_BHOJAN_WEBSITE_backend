@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/favicon.png">
+    <title>Choose Outlet</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <header>
+        <h1>Chefs Bhojan</h1>
+    </header>
+    <form action="/select_outlet" method="post">
+        <h2>Choose Outlet</h2>
+        <div>
+            <input type="radio" id="Ponda" name="outlet" value="Ponda" required>
+            <label for="Ponda">Ponda Outlet</label>
+        </div>
+        <div>
+            <input type="radio" id="Margao" name="outlet" value="Margao" required>
+            <label for="Margao">Margao Outlet</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
