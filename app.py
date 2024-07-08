@@ -19,6 +19,7 @@ class JSONEncoder(json.JSONEncoder):
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'a_secure_default_key')
 
+CORS(app, supports_credentials=True, allow_headers="*", origins="*", methods=["OPTIONS", "POST"])
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='gevent', engineio_logger=True)
@@ -114,11 +115,7 @@ def margao_orders():
 @app.route('/api/orders', methods=['POST', 'OPTIONS'])
 def save_form_data():
     if request.method == 'OPTIONS':
-        response = jsonify({'status': 'success', 'message': 'CORS preflight request handled successfully'})
-        response.headers.add('Access-Control-Allow-Origin', 'http://localhost:5173')
-        response.headers.add('Access-Control-Allow-Methods', 'POST, OPTIONS')
-        response.headers.add('Access-Control-Allow-Headers', '*')
-        return response, 200
+        return jsonify({'status': 'success', 'message': 'CORS preflight request handled successfully'}), 200
     
     data = request.json
     print("Received form data:", data)
