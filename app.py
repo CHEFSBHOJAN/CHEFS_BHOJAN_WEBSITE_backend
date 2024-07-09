@@ -107,8 +107,7 @@ def margao_orders():
                 'item_total': item_total
             })
             total_amount += item_total
-        order['items_list'] = items_list
-        order['total_amount'] = total_amount
+        order['total_amount'] = round(total_amount / 1.2, 2)
         
     return render_template('margao_orders.html', orders=orders)
 
