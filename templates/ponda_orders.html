@@ -92,7 +92,6 @@
 
         socket.on('connect', function () {
             console.log('Connected to server')
-            refreshOrders()
         })
 
         socket.on('new_order', function (data) {
@@ -156,7 +155,7 @@
         function refreshOrders() {
             setTimeout(function () {
                 location.reload()
-            }, 60000)
+            }, 360000)
         }
 
         function formatDate(timestamp) {
