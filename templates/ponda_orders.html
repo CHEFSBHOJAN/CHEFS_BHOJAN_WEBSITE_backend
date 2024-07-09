@@ -37,7 +37,7 @@
                                         {% endfor %}
                                     </ul>
                                 </div>
-                                <p><strong>Total Amount:</strong> {{ order['total_amount'] }}</p>
+                                <p><strong>Total Amount(Discounted):</strong> {{ order['total_amount'] }}</p>
                                 {% if not order.fulfilled %}
                                     <button onclick="orderFulfilled('{{ order.orderId }}')">
                                         Fulfill Order 
