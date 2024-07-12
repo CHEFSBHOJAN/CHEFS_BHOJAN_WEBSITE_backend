@@ -31,6 +31,8 @@ client = MongoClient(
 db = client['ORDERS']
 CB_PONDA = db['CB_PONDA']
 CB_MARGAO = db['CB_MARGAO']
+MARGAO_STATUS = db['CB_MARGOA_STATUS']
+PONDA_STATUS = db['CB_PONDA_STATUS']
 
 ALLOWED_PINCODES_PONDA = [
     "403401",  # Ponda
@@ -119,48 +121,59 @@ def save_form_data():
     
     data = request.json
     print("Received form data:", data)
+    status_margao = MARGAO_STATUS.find_one({}, {'_id': 0, 'status': 1})['status']
+    status_ponda = PONDA_STATUS.find_one({}, {'_id': 0, 'status': 1})['status']
+    
+    print(status_margao)
+    print(status_ponda)
     
     pincode = data.get('pincode')
     outlet_selected = data.get('selectedOutlet')
 
     if outlet_selected == 'Ponda':
-        if pincode in ALLOWED_PINCODES_PONDA:
-            new_order = {
-                'orderId': data['orderId'],
-                'name' : data['name'],
-                'phone': data['phone'],
-                'address': data['address'],
-                'pincode': data['pincode'],
-                'items' : data['items'],
-                'date_created': data['date'],
-                'fulfilled': False
-            }
-            result = CB_PONDA.insert_one(new_order)
-            new_order['_id'] = result.inserted_id
-            socketio.emit('new_order', {'outlet': 'Ponda', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
-            return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
+        if status_ponda:
+            if pincode in ALLOWED_PINCODES_PONDA:
+                new_order = {
+                    'orderId': data['orderId'],
+                    'name' : data['name'],
+                    'phone': data['phone'],
+                    'address': data['address'],
+                    'pincode': data['pincode'],
+                    'items' : data['items'],
+                    'date_created': data['date'],
+                    'fulfilled': False
+                }
+                result = CB_PONDA.insert_one(new_order)
+                new_order['_id'] = result.inserted_id
+                socketio.emit('new_order', {'outlet': 'Ponda', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
+                return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
+            else:
+                return jsonify({'status': 'error', 'message': 'Delivery not available for the entered pincode'}), 400
         else:
-            return jsonify({'status': 'error', 'message': 'Delivery not available for the entered pincode'}), 400
+            return jsonify({'status': 'error', 'message': 'Currently not accepting orders'}), 400
     
     elif outlet_selected == 'Margao':
-        if pincode in ALLOWED_PINCODES_MARGAO:
-            new_order = {
-                'orderId': data['orderId'],
-                'name' : data['name'],
-                'phone': data['phone'],
-                'address': data['address'],
-                'pincode': data['pincode'],
-                'items' : data['items'],
-                'date_created': data['date'],
-                'fulfilled': False
-            }
-            result = CB_MARGAO.insert_one(new_order)
-            new_order['_id'] = result.inserted_id
-            socketio.emit('new_order', {'outlet': 'Margao', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
-            return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
+        if status_margao:
+            if pincode in ALLOWED_PINCODES_MARGAO:
+                new_order = {
+                    'orderId': data['orderId'],
+                    'name' : data['name'],
+                    'phone': data['phone'],
+                    'address': data['address'],
+                    'pincode': data['pincode'],
+                    'items' : data['items'],
+                    'date_created': data['date'],
+                    'fulfilled': False
+                }
+                result = CB_MARGAO.insert_one(new_order)
+                new_order['_id'] = result.inserted_id
+                socketio.emit('new_order', {'outlet': 'Margao', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
+                return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
+            else:
+                return jsonify({'status': 'error', 'message': 'Delivery not available for the entered pincode'}), 400
         else:
-            return jsonify({'status': 'error', 'message': 'Delivery not available for the entered pincode'}), 400
-    
+            return jsonify({'status': 'error', 'message': 'Currently not accepting orders'}), 400
+        
     else:
         return jsonify({'status': 'error', 'message': 'Invalid outlet selected'}), 400
 
@@ -187,6 +200,44 @@ def fulfill_order_Margao():
         CB_MARGAO.update_one({'orderId': order_id}, {'$set': {'fulfilled': True}})
         return jsonify({'status': 'success', 'message': f'Order {order_id} marked as fulfilled'}), 200
 
+    return jsonify({'status': 'error', 'message': 'Invalid request'}), 400
+
+@app.route('/api/Get_Margao_Status', methods=['GET'])
+def Get_Margao_Status():
+    status = MARGAO_STATUS.find_one({}, {'_id': 0, 'status': 1})
+    if status:
+        return jsonify({'status': status['status']})
+    return jsonify({'status': False})
+
+@app.route('/api/Update_Margao_Status', methods=['POST'])
+def Update_Margao_Status():
+    data = request.json
+    status = data.get('status')
+    if status == 'on':
+        MARGAO_STATUS.update_one({}, {'$set': {'status': True}})
+        return jsonify({'status': 'success', 'message': 'Margao marked as On'}), 200
+    elif status == 'off':
+        MARGAO_STATUS.update_one({}, {'$set': {'status': False}})
+        return jsonify({'status': 'success', 'message': 'Margao marked as Off'}), 200
+    return jsonify({'status': 'error', 'message': 'Invalid request'}), 400
+
+@app.route('/api/Get_Ponda_Status', methods=['GET'])
+def Get_Ponda_Status():
+    status = PONDA_STATUS.find_one({}, {'_id': 0, 'status': 1})
+    if status:
+        return jsonify({'status': status['status']})
+    return jsonify({'status': False})
+
+@app.route('/api/Update_Ponda_Status', methods=['POST'])
+def Update_Ponda_Status():
+    data = request.json
+    status = data.get('status')
+    if status == 'on':
+        PONDA_STATUS.update_one({}, {'$set': {'status': True}})
+        return jsonify({'status': 'success', 'message': 'Margao marked as On'}), 200
+    elif status == 'off':
+        PONDA_STATUS.update_one({}, {'$set': {'status': False}})
+        return jsonify({'status': 'success', 'message': 'Margao marked as Off'}), 200
     return jsonify({'status': 'error', 'message': 'Invalid request'}), 400
 
 if __name__ == "__main__":

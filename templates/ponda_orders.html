@@ -12,13 +12,20 @@
         <div>
             <header>
                 <h1>Chefs Bhojan - Ponda Orders</h1>
+                <button id="toggleStatusButton" onclick="toggleStatus()">Turn Off</button>
             </header>
+            <form id="searchForm">
+                <label for="searchInput">Search:</label>
+                <input type="text" id="searchInput" placeholder="Order ID, Name, or Phone Number">
+                <button type="submit">Search</button>
+            </form>
             <div class="orders" >
                 {% if orders %}
                     <p>Displaying {{ orders|length }} orders</p>
                     <div id="ordersList">
                         {% for order in orders %}
                             <div class="order" id="{{ order.orderId }}">
+                                <h4><strong>ORDER ID:</strong> {{ order['orderId']}}</h4>
                                 <p><strong>Name:</strong> {{ order['name'] }}</p>
                                 <p><strong>Phone:</strong> {{ order['phone'] }}</p>
                                 <p><strong>Address:</strong> {{ order['address'] }}</p>
@@ -79,6 +86,16 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            getStatus()
+            const searchForm = document.getElementById('searchForm')
+            searchForm.addEventListener('submit', function(event) {
+                event.preventDefault()
+                const searchInput = document.getElementById('searchInput').value.trim().toLowerCase()
+                filterOrders(searchInput)
+            })
+        })
+
         const socket = io()
         const audio = new Audio('/static/beep.mp3')
 
@@ -158,9 +175,18 @@
             }, 360000)
         }
 
-        function formatDate(timestamp) {
-            const date = new Date(timestamp);
-            return date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+        function filterOrders(searchTerm) {
+            const orders = document.querySelectorAll('.order')
+            orders.forEach(order => {
+                const orderId = order.querySelector('h4').textContent.toLowerCase();
+                const name = order.querySelector('p:nth-child(2)').textContent.toLowerCase()
+                const phone = order.querySelector('p:nth-child(3)').textContent.toLowerCase()
+                if (orderId.includes(searchTerm) || name.includes(searchTerm) || phone.includes(searchTerm)) {
+                    order.style.display = 'block'
+                } else {
+                    order.style.display = 'none'
+                }
+            })
         }
 
         function countOrders(orders) {
@@ -232,6 +258,54 @@
                 body: JSON.stringify({orderId: orderId}) 
             })
             .catch(error => {
+                console.error('Error:', error)
+            })
+        }
+
+        function getStatus() {
+            fetch('/api/Get_Ponda_Status')
+                .then(response => response.json())
+                .then(data => {
+                    const statusButton = document.getElementById('toggleStatusButton')
+                    if (data.status) {
+                        statusButton.textContent = 'Turn Off'
+                        statusButton.classList.remove('off')
+                    } else {
+                        statusButton.textContent = 'Turn On'
+                        statusButton.classList.add('off')
+                    }
+                    currentStatus = data.status
+                })
+                .catch(error => {
+                    console.error('Error:', error)
+                })
+        }
+
+        function toggleStatus() {
+            const status = currentStatus ? 'off' : 'on'
+            fetch('/api/Update_Ponda_Status', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ status })
+            }).then(response => {
+                if (response.ok) {
+                    response.json().then(data => {
+                        console.log('Status updated:', data)
+                        currentStatus = !currentStatus
+                        const statusButton = document.getElementById('toggleStatusButton')
+                        statusButton.textContent = currentStatus ? 'Turn Off' : 'Turn On'
+                        if (currentStatus) {
+                            statusButton.classList.remove('off')
+                        } else {
+                            statusButton.classList.add('off')
+                        }
+                    })
+                } else {
+                    console.error('Failed to update status')
+                }
+            }).catch(error => {
                 console.error('Error:', error)
             })
         }
