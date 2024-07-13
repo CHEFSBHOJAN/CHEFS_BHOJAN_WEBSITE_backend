@@ -4,8 +4,9 @@ gevent.monkey.patch_all()
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_socketio import SocketIO, emit
 from pymongo import MongoClient
-from datetime import datetime
 from flask_cors import CORS
+from email.message import EmailMessage
+import smtplib
 import os
 from bson import ObjectId
 import json
@@ -18,6 +19,12 @@ class JSONEncoder(json.JSONEncoder):
     
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'a_secure_default_key')
+user_email = "portfolionagesh.1957@gmail.com"
+user_password = "tkpt rder mvhp pupb"
+receiving_email = "bhojanchefs@gmail.com"
+# user_email = os.environ.get('USER_EMAIL', 'default_user_email')
+# user_password = os.environ.get('USER_PASSWORD', 'default_user_password')
+# receiving_email = os.environ.get('RECEIVING_EMAIL')
 
 CORS(app, supports_credentials=True, allow_headers="*", origins="*", methods=["OPTIONS", "POST"])
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
@@ -53,6 +60,22 @@ ALLOWED_PINCODES_MARGAO = [
     "403712",  # Colva
     "403713"   # Benaulim
 ]
+
+def send_email(subject, body):
+    msg = EmailMessage()
+    msg.set_content(body)
+    msg['Subject'] = subject
+    msg['From'] = user_email
+    msg['To'] = receiving_email
+
+    try:
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+        server.login(user_email, user_password)
+        server.send_message(msg)
+        server.quit()
+        print(f"Email sent successfully to {receiving_email}")
+    except Exception as e:
+        print(f"Failed to send email: {str(e)}")
 
 @app.route('/')
 def index():
@@ -146,6 +169,12 @@ def save_form_data():
                 result = CB_PONDA.insert_one(new_order)
                 new_order['_id'] = result.inserted_id
                 socketio.emit('new_order', {'outlet': 'Ponda', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
+
+                subject = f"New Order received from {data['name']} at {data['selectedOutlet']}"
+                items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in data['items']])
+                body = f"Order ID: {data['orderId']}\nName: {data['name']}\nPhone: {data['phone']}\nAddress: {data['address']}\nPincode: {data['pincode']}\nItems:\n {items_summary}"
+                send_email(subject, body)
+                
                 return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
             else:
                 return jsonify({'status': 'error', 'message': 'Delivery not available for the entered pincode'}), 400
@@ -168,6 +197,12 @@ def save_form_data():
                 result = CB_MARGAO.insert_one(new_order)
                 new_order['_id'] = result.inserted_id
                 socketio.emit('new_order', {'outlet': 'Margao', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
+
+                subject = f"New Order received from {data['name']} at {data['selectedOutlet']}"
+                items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in data['items']])
+                body = f"Order ID: {data['orderId']}\nName: {data['name']}\nPhone: {data['phone']}\nAddress: {data['address']}\nPincode: {data['pincode']}\nItems:\n {items_summary}"
+                send_email(subject, body)
+                
                 return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
             else:
                 return jsonify({'status': 'error', 'message': 'Delivery not available for the entered pincode'}), 400
