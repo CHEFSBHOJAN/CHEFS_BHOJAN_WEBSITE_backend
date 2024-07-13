@@ -19,12 +19,9 @@ class JSONEncoder(json.JSONEncoder):
     
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'a_secure_default_key')
-user_email = "portfolionagesh.1957@gmail.com"
-user_password = "tkpt rder mvhp pupb"
-receiving_email = "bhojanchefs@gmail.com"
-# user_email = os.environ.get('USER_EMAIL', 'default_user_email')
-# user_password = os.environ.get('USER_PASSWORD', 'default_user_password')
-# receiving_email = os.environ.get('RECEIVING_EMAIL')
+user_email = os.environ.get('USER_EMAIL', 'default_user_email')
+user_password = os.environ.get('USER_PASSWORD', 'default_user_password')
+receiving_email = os.environ.get('RECEIVING_EMAIL')
 
 CORS(app, supports_credentials=True, allow_headers="*", origins="*", methods=["OPTIONS", "POST"])
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
