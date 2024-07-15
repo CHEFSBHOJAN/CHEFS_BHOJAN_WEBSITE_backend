@@ -112,11 +112,11 @@
         })
 
         socket.on('connect_error', function (error) {
-            alert('Failed to connect to server. Please refresh the page and try again.')
+            console.log('Failed to connect to server. Please refresh the page and try again.')
         })
 
         socket.on('disconnect', function () {
-            alert('Disconnected from server. Please refresh the page to reconnect.')
+            console.log('Disconnected from server. Please refresh the page to reconnect.')
         })
 
         socket.on('new_order', function (data) {
