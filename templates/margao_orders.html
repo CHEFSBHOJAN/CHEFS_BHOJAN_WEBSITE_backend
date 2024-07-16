@@ -96,7 +96,7 @@
             })
         })
 
-        const socket = io()
+        const socket = io({transports: ['websocket'],})
         const audio = new Audio('/static/beep.mp3')
         let currentStatus = null
 
