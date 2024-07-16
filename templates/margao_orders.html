@@ -197,6 +197,13 @@
             })
         }
 
+        function parseDateString(dateString) {
+            const [datePart, timePart] = dateString.split(', ')
+            const [day, month, year] = datePart.split('/').map(Number)
+            const [hours, minutes, seconds] = timePart.split(':').map(Number)
+            return new Date(Date.UTC(year, month - 1, day, hours - 5, minutes - 30, seconds))
+        }
+
         function countOrders(orders) {
             const now = new Date()
             const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate())
@@ -213,7 +220,7 @@
             let lifetimeRevenue = 0
 
             orders.forEach(order => {
-                const orderDate = new Date(order.date_created)
+                const orderDate = parseDateString(order.date_created)
 
                 if (orderDate >= startOfToday) {
                     todayCount++
