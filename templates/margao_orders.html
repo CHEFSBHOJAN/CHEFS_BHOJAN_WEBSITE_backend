@@ -49,6 +49,7 @@
                                     <button onclick="orderFulfilled('{{ order.orderId }}')">
                                         Fulfill Order 
                                     </button>
+                                    <button onclick="printReceipt('{{ order.orderId }}')">Print Receipt</button>
                                 {% else %}
                                     <span class="fullfilled-message">&#10004; Order Fullfilled</span><br>
                                 {% endif %}
@@ -113,11 +114,11 @@
         })
 
         socket.on('connect_error', function (error) {
-            console.log('Failed to connect to server. Please refresh the page and try again.')
+            console.log('Failed to connect to server.')
         })
 
         socket.on('disconnect', function () {
-            console.log('Disconnected from server. Please refresh the page to reconnect.')
+            console.log('Disconnected from server.')
         })
 
         socket.on('new_order', function (data) {
@@ -198,7 +199,7 @@
             })
         }
 
-        function parseDateString(dateString) {
+         function parseDateString(dateString) {
             const [datePart, timePart] = dateString.split(', ')
             const [day, month, year] = datePart.split('/').map(Number)
             const [hours, minutes, seconds] = timePart.split(':').map(Number)
@@ -243,7 +244,7 @@
         }
 
         async function fetchOrders() {
-            const orders = JSON.parse('{{ orders|tojson|safe }}')
+            const orders = {{ orders|tojson|safe }}
             return orders
         }
 
@@ -324,6 +325,29 @@
             }).catch(error => {
                 console.error('Error:', error)
             })
+        }
+
+        function printReceipt(orderId) {
+            const orderElement = document.getElementById(orderId)
+            const orderIdText = orderElement.querySelector('h4').textContent
+            const items = orderElement.querySelectorAll('.items li')
+            
+            const itemTexts = Array.from(items).map(item => {
+                const name = item.querySelector('strong:nth-child(1)').nextSibling.textContent.trim()
+                const quantity = item.querySelector('strong:nth-child(3)').nextSibling.textContent.trim()
+                
+                return `Name: ${name}\nQuantity: ${quantity}`
+            }).join('\n')
+
+            const receiptWindow = window.open('', '_blank')
+            receiptWindow.document.write('<html><head><title>Receipt</title>')
+            receiptWindow.document.write('<link rel="stylesheet" type="text/css" href="./static/receipt.css">')
+            receiptWindow.document.write('</head><body class="receipt">')
+            receiptWindow.document.write('<h4>' + orderIdText + '</h4><div class="items"><ul>')
+            receiptWindow.document.write(itemTexts.replace(/\n/g, '</li><li>').replace(/^/gm, '<li>').replace(/$/gm, '</li>'))
+            receiptWindow.document.write('</ul></div></body></html>')
+            receiptWindow.document.close()
+            receiptWindow.print()
         }
     </script>
 </body>

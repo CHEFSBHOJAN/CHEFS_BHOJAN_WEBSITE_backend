@@ -1,0 +1,23 @@
+body.receipt {
+    width: 58mm;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 2px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.receipt h4,
+.receipt p {
+    margin: 0 0 2px 0;
+}
+
+.receipt .items {
+    margin-top: 2px;
+}
+
+.receipt .items li {
+    margin-bottom: 2px;
+}
