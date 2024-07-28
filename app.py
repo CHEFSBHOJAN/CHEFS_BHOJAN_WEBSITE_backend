@@ -2,14 +2,15 @@ import gevent.monkey
 gevent.monkey.patch_all()
 
 from flask import Flask, render_template, request, redirect, url_for, jsonify
-from flask_socketio import SocketIO, emit
+from flask_socketio import SocketIO
+import requests
 from pymongo import MongoClient
 from flask_cors import CORS
-from email.message import EmailMessage
-import smtplib
 import os
 from bson import ObjectId
 import json
+from twilio.rest import Client
+
 
 class JSONEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -18,10 +19,10 @@ class JSONEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, obj)
     
 app = Flask(__name__)
+
+os.environ['PASSWORD'] = 'ChefsKuku@28'
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'a_secure_default_key')
-user_email = os.environ.get('USER_EMAIL', 'default_user_email')
-user_password = os.environ.get('USER_PASSWORD', 'default_user_password')
-receiving_email = os.environ.get('RECEIVING_EMAIL')
+password = os.environ.get('PASSWORD')
 
 CORS(app, supports_credentials=True, allow_headers="*", origins="*", methods=["OPTIONS", "POST"])
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
@@ -58,33 +59,21 @@ ALLOWED_PINCODES_MARGAO = [
     "403713"   # Benaulim
 ]
 
-def send_email(subject, body):
-    msg = EmailMessage()
-    msg.set_content(body)
-    msg['Subject'] = subject
-    msg['From'] = user_email
-    msg['To'] = receiving_email
-
-    try:
-        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-        server.login(user_email, user_password)
-        server.send_message(msg)
-        server.quit()
-        print(f"Email sent successfully to {receiving_email}")
-    except Exception as e:
-        print(f"Failed to send email: {str(e)}")
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/select_outlet', methods=['POST'])
 def select_outlet():
+    entered_password = request.form['password']
     selected_outlet = request.form['outlet']
-    if selected_outlet == 'Ponda':
-        return redirect(url_for('ponda_orders'))
-    elif selected_outlet == 'Margao':
-        return redirect(url_for('margao_orders'))
+    if entered_password == password:
+        if selected_outlet == 'Ponda':
+            return redirect(url_for('ponda_orders'))
+        elif selected_outlet == 'Margao':
+            return redirect(url_for('margao_orders'))
+    else :
+        return redirect(url_for('index'))
 
 @app.route('/ponda_orders')
 def ponda_orders():
@@ -161,16 +150,13 @@ def save_form_data():
                     'pincode': data['pincode'],
                     'items' : data['items'],
                     'date_created': data['date'],
-                    'fulfilled': False
+                    'status': "accept"
                 }
                 result = CB_PONDA.insert_one(new_order)
                 new_order['_id'] = result.inserted_id
                 socketio.emit('new_order', {'outlet': 'Ponda', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
 
-                subject = f"New Order received from {data['name']} at {data['selectedOutlet']}"
-                items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in data['items']])
-                body = f"Order ID: {data['orderId']}\nName: {data['name']}\nPhone: {data['phone']}\nAddress: {data['address']}\nPincode: {data['pincode']}\nItems:\n {items_summary}"
-                send_email(subject, body)
+                send_whatsapp_message(new_order)
                 
                 return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
             else:
@@ -189,16 +175,13 @@ def save_form_data():
                     'pincode': data['pincode'],
                     'items' : data['items'],
                     'date_created': data['date'],
-                    'fulfilled': False
+                    'status': "accept"
                 }
                 result = CB_MARGAO.insert_one(new_order)
                 new_order['_id'] = result.inserted_id
                 socketio.emit('new_order', {'outlet': 'Margao', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
 
-                subject = f"New Order received from {data['name']} at {data['selectedOutlet']}"
-                items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in data['items']])
-                body = f"Order ID: {data['orderId']}\nName: {data['name']}\nPhone: {data['phone']}\nAddress: {data['address']}\nPincode: {data['pincode']}\nItems:\n {items_summary}"
-                send_email(subject, body)
+                send_whatsapp_message(new_order)
                 
                 return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
             else:
@@ -209,28 +192,199 @@ def save_form_data():
     else:
         return jsonify({'status': 'error', 'message': 'Invalid outlet selected'}), 400
 
+def send_whatsapp_message(order):
+    access_token = 'EAAFNtF4tqZA0BO4vTDnFJQ7iWdT4UUa04JwLm4B8Kjwt6Q5uOKVVh9Fk8DEYdrOUV9qvWt7u1opHW6yOySaLTwPuOkLrL6CfziL9rMAMhaxtjZAk9RI3NjoHg6dmsGPPBHK8GKZCQrqrZCYTrK5tiMK7WN7ZCTFqAwzQz3jGEMktt3sRFzkvBk3hqgH6uGfe1byfwGi8N8U5NrzYkaQUZD'
+    phone_number_id = '323798344160879'
+    recipient_phone_number = '919354548685'
+    
+    items_summary = "".join([f"{item['name']}: {item['quantity']}" for item in order['items']])
+    
+    url = f'https://graph.facebook.com/v20.0/{phone_number_id}/messages'
+    
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json'
+    }
+    
+    payload = {
+        "messaging_product": "whatsapp",
+        "to": recipient_phone_number,
+        "type": "template",
+        "template": {
+            "name": "neworder",
+            "language": {
+                "code": "en"
+            },
+            "components": [
+                {
+                    "type": "header",
+                    "parameters": [
+                        {
+                            "type": "text",
+                            "text": order["name"]
+                        }
+                    ]
+                },
+                {
+                    "type": "body",
+                    "parameters": [
+                        {
+                            "type": "text",
+                            "text": order["phone"]
+                        },
+                        {
+                            "type": "text",
+                            "text": items_summary
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    
+    response = requests.post(url, headers=headers, json=payload)
+    
+    if response.status_code == 200:
+        print("Message sent successfully!")
+        print(response.json())
+    else:
+        print(f"Failed to send message: {response.status_code}")
+        print(response.json())
 
-@app.route('/api/fulfill_order_Ponda', methods=['POST'])
+        
+        
+def send_whatsapp_message_to_customer(order ,status):
+    access_token = 'EAAFNtF4tqZA0BO4vTDnFJQ7iWdT4UUa04JwLm4B8Kjwt6Q5uOKVVh9Fk8DEYdrOUV9qvWt7u1opHW6yOySaLTwPuOkLrL6CfziL9rMAMhaxtjZAk9RI3NjoHg6dmsGPPBHK8GKZCQrqrZCYTrK5tiMK7WN7ZCTFqAwzQz3jGEMktt3sRFzkvBk3hqgH6uGfe1byfwGi8N8U5NrzYkaQUZD'
+    phone_number_id = '323798344160879'
+    recipient_phone_number = f'91{order["phone"]}'
+    items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in order['items']])
+    
+    url = f'https://graph.facebook.com/v20.0/{phone_number_id}/messages'
+    
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json'
+    }
+    
+    if status == 'accept':
+        template_name = "order_accepted"
+        payload = {
+            "messaging_product": "whatsapp",
+            "to": recipient_phone_number,
+            "type": "template",
+            "template": {
+                "name": template_name,
+                "language": {
+                    "code": "en"
+                },
+                "components": [
+                    {
+                        "type": "header",
+                        "parameters": [
+                            {
+                                "type": "text",
+                                "text": order["name"]  
+                            }
+                        ]
+                    },
+                    {
+                        "type": "body",
+                        "parameters": [
+                            {
+                                "type": "text",
+                                "text": items_summary
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    elif status == 'deliver':
+        template_name = "outfor_delivery"
+        payload = {
+            "messaging_product": "whatsapp",
+            "to": recipient_phone_number,
+            "type": "template",
+            "template": {
+                "name": template_name,
+                "language": {
+                    "code": "en"
+                }
+            }
+        }
+    elif status == 'fulfill':
+        template_name = "fulfilled_order"
+        payload = {
+            "messaging_product": "whatsapp",
+            "to": recipient_phone_number,
+            "type": "template",
+            "template": {
+                "name": template_name,
+                "language": {
+                    "code": "en"
+                }
+            }
+        }
+    else:
+        print("Invalid status")
+        return
+    
+    response = requests.post(url, headers=headers, json=payload)
+    
+    if response.status_code == 200:
+        print("Message sent successfully!")
+        print(response.json())
+    else:
+        print(f"Failed to send message: {response.status_code}")
+        print(response.json())
+
+
+@app.route('/api/status_order_Ponda', methods=['POST'])
 def fulfill_order_Ponda():
+    
     data = request.json
     order_id = data.get('orderId')
-    print(order_id)
+    status = data.get('status')
+    order_id = int(order_id)
+    order = CB_PONDA.find_one({'orderId': order_id})
+
+    if(status == 'accept'):
+        newStatus = 'deliver'
+    elif(status == 'deliver'):
+        newStatus = 'fulfill'
+    elif(status == 'fulfill'):
+        newStatus = 'fulfilled'
+    else:
+        return
+        
     if order_id:
-        order_id = int(order_id)
-        CB_PONDA.update_one({'orderId': order_id}, {'$set': {'fulfilled': True}})
+        CB_PONDA.update_one({'orderId': order_id}, {'$set': {'status':newStatus}})
+        send_whatsapp_message_to_customer(order , status)
         return jsonify({'status': 'success', 'message': f'Order {order_id} marked as fulfilled'}), 200
 
     return jsonify({'status': 'error', 'message': 'Invalid request'}), 400
 
-@app.route('/api/fulfill_order_Margao', methods=['POST'])
+@app.route('/api/status_order_Margao', methods=['POST'])
 def fulfill_order_Margao():
+    
     data = request.json
     order_id = data.get('orderId')
-    print(order_id)
+    status = data.get('status')
+    order_id = int(order_id)
+    order = CB_MARGAO.find_one({'orderId': order_id})
+    
+    if(status == 'accept'):
+        newStatus = 'deliver'
+    elif(status == 'deliver'):
+        newStatus = 'fulfill'
+    elif(status == 'fullfill'):
+        newStatus = 'fulfilled'
+
     if order_id:
-        order_id = int(order_id)
-        CB_MARGAO.update_one({'orderId': order_id}, {'$set': {'fulfilled': True}})
+        CB_MARGAO.update_one({'orderId': order_id}, {'$set': {'status':newStatus}})
+        send_whatsapp_message_to_customer(order , status)
         return jsonify({'status': 'success', 'message': f'Order {order_id} marked as fulfilled'}), 200
+    
 
     return jsonify({'status': 'error', 'message': 'Invalid request'}), 400
 
