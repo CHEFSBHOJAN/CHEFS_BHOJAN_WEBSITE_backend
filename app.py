@@ -195,7 +195,7 @@ def save_form_data():
 def send_whatsapp_message(order):
     access_token = 'EAAFNtF4tqZA0BO4vTDnFJQ7iWdT4UUa04JwLm4B8Kjwt6Q5uOKVVh9Fk8DEYdrOUV9qvWt7u1opHW6yOySaLTwPuOkLrL6CfziL9rMAMhaxtjZAk9RI3NjoHg6dmsGPPBHK8GKZCQrqrZCYTrK5tiMK7WN7ZCTFqAwzQz3jGEMktt3sRFzkvBk3hqgH6uGfe1byfwGi8N8U5NrzYkaQUZD'
     phone_number_id = '323798344160879'
-    recipient_phone_number = '919354548685'
+    recipient_phone_number = '919923388852'
     
     items_summary = "".join([f"{item['name']}: {item['quantity']}" for item in order['items']])
     
