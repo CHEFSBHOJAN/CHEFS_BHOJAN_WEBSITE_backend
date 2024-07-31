@@ -193,7 +193,7 @@ def save_form_data():
         return jsonify({'status': 'error', 'message': 'Invalid outlet selected'}), 400
 
 def send_whatsapp_message(order):
-    access_token = 'EAAFNtF4tqZA0BO4vTDnFJQ7iWdT4UUa04JwLm4B8Kjwt6Q5uOKVVh9Fk8DEYdrOUV9qvWt7u1opHW6yOySaLTwPuOkLrL6CfziL9rMAMhaxtjZAk9RI3NjoHg6dmsGPPBHK8GKZCQrqrZCYTrK5tiMK7WN7ZCTFqAwzQz3jGEMktt3sRFzkvBk3hqgH6uGfe1byfwGi8N8U5NrzYkaQUZD'
+    access_token = 'EAAFNtF4tqZA0BOZBQPQKhre2onFphjV6tKARnKIzGKkgftbDk7aWEjvx8WrhuTXX3TlkW6eUfi7WHLTbbaaYIHJxJ5nPdxR98xXsbIbhvXfvsQ4KWiLDvZB6wSpBeIUm039y0ZCvzDcle8HxdwZBFBm7sIpsJp5ecrs9kzsJh9JgsGOQS0kwVVAN2QhYPSvrVH3TguZB7UvyXJ8rRmsPQZD'
     phone_number_id = '323798344160879'
     recipient_phone_number = '919923388852'
     
@@ -254,7 +254,7 @@ def send_whatsapp_message(order):
         
         
 def send_whatsapp_message_to_customer(order ,status):
-    access_token = 'EAAFNtF4tqZA0BO4dBbCXOTGt917s1RhZCeCDUS8wNwxGZByGSKOxIakmoRAQDwzI2IZA2F7wVS0u9ZBWHB8NVnur4CSstmweW0SE8L9qmsMC0cD4HhZB0F2GqC5qafWPZBHpHbY5tiF32SOjkwQEw9JSmmuU6ZCTjccyeMswaKFrKXfZAZBqN3Y6RE1p94UnTNmsk0ykpwLAEeZADjJyOtZB7tWZC'
+    access_token = 'EAAFNtF4tqZA0BOZBQPQKhre2onFphjV6tKARnKIzGKkgftbDk7aWEjvx8WrhuTXX3TlkW6eUfi7WHLTbbaaYIHJxJ5nPdxR98xXsbIbhvXfvsQ4KWiLDvZB6wSpBeIUm039y0ZCvzDcle8HxdwZBFBm7sIpsJp5ecrs9kzsJh9JgsGOQS0kwVVAN2QhYPSvrVH3TguZB7UvyXJ8rRmsPQZD'
     phone_number_id = '323798344160879'
     recipient_phone_number = f'91{order["phone"]}'
     items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in order['items']])
