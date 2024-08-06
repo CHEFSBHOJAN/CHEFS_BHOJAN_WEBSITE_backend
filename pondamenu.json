@@ -379,26 +379,6 @@
                     "price": 60,
                     "id": "3f87d612-79d5-46f7-b686-706e196ec956"
                 }
-            ],
-            "Beverages": [
-                {
-                    "title": "COKE",
-                    "description": "CARBONATED SOFT DRINK.",
-                    "price": 50,
-                    "id": "5151f5a7-7573-4f4e-80c9-f08d5619d74b"
-                },
-                {
-                    "title": "PEPSI",
-                    "description": "CARBONATED SOFT DRINK.",
-                    "price": 50,
-                    "id": "86f18ef6-9ad8-4ef2-b6ed-9c0ee88fe329"
-                },
-                {
-                    "title": "MINERAL WATER",
-                    "description": "BOTTLED WATER.",
-                    "price": 30,
-                    "id": "d0313d29-12f3-45f2-b1d4-fdcbe027fcbd"
-                }
             ]
         }
     },
@@ -653,32 +633,6 @@
                     "description": "ASSORTMENT OF RICE, DAL, MUTTON CURRY, RAITA, SALAD & ROTI.",
                     "price": 350,
                     "id": "040b6052-f805-4225-9d26-a14473aba628"
-                }
-            ],
-            "Beverages": [
-                {
-                    "title": "COCA-COLA",
-                    "description": "A CAN OF COCA-COLA.",
-                    "price": 50,
-                    "id": "57c7db69-391b-4887-a30a-6777b3d04054"
-                },
-                {
-                    "title": "PEPSI",
-                    "description": "A CAN OF PEPSI.",
-                    "price": 50,
-                    "id": "8a18880f-ff38-4b4a-817a-a0d1d364c320"
-                },
-                {
-                    "title": "MOUNTAIN DEW",
-                    "description": "A CAN OF MOUNTAIN DEW.",
-                    "price": 60,
-                    "id": "e172c317-f4b7-4c75-9abb-8c41fea690e9"
-                },
-                {
-                    "title": "ORANGE JUICE",
-                    "description": "FRESHLY SQUEEZED ORANGE JUICE.",
-                    "price": 70,
-                    "id": "e41dfc70-92e1-4943-88f2-127db598233a"
                 }
             ]
         }
@@ -1140,7 +1094,7 @@
         }
     },
     {
-        "category": "Asian",
+        "category": "Momos",
         "subcategory": {
             "steamed Momo": [
                 {
