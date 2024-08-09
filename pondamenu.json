@@ -1,2304 +1,1980 @@
 [
     {
-        "category": "Chinese",
-        "subcategory": {
+        "category": "Soups",
+        "subcategories": {
             "Soup": [
                 {
-                    "title": "VEG MANCHOW SOUP",
-                    "description": "CHINESE VEGETERIAN SOUP MADE WITH MIXED VEGETABLES, GARLIC, GINGER, SOYA SAUCE, GROUND PEPPER & FEW OTHER PANTRY INGREDIENTS, THIS SUPER FLAVORFUL MANCHOW SOUP IS SERVED WITH CRISPY FRIED NOODLES.",
-                    "price": 90,
-                    "id": "e4a608d4-9912-40ae-8b6d-9d62c941646c"
+                    "srno": 1,
+                    "name": "VEG MANCHOW SOUP",
+                    "price": 90
                 },
                 {
-                    "title": "CHICKEN MANCHOW SOUP",
-                    "description": "CHINESE CHICKEN MANCHOW SOUP MADE WITH VEGGIES AND CHICKEN TOPPED WITH CRISPY FRIED NOODLES.",
-                    "price": 100,
-                    "id": "540d2197-366a-4ed0-ab6e-99d2b99aaed1"
+                    "srno": 2,
+                    "name": "CHICKEN MANCHOW SOUP",
+                    "price": 100
                 },
                 {
-                    "title": "VEG SWEET CORN SOUP",
-                    "description": "INDO CHINESE STYLE SOUP MADE WITH MIXED VEGETABLES, SWEET CORN KERNELS, HERBS AND SPICES.",
-                    "price": 90,
-                    "id": "50126498-0baf-48e3-8d73-d0f2483ddd2c"
+                    "srno": 3,
+                    "name": "VEG SWEET CORN SOUP",
+                    "price": 90
                 },
                 {
-                    "title": "CHICKEN SWEET CORN SOUP",
-                    "description": "LITTLE CHUNKS OF CHICKEN COOKED WITH SWEETCORN & STOCK.",
-                    "price": 110,
-                    "id": "f9347e2b-95dd-4dc9-9f79-6a8da4ea2963"
+                    "srno": 4,
+                    "name": "CHICKEN SWEET CORN SOUP",
+                    "price": 110
                 },
                 {
-                    "title": "VEG HOT & SOUR SOUP",
-                    "description": "IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT.",
-                    "price": 90,
-                    "id": "1d4642fd-48c9-4965-b269-ae0ce7888b3b"
+                    "srno": 5,
+                    "name": "VEG HOT & SOUR SOUP",
+                    "price": 90
                 },
                 {
-                    "title": "CHICKEN HOT & SOUR SOUP",
-                    "description": "IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES, CHICKEN & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT.",
-                    "price": 100,
-                    "id": "559a7042-48d0-47bb-afcb-48b5154946f1"
+                    "srno": 6,
+                    "name": "CHICKEN HOT & SOUR SOUP",
+                    "price": 100
                 },
                 {
-                    "title": "VEG CLEAR SOUP",
-                    "description": "SOUP MADE BY SIMMERING VEGIES STOCK.",
-                    "price": 80,
-                    "id": "c7262aee-af95-474d-9cd7-2ed711005978"
+                    "srno": 7,
+                    "name": "VEG CLEAR SOUP",
+                    "price": 80
                 },
                 {
-                    "title": "CHICKEN CLEAR SOUP",
-                    "description": "SOUP MADE BY SIMMERING VEGIES & CHICKEN STOCK.",
-                    "price": 100,
-                    "id": "c6b35df2-69db-4446-94a0-2aa88324365c"
+                    "srno": 8,
+                    "name": "CHICKEN CLEAR SOUP",
+                    "price": 100
                 },
                 {
-                    "title": "SEA FOOD TOM YUM SOUP",
-                    "description": "TOM YUM SOUP IS SPICY THAI SOUP MADE WITH COCONUT CREAM.",
-                    "price": 150,
-                    "id": "4cd50a74-f208-4740-9b7a-36f9213fc295"
-                }
-            ],
-            "Starter": [
-                {
-                    "title": "CHICKEN 65",
-                    "description": "IT'S A BITE SIZE PIECES OF CHICKEN COATED IN SPICY MASALA MARINATED WITH CHILI POWDER, TURMERIC, GARAM MASALA POWDER, LEMON JUICE, GINGER, GARLIC, EGGS, RICE FLOUR THEN DEEP FRIED, SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 215,
-                    "id": "31d6a7cc-697b-4664-9371-8fd53ad28c7d"
+                    "srno": 9,
+                    "name": "TOMATO SHORBA",
+                    "price": 80
                 },
                 {
-                    "title": "CHICKEN CHILLY",
-                    "description": "BONELESS CHICKEN IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 215,
-                    "id": "1662c335-6864-46dd-a7a3-837fafdc4851"
+                    "srno": 10,
+                    "name": "CREAM OF MUSHROOM",
+                    "price": 120
                 },
                 {
-                    "title": "CRISPY CHICKEN",
-                    "description": "SHREDDED CHICKEN BREAST BONELESS COATED WITH CORN STARCH, FLOUR & BAKING SODA, TOSSED WITH SCHEZWAN SAUCE & SEASONING.",
-                    "price": 225,
-                    "id": "1b1ce2cf-fe3d-4920-a145-029940a7396f"
+                    "srno": 11,
+                    "name": "CREAM OF CHICKEN",
+                    "price": 130
                 },
                 {
-                    "title": "CHICKEN LOLLYPOP",
-                    "description": "BATTER COATED DEEP FRIED CHICKEN WINGS CRISPY FRIED SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 180,
-                    "id": "9920016a-8e0d-4313-8352-c534c687f9a5"
+                    "srno": 12,
+                    "name": "VEG DUMPLING SOUP",
+                    "price": 100
                 },
                 {
-                    "title": "HONEY CHICKEN",
-                    "description": "THIS HONEY CHICKEN IS CRISPY PIECES OF CHICKEN BREAST THAT ARE FRIED TO GOLDEN BROWN PERFECTION, THEN TOSSED IN A SWEET AND SAVORY HONEY SAUCE.",
-                    "price": 240,
-                    "id": "f8659610-0c49-4a80-98f9-c98cd47be553"
-                },
-                {
-                    "title": "CHICKEN DRY FRY",
-                    "description": "DRY FRY IT'S SIMILAR TO CHICKEN PAKODA WITH BONE, MIXED WITH CHILI POWDER, LEMON JUICE, GARAM MASALA THEN DEEP FRIED, GARNISHED WITH CHUTNEY & CHOPPED CORIANDER.",
-                    "price": 220,
-                    "id": "4c7ea194-0908-453f-b6b1-45483fce4d11"
-                },
-                {
-                    "title": "CHICKEN SPRING ROLL",
-                    "description": "PASTRY SHEETS ARE FILLED WITH VEGETABLE, CHICKEN & EGGS, THEN DEEP FRIED SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 220,
-                    "id": "5ac262d7-2bd0-4b0c-90a1-64c081ac338a"
-                },
-                {
-                    "title": "CHICKEN SALT & PEPPER",
-                    "description": "CRISPY SEASONED CHICKEN FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
-                    "price": 235,
-                    "id": "8d8250c1-3914-4ea4-a8b0-9dfe99c92a04"
-                },
-                {
-                    "title": "CHICKEN MANCHURIAN DRY / GRAVY",
-                    "description": "BONELESS FRIED CHICKEN PAKODA SAUT\u00c3\u2030 WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY / GRAVY.",
-                    "price": 220,
-                    "id": "25684f52-6dd8-4fd3-8167-d1140476e04a"
-                },
-                {
-                    "title": "GOLDEN FRIED PRAWNS",
-                    "description": "GOLDEN FRIED PRAWNS IS THE PERFECT STARTER DISH WITH JUMBO PRAWNS COATED WITH CRISPY GOLDEN BATTER FRIED, SERVED WITH MAYO DIPPING.",
-                    "price": 325,
-                    "id": "ce8ed143-c332-414f-a59e-bc1c318f32c6"
-                },
-                {
-                    "title": "PRAWNS CHILLY DRY / GRAVY",
-                    "description": "PRAWNS IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 300,
-                    "id": "ee68e132-4823-4cd8-87d0-8cefc4fb9a83"
-                },
-                {
-                    "title": "PANEER CHILLY DRY / GRAVY",
-                    "description": "PANEER IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
-                    "price": 195,
-                    "id": "d2a11f1c-b6cd-481c-bd24-e693c8121bd5"
-                },
-                {
-                    "title": "PANEER MANCHURIAN",
-                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
-                    "price": 195,
-                    "id": "89eeccc6-81d6-4421-a3a6-d5ed6c24c2d5"
-                },
-                {
-                    "title": "VEG CRISPY",
-                    "description": "VEG CRISPY IS BASICALLY BATTER FRIED VEGGIES LATER STIR FRIED IN SCHZEWAN SAUCE. CRISPY FRIED VEGETABLES",
-                    "price": 180,
-                    "id": "b14902e5-9f44-48be-a5d0-6872be6511ca"
-                },
-                {
-                    "title": "VEG SPRING ROLL",
-                    "description": "PASTRY SHEETS ARE FILLED WITH VEGETABLE, DEEP FRIED SERVED WITH SCHEZWAN SAUCE.",
-                    "price": 180,
-                    "id": "d81cb352-a6bc-48d9-8d9b-041c4a0ac24f"
-                },
-                {
-                    "title": "BABY CORN CHILLY DRY / GRAVY",
-                    "description": "CRISPY FRIED BABY CORN SAUT\u00c3\u2030 WITH ONION CAPSICUM, CHILLY & CHILI SAUCE, SERVED DRY / GRAVY.",
-                    "price": 190,
-                    "id": "64bfde19-939f-4e02-938b-9a78475a30ab"
-                },
-                {
-                    "title": "HONEY SESAME POTATO",
-                    "description": "CRISPY CUBES FRIED POTATOES, TOSSED WITH HONEY AND SESAME SEEDS.",
-                    "price": 190,
-                    "id": "751c48a5-d218-4b92-8532-68fe86adfbde"
-                },
-                {
-                    "title": "PANEER 65",
-                    "description": "PANEER CRISPY PAKODA SAUTED WITH INDIAN MIX MASALA LIKE CURRY LEAVES, MUSTARD SEEDS, CURD, CAPSICUM, ONION, SPICY & TANGY, SERVED IN DRY / GRAVY.",
-                    "price": 195,
-                    "id": "928e8411-f514-4f7a-bebe-30c04f5f913c"
-                },
-                {
-                    "title": "PANEER SALT & PEPPER",
-                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
-                    "price": 210,
-                    "id": "fd8f41ef-3703-4a55-9c35-1ee692b34ff2"
-                },
-                {
-                    "title": "VEG MANCHURIAN DRY / GRAVY",
-                    "description": "VEGIES PAKODA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY / GRAVY.",
-                    "price": 180,
-                    "id": "9741dc7e-b7c6-4f35-8898-68454da5c018"
-                }
-            ],
-            "Mains": [
-                {
-                    "title": "CHICKEN FRIED RICE",
-                    "description": "RICE SAUT\u00c3\u2030 WITH CHICKEN & VEGETABLES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 140,
-                    "id": "5eef049f-2db4-4500-8baa-07eb07cdbd7c"
-                },
-                {
-                    "title": "VEG FRIED RICE",
-                    "description": "RICE SAUT\u00c3\u2030 WITH VEGETABLES & SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 130,
-                    "id": "7b83d33a-bffe-4d3b-b986-e4c44bf3e394"
-                },
-                {
-                    "title": "EGG FRIED RICE",
-                    "description": "RICE SAUT\u00c3\u2030 WITH EGGS, VEGETABLES & SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 130,
-                    "id": "272bb1c1-9b5f-4667-b531-a4df1e8c98f1"
-                },
-                {
-                    "title": "CHICKEN HAKKA NOODLES",
-                    "description": "Hakka Noodles STIR-FRIED WITH CHICKEN AND VEGGIES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 150,
-                    "id": "5fc60381-a6a0-4d19-bdfa-fb3e5b69c131"
-                },
-                {
-                    "title": "VEG HAKKA NOODLES",
-                    "description": "Hakka Noodles STIR-FRIED WITH VEGETABLES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 140,
-                    "id": "4af74203-4aa2-4a5b-a0e5-f8e92b14f56e"
-                },
-                {
-                    "title": "EGG HAKKA NOODLES",
-                    "description": "Hakka Noodles STIR-FRIED WITH EGGS AND VEGETABLES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 140,
-                    "id": "ac3e3eaa-3975-44e3-8258-129d3bdb1f2b"
-                },
-                {
-                    "title": "CHICKEN MANCHURIAN",
-                    "description": "BONELESS FRIED CHICKEN PAKODA SAUT\u00c3\u2030 WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE.",
-                    "price": 220,
-                    "id": "6b067f98-e743-4e22-83ad-9c2468690ff5"
-                },
-                {
-                    "title": "PANEER MANCHURIAN",
-                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER.",
-                    "price": 195,
-                    "id": "6d8e0abe-0b0c-48f8-9336-26cd06302cdd"
-                },
-                {
-                    "title": "VEG MANCHURIAN",
-                    "description": "VEGIES PAKODA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE.",
-                    "price": 180,
-                    "id": "5bfdb497-cb75-4ec0-bebd-859ba28e0331"
-                },
-                {
-                    "title": "CHICKEN CURRY",
-                    "description": "CHICKEN COOKED WITH SPICY GRAVY MADE WITH TOMATOES, ONIONS, GINGER GARLIC PASTE AND CURRY LEAVES.",
-                    "price": 230,
-                    "id": "de52baf2-8316-4dc4-9da4-fd50e5835488"
-                },
-                {
-                    "title": "MUTTON CURRY",
-                    "description": "MUTTON COOKED WITH SPICY GRAVY MADE WITH TOMATOES, ONIONS, GINGER GARLIC PASTE AND CURRY LEAVES.",
-                    "price": 270,
-                    "id": "4465806a-3910-4144-a184-20be364680cf"
-                },
-                {
-                    "title": "PANEER BUTTER MASALA",
-                    "description": "COTTAGE CHEESE COOKED IN TOMATO BASED CURRY GRAVY WITH BUTTER, CREAM AND SPICES.",
-                    "price": 215,
-                    "id": "18bf7c52-1de8-4023-ba24-2e9706ff4348"
-                },
-                {
-                    "title": "DAAL TADKA",
-                    "description": "YELLOW DAL COOKED WITH GHEE & SPICES, TEMPERED WITH GINGER, GARLIC & SPICES.",
-                    "price": 160,
-                    "id": "dc121248-f084-4c96-bd08-9c193d9cc061"
-                },
-                {
-                    "title": "VEG KORMA",
-                    "description": "VEGETABLES COOKED WITH SPICY GRAVY MADE WITH COCONUT, ONIONS, GINGER GARLIC PASTE AND SPICES.",
-                    "price": 190,
-                    "id": "285554d7-2fdd-4145-8ab2-1b0f9e2e5d2e"
-                },
-                {
-                    "title": "ALOO GOBI",
-                    "description": "A POTATO AND CAULIFLOWER CURRY MADE WITH TOMATOES, ONIONS, GINGER GARLIC PASTE AND SPICES.",
-                    "price": 180,
-                    "id": "1ddec4ee-ea90-42f1-8453-887239588ac8"
-                },
-                {
-                    "title": "VEG KADAI",
-                    "description": "VEGETABLES COOKED WITH SPICY GRAVY MADE WITH ONIONS, TOMATOES, GINGER GARLIC PASTE AND SPICES.",
-                    "price": 190,
-                    "id": "0c485d45-95dd-4e12-83ab-4a1dad7a8b9d"
-                },
-                {
-                    "title": "PANEER KADAI",
-                    "description": "COTTAGE CHEESE COOKED WITH SPICY GRAVY MADE WITH ONIONS, TOMATOES, GINGER GARLIC PASTE AND SPICES.",
-                    "price": 220,
-                    "id": "281505f0-bda4-4958-a62d-471db5297b11"
-                },
-                {
-                    "title": "PALAK PANEER",
-                    "description": "COTTAGE CHEESE COOKED WITH SPINACH CURRY GRAVY MADE WITH ONIONS, TOMATOES, GINGER GARLIC PASTE AND SPICES.",
-                    "price": 215,
-                    "id": "a1b66235-9371-422a-b3f0-198b44701e03"
-                },
-                {
-                    "title": "PANEER TIKKA MASALA",
-                    "description": "COTTAGE CHEESE MARINATED IN YOGURT AND SPICES THEN COOKED IN SPICY GRAVY MADE WITH TOMATOES, ONIONS AND SPICES.",
-                    "price": 230,
-                    "id": "3f3f7c0f-d380-4ad6-8ac8-430d49a166ab"
-                }
-            ],
-            "Rice Noodles": [
-                {
-                    "title": "CHICKEN FRIED RICE",
-                    "description": "RICE SAUT\u00c3\u2030 WITH CHICKEN & VEGETABLES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 140,
-                    "id": "c405f952-6608-42a3-a82e-c8d9e8410fe6"
-                },
-                {
-                    "title": "VEG FRIED RICE",
-                    "description": "RICE SAUT\u00c3\u2030 WITH VEGETABLES & SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 130,
-                    "id": "feb15092-2480-423f-8ab8-e1eca9a2f2ca"
-                },
-                {
-                    "title": "EGG FRIED RICE",
-                    "description": "RICE SAUT\u00c3\u2030 WITH EGGS, VEGETABLES & SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 130,
-                    "id": "40b2a4da-c2bc-45c4-bf0b-3233e385b204"
-                },
-                {
-                    "title": "CHICKEN HAKKA NOODLES",
-                    "description": "Hakka Noodles STIR-FRIED WITH CHICKEN AND VEGGIES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 150,
-                    "id": "2f6cc855-f544-4e11-af99-cdf817f4f7a1"
-                },
-                {
-                    "title": "VEG HAKKA NOODLES",
-                    "description": "Hakka Noodles STIR-FRIED WITH VEGETABLES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 140,
-                    "id": "e4582f1f-4af4-4ffb-b1b4-9689c44c059d"
-                },
-                {
-                    "title": "EGG HAKKA NOODLES",
-                    "description": "Hakka Noodles STIR-FRIED WITH EGGS AND VEGETABLES, SEASONED WITH SOY SAUCE, PEPPER, AND OTHERS.",
-                    "price": 140,
-                    "id": "8be37d34-4d07-40b4-82e4-0ca9338d7e00"
-                }
-            ],
-            "Breads": [
-                {
-                    "title": "NAAN",
-                    "description": "INDIAN FLATBREAD BAKED IN A TANDOOR.",
-                    "price": 40,
-                    "id": "a999bf8a-433f-4842-90b8-70c12bcfb2e2"
-                },
-                {
-                    "title": "ROTI",
-                    "description": "INDIAN FLATBREAD COOKED ON A GRIDDLE.",
-                    "price": 30,
-                    "id": "d328ce6c-72b6-4934-96d3-4564d2d01ab3"
-                },
-                {
-                    "title": "BUTTER NAAN",
-                    "description": "NAAN BREAD TOPPED WITH BUTTER.",
-                    "price": 50,
-                    "id": "31a86fed-558d-4a78-97eb-e5456ec015cf"
-                },
-                {
-                    "title": "GARLIC NAAN",
-                    "description": "NAAN BREAD WITH GARLIC FLAVOR.",
-                    "price": 60,
-                    "id": "48db115f-6877-4271-af9a-654235c02e4e"
-                }
-            ],
-            "Desserts": [
-                {
-                    "title": "GULAB JAMUN",
-                    "description": "DEEP-FRIED SWEET MADE WITH MILK SOLIDS AND SOAKED IN SYRUP.",
-                    "price": 70,
-                    "id": "1417ef68-fcfb-417f-a2b9-5911dbce9eba"
-                },
-                {
-                    "title": "RASMALAI",
-                    "description": "SWEET DISH MADE WITH RICOTTA CHEESE AND FLAVORED WITH SAFFRON AND CARDAMOM.",
-                    "price": 80,
-                    "id": "b86a6bca-d9be-4c2f-be64-bf98c33f6c16"
-                },
-                {
-                    "title": "ICE CREAM",
-                    "description": "VARIETY OF FLAVORS.",
-                    "price": 60,
-                    "id": "3f87d612-79d5-46f7-b686-706e196ec956"
+                    "srno": 13,
+                    "name": "CHICKEN DUMPLING SOUP",
+                    "price": 110
                 }
             ]
         }
     },
     {
-        "category": "Continental",
-        "subcategory": {
-            "Soup": [
-                {
-                    "title": "CREAM OF MUSHROOM",
-                    "description": "A THICK CREAMY SOUP MADE WITH FRESH MASHROOM & HERBS.",
-                    "price": 120,
-                    "id": "6f624ace-5e07-47e1-b990-3ea709e9d7da"
-                },
-                {
-                    "title": "CREAM OF CHICKEN",
-                    "description": "A THICK CREAMY SOUP MADE WITH CHICKEN STOCK & SPICES.",
-                    "price": 130,
-                    "id": "082f31f6-f258-4603-bfe3-83ae288be36f"
-                }
-            ],
+        "category": "Starters",
+        "subcategories": {
             "Starter": [
                 {
-                    "title": "FRENCH FRIES",
-                    "description": "THIN STRIPS OF POTATO DEEP FRIED, SERVED WITH DIPPING MAYO.",
-                    "price": 120,
-                    "id": "d9ae9020-e911-4620-9bce-223552a527ac"
+                    "srno": 1,
+                    "name": "ROASTED PAPAD",
+                    "price": 30
                 },
                 {
-                    "title": "CHEESY FRENCH FRIES",
-                    "description": "DEEP FRIED FRENCH FRIES GARNISHED WITH MELTED CHEESE.",
-                    "price": 160,
-                    "id": "d83a809f-b6e2-412c-b3ee-4f584c5f028f"
+                    "srno": 2,
+                    "name": "MASALA PAPAD",
+                    "price": 60
                 },
                 {
-                    "title": "POTATO WEDGES",
-                    "description": "WEDGES SHAPED POTATO WHICH IS UNPEELED AND DEEP FRIED.",
-                    "price": 130,
-                    "id": "f8705f07-b29d-4ac7-8bdc-b86cc34e3762"
+                    "srno": 3,
+                    "name": "BOILED PEANUTS",
+                    "price": 60
                 },
                 {
-                    "title": "BBQ CHICKEN WINGS",
-                    "description": "CRISPY FRIED CHICKEN WINGS TOSSED WITH HONEY GLAZE BARBECUE SAUCE, SERVED (8 PCS).",
-                    "price": 220,
-                    "id": "ee365cd9-dfac-492f-a28a-bfdea7306c6a"
+                    "srno": 4,
+                    "name": "BOILED CHANA",
+                    "price": 60
                 },
                 {
-                    "title": "CHICKEN NUGGETS",
-                    "description": "IT'S A PIECE OF DEBONED CHICKEN THAT IS BREADDED AND DEEP FRIED, SERVED WITH DEPPING MAYO.",
-                    "price": 190,
-                    "id": "cff56470-8436-485a-bb87-2d99d453ebb6"
+                    "srno": 5,
+                    "name": "NACHOS",
+                    "price": 130
                 },
                 {
-                    "title": "CRISPY SARDINE",
-                    "description": "TARLE FISH MARINATED WITH FRESH HERBS & COATED WITH PANKO BREAD CRUMBS & SHALLOW FRIED, SERVED WITH GARLIC MAYO.",
-                    "price": 140,
-                    "id": "428d0964-ff2d-4413-9713-9a5018eb1d2b"
+                    "srno": 6,
+                    "name": "CHEESE CUBES",
+                    "price": 80
                 },
                 {
-                    "title": "CRISPY CALAMARI",
-                    "description": "MARINATE BATTER SQUID FRIED AND SERVED WITH MAYO.",
-                    "price": 295,
-                    "id": "19307d3b-79a5-42bf-a160-4345dedecd22"
+                    "srno": 7,
+                    "name": "BOILED EGG",
+                    "price": 30
                 },
                 {
-                    "title": "ONION RINGS",
-                    "description": "ONION RINGS MARINATED WITH HERBS & COATED WITH PANCO BREAD CRUMBS, THEN DEEP FRIED & SERVED WITH MAYO.",
-                    "price": 140,
-                    "id": "2041e497-e44b-404b-bf57-e9b9a2f32c8d"
+                    "srno": 8,
+                    "name": "PLAIN OMLETTE",
+                    "price": 30
                 },
                 {
-                    "title": "CHEESE STUFFED BUTTON MUSHROOMS",
-                    "description": "CHEESE & VEGGIE STUFFED IN FRESH MASHROOM, BREADED FRIED AND SERVED WITH GARLIC MAYONESE.",
-                    "price": 220,
-                    "id": "0829851a-9214-4e44-ab7e-ae0551d953ce"
+                    "srno": 9,
+                    "name": "MASALA OMLETTE",
+                    "price": 60
                 },
                 {
-                    "title": "FALAFEL",
-                    "description": "FALAFAL IS MEDITERRANEAN DISH MADE FROM THE MIXTURE OF CHEAK PEAS FRESH CORIENDER BELL PEPPER, GREEN CHILLY, DEEP FRIED, SERVED WITH YOGURT SAUCE.",
-                    "price": 180,
-                    "id": "87ad64b1-3e1f-4d6e-893f-520349a954e6"
+                    "srno": 10,
+                    "name": "MASALA BOILED CHANA",
+                    "price": 80
                 },
                 {
-                    "title": "CHEESE CORN BALLS",
-                    "description": "FRESH CORN, GRATED POTATO, TENDER AND CHEESY INSIDE, BREADED AND FRIED, CRUNCHY AND CRISPY SERVED WITH MAYO DIPPING.",
-                    "price": 220,
-                    "id": "ce911455-81ed-4ae0-80ed-2887f191b861"
+                    "srno": 11,
+                    "name": "MASALA BOILED PEANUTS",
+                    "price": 80
+                },
+                {
+                    "srno": 12,
+                    "name": "GREEN PEAS MASALA FRY",
+                    "price": 80
+                },
+                {
+                    "srno": 13,
+                    "name": "HALF FRY EGG",
+                    "price": 30
+                },
+                {
+                    "srno": 14,
+                    "name": "CHICKEN CHILLY",
+                    "price": 215
+                },
+                {
+                    "srno": 15,
+                    "name": "CRISPY CHICKEN",
+                    "price": 225
+                },
+                {
+                    "srno": 16,
+                    "name": "CHICKEN LOLLYPOP",
+                    "price": 180
+                },
+                {
+                    "srno": 17,
+                    "name": "HONEY CHICKEN",
+                    "price": 240
+                },
+                {
+                    "srno": 18,
+                    "name": "CHICKEN DRY FRY",
+                    "price": 220
+                },
+                {
+                    "srno": 19,
+                    "name": "CHICKEN SPRING ROLL",
+                    "price": 220
+                },
+                {
+                    "srno": 20,
+                    "name": "CHICKEN SALT & PEPPER",
+                    "price": 235
+                },
+                {
+                    "srno": 21,
+                    "name": "CHICKEN MANCHURIAN DRY / GRAVY",
+                    "price": 220
+                },
+                {
+                    "srno": 22,
+                    "name": "PANEER MANCHURIAN",
+                    "price": 195
+                },
+                {
+                    "srno": 23,
+                    "name": "VEG CRISPY",
+                    "price": 180
+                },
+                {
+                    "srno": 24,
+                    "name": "VEG SPRING ROLL",
+                    "price": 180
+                },
+                {
+                    "srno": 25,
+                    "name": "BABY CORN CHILLY DRY / GRAVY",
+                    "price": 190
+                },
+                {
+                    "srno": 26,
+                    "name": "HONEY SESAME POTATO",
+                    "price": 190
+                },
+                {
+                    "srno": 27,
+                    "name": "PANEER 65",
+                    "price": 195
+                },
+                {
+                    "srno": 28,
+                    "name": "PANEER SALT & PEPPER",
+                    "price": 210
+                },
+                {
+                    "srno": 29,
+                    "name": "VEG MANCHURIAN DRY / GRAVY",
+                    "price": 180
+                },
+                {
+                    "srno": 30,
+                    "name": "GOBI MANCHURIAN DRY / GRAVY",
+                    "price": 170
+                },
+                {
+                    "srno": 31,
+                    "name": "MUSHROOM CHILLY DRY / GRAVY",
+                    "price": 185
+                },
+                {
+                    "srno": 32,
+                    "name": "CHICKEN MASALA LOLLYPOP",
+                    "price": 200
+                },
+                {
+                    "srno": 33,
+                    "name": "FRENCH FRIES",
+                    "price": 120
+                },
+                {
+                    "srno": 34,
+                    "name": "CHEESY FRENCH FRIES",
+                    "price": 160
+                },
+                {
+                    "srno": 35,
+                    "name": "POTATO WEDGES",
+                    "price": 130
+                },
+                {
+                    "srno": 36,
+                    "name": "BBQ CHICKEN WINGS",
+                    "price": 220
+                },
+                {
+                    "srno": 37,
+                    "name": "CHICKEN NUGGETS",
+                    "price": 190
+                },
+                {
+                    "srno": 38,
+                    "name": "ONION RINGS",
+                    "price": 140
+                },
+                {
+                    "srno": 39,
+                    "name": "CHEESE STUFFED BUTTON MUSHROOMS",
+                    "price": 220
+                },
+                {
+                    "srno": 40,
+                    "name": "FALAFEL",
+                    "price": 180
+                },
+                {
+                    "srno": 41,
+                    "name": "CHEESE CORN BALLS",
+                    "price": 220
+                },
+                {
+                    "srno": 42,
+                    "name": "CHICKEN TAWA FRY",
+                    "price": 250
+                },
+                {
+                    "srno": 43,
+                    "name": "CHICKEN RAWA FRY",
+                    "price": 240
+                },
+                {
+                    "srno": 44,
+                    "name": "CALAMARI CHILLY FRY",
+                    "price": 290
+                },
+                {
+                    "srno": 45,
+                    "name": "GOLDEN FRIED PRAWNS",
+                    "price": 325
+                },
+                {
+                    "srno": 46,
+                    "name": "CRISPY SARDINE",
+                    "price": 140
+                },
+                {
+                    "srno": 47,
+                    "name": "CRISPY CALAMARI",
+                    "price": 295
+                },
+                {
+                    "srno": 48,
+                    "name": "PANEER CHILLY DRY / GRAVY",
+                    "price": 195
                 }
-            ],
+            ]
+        }
+    },
+    {
+        "category": "Salads",
+        "subcategories": {
             "Salad": [
                 {
-                    "title": "GREEK SALAD",
-                    "description": "SERVED WITH SLICED FRESH VEGGIES, LIKE CHERRY TOMATO, CUCUMBER, RED & YELLOW CAPSICUM, LETTUCE, MINT, ONION SLICES, OLIVES, TOPPED WITH FETA CHEESE & SERVED WITH VINAIGRETTE DRESSING.",
-                    "price": 170,
-                    "id": "c208c466-5bac-4f80-be4a-900d59ea6e85"
+                    "srno": 1,
+                    "name": "GREEK SALAD",
+                    "price": 170
                 },
                 {
-                    "title": "MIX SALAD WITH POMEGRANATES",
-                    "description": "SERVED WITH FRESH LETTUCE, CHERRY TOMATOS, CUCUMBER, ONION & FRESH PROMOGRANATES MIXED WITH LEMON HONEY DRESSING.",
-                    "price": 175,
-                    "id": "f4c6f485-974c-4606-a87a-740d41ef7844"
+                    "srno": 2,
+                    "name": "MIX SALAD WITH POMEGRANATES",
+                    "price": 175
                 },
                 {
-                    "title": "CAESAR SALAD WITH CHICKEN",
-                    "description": "MADE WITH LETTUCE, CHICKEN CROUTONS, CHEESE AND CAESAR DRESSING.",
-                    "price": 180,
-                    "id": "dc901339-f754-42a7-951d-ec78e1d31268"
-                }
-            ],
-            "Sandwich": [
-                {
-                    "title": "VEG SANDWICH",
-                    "description": "CONSISTING OF MIX VEG FILLING BETWEEN THE BREAD SERVED WITH FRENCH FRIES AND SALAD.",
-                    "price": 140,
-                    "id": "770a419b-cb36-4c4b-b207-2588ac452bfc"
-                },
-                {
-                    "title": "CHICKEN CLUB SANDWICH",
-                    "description": "MIXTURE OF VEG, EGG AND CHICKEN FILLING BETWEEN THE BREAD AND SERVED WITH FRENCH FRIES AND SALAD.",
-                    "price": 180,
-                    "id": "a0e889b9-40bb-4300-8d14-6a230b9151ba"
-                },
-                {
-                    "title": "CHICKEN GRILLED SANDWICH",
-                    "description": "MIXTURE OF SHREDDED CHICKEN, FRESH LETTUCE, MAYO, CHEESE BETWEEN & GRILLED BREAD, SERVED WITH FRENCH FRIES AND SALAD.",
-                    "price": 170,
-                    "id": "cf4b10ed-8ae0-4d00-9769-0071c009a80a"
-                },
-                {
-                    "title": "EGG SANDWICH",
-                    "description": "MIXTURE OF BUTTER, GRATED BOILED EGG, FRESH LETTUCE, MAYONESE, CHEESE BETWEEN THE GRILLED BREAD, SERVED WITH FRENCH FRIES & SALAD.",
-                    "price": 140,
-                    "id": "227fc6e2-47f0-481f-a6cf-d6ba2cf23e8a"
-                }
-            ],
-            "Pizza": [
-                {
-                    "title": "MIX VEG PIZZA (8 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH FRESH VEGETABLE. (8 INCHES)",
-                    "price": 260,
-                    "id": "607ea709-781b-4677-adce-b1144c9691e8"
-                },
-                {
-                    "title": "CHICKEN PIZZA (8 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH BONELESS CHICKEN & VEGETABLE. (8 INCHES)",
-                    "price": 280,
-                    "id": "c3a29434-1abc-4298-9785-eaae43b3be76"
-                },
-                {
-                    "title": "SEA FOOD PIZZA (8 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH PRAWNS, SQUIDS & VEGETABLE. (8 INCHES)",
-                    "price": 300,
-                    "id": "9e157ca3-faf8-4f26-9264-8b9c725bd970"
-                },
-                {
-                    "title": "CHEFS SPECIAL VEG PIZZA (8 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED BAYBYCORN RED YELLOW CAPSICUM, MASHROOM. (8 INCHES)",
-                    "price": 275,
-                    "id": "db8a206f-3904-43fb-93fc-9ca7fff9af27"
-                },
-                {
-                    "title": "CHEFS SPECIAL NON-VEG PIZZA (8 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH PRAWNS, SQUID, CHICKEN. (8 INCHES)",
-                    "price": 300,
-                    "id": "eb2c205a-c16c-4876-a3d7-8c455f3ad679"
-                },
-                {
-                    "title": "MIX VEG PIZZA (6 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH FRESH VEGETABLE. (6 INCHES)",
-                    "price": 190,
-                    "id": "a0f257a6-29ac-4f52-84ec-60fb8a16ad4f"
-                },
-                {
-                    "title": "CHICKEN PIZZA (6 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH BONELESS CHICKEN & VEGETABLE. (6 INCHES)",
-                    "price": 220,
-                    "id": "a80a9fb9-e749-4751-8dd6-849aba179c81"
-                },
-                {
-                    "title": "SEA FOOD PIZZA (6 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH PRAWNS, SQUIDS & VEGETABLE. (6 INCHES)",
-                    "price": 250,
-                    "id": "b3c1d045-340f-4ecb-a1dd-c34e7115c0ed"
-                },
-                {
-                    "title": "CHEFS SPECIAL VEG PIZZA (6 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED BAYBYCORN RED YELLOW CAPSICUM, MASHROOM. (6 INCHES)",
-                    "price": 220,
-                    "id": "a4ac2ae3-602d-4394-902c-f20071d6d1b0"
-                },
-                {
-                    "title": "CHEFS SPECIAL NON-VEG PIZZA (6 INCHES)",
-                    "description": "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH PRAWNS, SQUID, CHICKEN. (6 INCHES)",
-                    "price": 250,
-                    "id": "ca7e7491-0040-4ea0-adb3-72207c5fb523"
-                }
-            ],
-            "Burger": [
-                {
-                    "title": "VEG BURGER",
-                    "description": "BURGER PATTY MADE WITH CHICKPEAS, CORN, POTATO, SPICES, SERVED WITH FRESH VEGETABLES AND BUN.",
-                    "price": 150,
-                    "id": "d8ce116b-5081-4e43-92ed-f54ccc186554"
-                },
-                {
-                    "title": "CHICKEN BURGER",
-                    "description": "BURGER PATTY MADE WITH CHICKEN MINCE, SERVED WITH FRESH VEGETABLES AND BUN.",
-                    "price": 180,
-                    "id": "3a56ae53-0454-4797-aa08-9d3432906aa6"
-                },
-                {
-                    "title": "CHEESE BURGER",
-                    "description": "BURGER PATTY MADE WITH CHICKEN MINCE, SERVED WITH FRESH VEGETABLES, BUN AND TOPPED WITH CHEESE SLICE.",
-                    "price": 200,
-                    "id": "ce6e5959-7718-4784-8ea1-5ab3d6c07a9d"
-                }
-            ],
-            "Pasta": [
-                {
-                    "title": "VEG PASTA",
-                    "description": "FUSILLI PASTA IN TOMATO SAUCE, BELL PEPPER, ZUCCHINI, MUSHROOM, OLIVES, MOZZARELLA CHEESE.",
-                    "price": 250,
-                    "id": "646008de-e84a-4aae-b9cb-ce942386702f"
-                },
-                {
-                    "title": "CHICKEN PASTA",
-                    "description": "FUSILLI PASTA IN TOMATO SAUCE, BELL PEPPER, ZUCCHINI, MUSHROOM, OLIVES, MOZZARELLA CHEESE, TOPPED WITH GRILLED CHICKEN.",
-                    "price": 300,
-                    "id": "96bfd2f1-39f7-4cfe-a870-3d87b52700d0"
-                },
-                {
-                    "title": "PRAWNS PASTA",
-                    "description": "FUSILLI PASTA IN TOMATO SAUCE, BELL PEPPER, ZUCCHINI, MUSHROOM, OLIVES, MOZZARELLA CHEESE, TOPPED WITH GRILLED PRAWNS.",
-                    "price": 320,
-                    "id": "9574bff3-51c2-4592-b448-a28fba029427"
-                }
-            ],
-            "Main course": [
-                {
-                    "title": "VEG THALI",
-                    "description": "ASSORTMENT OF RICE, DAL, VEG CURRY, RAITA, SALAD & ROTI.",
-                    "price": 280,
-                    "id": "e32bf8cd-b379-4be9-9e46-ab8d20acbfd4"
-                },
-                {
-                    "title": "CHICKEN THALI",
-                    "description": "ASSORTMENT OF RICE, DAL, CHICKEN CURRY, RAITA, SALAD & ROTI.",
-                    "price": 320,
-                    "id": "6512492f-20e8-45e8-ab5c-208cbcb9de25"
-                },
-                {
-                    "title": "MUTTON THALI",
-                    "description": "ASSORTMENT OF RICE, DAL, MUTTON CURRY, RAITA, SALAD & ROTI.",
-                    "price": 350,
-                    "id": "040b6052-f805-4225-9d26-a14473aba628"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Goan",
-        "subcategory": {
-            "Starter": [
-                {
-                    "title": "CHICKEN TAWA FRY",
-                    "description": "CHICKEN THIN SLICE MARINATED WITH MIXED SPICES, LEMON JUICE & ONION CAPSICUM, TOMATO, CURRY LEAVES THEN SHALLOW FRIED ON TAWA, SERVED IN (8PCS).",
-                    "price": 250,
-                    "id": "fa3b9849-8e35-4a02-8f67-e7957563c70c"
-                },
-                {
-                    "title": "CHICKEN RAWA FRY",
-                    "description": "CHICKEN BREAST BONELESS MARINATED WITH CHILLY & GINGER GARLIC PASTE COATED WITH RAWA & SHALLOW FRIED, SERVED WITH SALAD.",
-                    "price": 240,
-                    "id": "8a58b5b0-7847-4ff7-a4a5-bb488a5e230b"
-                },
-                {
-                    "title": "PRAWNS (RAWA FRY)",
-                    "description": "JUMBO PRAWNS MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH FINE RAWA & SHALLOW FRIED.",
-                    "price": 350,
-                    "id": "28c35f2f-5492-4c19-a9ca-b99272f58f2c"
-                },
-                {
-                    "title": "PRAWNS (MASALA FRY)",
-                    "description": "KINGFISH MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 350,
-                    "id": "d5523369-23ca-43ea-b36b-494d303af9d4"
-                },
-                {
-                    "title": "KINGFISH (RAWA FRY)",
-                    "description": "KINGFISH MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER THEN COATED WITH RAWA & SHALLOW FRIED.",
-                    "price": 350,
-                    "id": "4bc14f52-1e28-483b-aa7c-e725b06dd1d1"
-                },
-                {
-                    "title": "KINGFISH (MASALA FRY)",
-                    "description": "KINGFISH MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 350,
-                    "id": "336ced72-3c97-45f0-a8cc-a6463fb9b65f"
-                },
-                {
-                    "title": "LEPO (RAWA FRY)",
-                    "description": "LEPO MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH RAWA & SHALLOW FRIED.",
-                    "price": 190,
-                    "id": "5602879b-6fbd-4abe-a336-bd1b56cf8dec"
-                },
-                {
-                    "title": "LEPO (MASALA FRY)",
-                    "description": "LEPO MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 190,
-                    "id": "6469fc1d-3537-4b45-8244-fa354e0fff70"
-                },
-                {
-                    "title": "MACKEREL (RAWA FRY)",
-                    "description": "MACKEREL MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH RAWA & SHALLOW FRIED.",
-                    "price": 180,
-                    "id": "4eefdefc-af90-4907-b75d-0c8a773e40c4"
-                },
-                {
-                    "title": "MACKEREL (MASALA FRY)",
-                    "description": "MACKEREL MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 180,
-                    "id": "b126db63-9ae8-433a-8c58-72a158817be5"
-                },
-                {
-                    "title": "MACKEREL (RECHEADO)",
-                    "description": "MACKEREL MARINATED WITH LEMON JUICE, CHILLY PASTE, RECHEAD MASALA, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 180,
-                    "id": "d74c9913-a14a-41d5-a889-6c21b6f45835"
-                },
-                {
-                    "title": "CHONAK (RAWA FRY)",
-                    "description": "CHONAK MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH RAWA & SHALLOW FRIED.",
-                    "price": 350,
-                    "id": "92d1338c-4183-4f81-b0d5-a7e797461f3c"
-                },
-                {
-                    "title": "CHONAK (MASALA FRY)",
-                    "description": "CHONAK MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 350,
-                    "id": "810e6fda-27d7-45e1-9e72-125f3e338521"
-                },
-                {
-                    "title": "SILVER FISH (RAWA FRY)",
-                    "description": "SILVER FISH MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER THEN COATED IN RAWA & SHALLOW FRIED.",
-                    "price": 160,
-                    "id": "37a899a5-effa-4ef0-abc0-c325aa5757ae"
-                },
-                {
-                    "title": "SILVER FISH (MASALA FRY)",
-                    "description": "SILVER FISH MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 160,
-                    "id": "f7bdd511-1455-4818-9743-53c8866e2ed6"
-                },
-                {
-                    "title": "SQUID (RAWA FRY)",
-                    "description": "SQUID MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH RAWA & SHALLOW FRIED.",
-                    "price": 290,
-                    "id": "5b6393bb-6621-4a76-8aec-460ba7f91355"
-                },
-                {
-                    "title": "SQUID (MASALA FRY)",
-                    "description": "SQUID MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD.",
-                    "price": 290,
-                    "id": "115a4d62-b646-45c5-8bd1-669bc8545bba"
-                },
-                {
-                    "title": "MODSO (RAWA FRY)",
-                    "description": "MODSO MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER THEN COATED WITH RAWA & SHALLOW FRIED.",
-                    "price": 350,
-                    "id": "4c58f890-5143-4416-9378-8c1109273909"
-                },
-                {
-                    "title": "MODSO (MASALA FRY)",
-                    "description": "MODSO MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH GOAN SALAD.",
-                    "price": 350,
-                    "id": "104853fa-6a68-4cf5-9ae5-e6d5ce8ac0b1"
-                },
-                {
-                    "title": "CHILLY CHICKEN FRY",
-                    "description": "FRIED CHICKEN COOKED WITH VEGETABLE, JULIENNE CUT WITH TOMATO KETCHUP, CHILLY SAUCE, LITTLE GOAN VINEGER, SERVED HOT AND TANGY.",
-                    "price": 215,
-                    "id": "e5231c79-82a2-41c3-9c7a-83e19fbec7d3"
-                },
-                {
-                    "title": "CALAMARI CHILLY FRY",
-                    "description": "JULIENNE CUT VEGETABLES SAUTED WITH CHICKEN WITH TOMATO KETCHUP, CHIILY SAUCE, GOAN VINEGER.",
-                    "price": 290,
-                    "id": "191a7ef2-6196-486f-9495-2b7436405db3"
-                }
-            ],
-            "Gravy": [
-                {
-                    "title": "CHICKEN CAFREAL",
-                    "description": "THIS GOAN DISH COOKED IN CORIENDER, MINT, GREEN CHILLY PASTE, CHICKEN COOKED IN PASTE GARNISHED WITH GREEN CAPSICUM & FRIED POTATO.",
-                    "price": 240,
-                    "id": "8e0dfdc1-1a1e-4c57-99c8-5a601d76af1b"
-                },
-                {
-                    "title": "CHICKEN XACUTI",
-                    "description": "FRESH COCONUT GROUNDED WITH AUTHENTIC SPICES OF GOA, IT HAS RICH DELICIOUS BLENDED LOCAL SPICES & FRESH COCONUT, SERVED IN GRAVEY.",
-                    "price": 220,
-                    "id": "f1b002ab-4409-4126-9040-42a0eda410a5"
-                }
-            ],
-            "Thali": [
-                {
-                    "title": "SPECIAL FISH THALI",
-                    "description": "",
-                    "price": 250,
-                    "id": "1c705f72-b08f-4715-b8f4-398e465c7201"
-                },
-                {
-                    "title": "FISH THALI",
-                    "description": "",
-                    "price": 180,
-                    "id": "a87cf1a6-220a-49f1-90a8-34124516068e"
-                },
-                {
-                    "title": "VEG THALI",
-                    "description": "",
-                    "price": 150,
-                    "id": "889384ea-f038-40eb-be88-f9b05c175759"
-                }
-            ],
-            "Rice": [
-                {
-                    "title": "PRAWNS PEAS PULAV",
-                    "description": "FRAGRANT GHEE, SAUTED ONIONS WITH LONG GRAIN BASMATI RICE COOKED WITH PEAS & MARINATED SHRIMP, SIMPLY DELICIOUS.",
-                    "price": 280,
-                    "id": "044fa010-6ab9-4eef-a9f2-f599d8d0b0e9"
-                }
-            ],
-            "Curry": [
-                {
-                    "title": "PRAWNS CURRY",
-                    "description": "",
-                    "price": 250,
-                    "id": "e460ac93-af76-4c07-8abf-b2cb1c71d288"
-                },
-                {
-                    "title": "KINGFISH CURRY",
-                    "description": "",
-                    "price": 280,
-                    "id": "7f74de18-396a-47bd-8a78-cd6bbe21d010"
-                },
-                {
-                    "title": "CHONAK CURRY",
-                    "description": "",
-                    "price": 280,
-                    "id": "46377c8b-3697-4f3f-b64e-2e4aa5a6f505"
-                },
-                {
-                    "title": "TARLE CURRY",
-                    "description": "",
-                    "price": 150,
-                    "id": "2f3d5524-7934-4617-a54a-6946f380f237"
-                },
-                {
-                    "title": "BANGDA CURRY",
-                    "description": "",
-                    "price": 150,
-                    "id": "a2eff8d2-d15e-4bb7-9e5a-99175d7580dc"
-                },
-                {
-                    "title": "VERLI CURRY",
-                    "description": "",
-                    "price": 160,
-                    "id": "0660d336-1ea7-4dff-93a6-52845f8b3f40"
-                }
-            ]
-        }
-    },
-    {
-        "category": "Indian",
-        "subcategory": {
-            "Soup": [
-                {
-                    "title": "VEG CHEF'S SPECIAL SOUP",
-                    "description": "",
-                    "price": 100,
-                    "id": "1e954a8c-9d5c-47b6-b5ae-ec44d2ebeeff"
-                },
-                {
-                    "title": "CHICKEN CHEF'S SPECIAL SOUP",
-                    "description": "",
-                    "price": 120,
-                    "id": "0aea8914-6c29-434f-9e64-2b5c95d6cc3c"
-                },
-                {
-                    "title": "TOMATO SHORBA",
-                    "description": "THIK TOMATO SOUP WITH GOODNESS & FLAVOUR OF FRESH CORRIENDER LEAVES & INDIAN SPICES.",
-                    "price": 80,
-                    "id": "f214e7a6-6d03-4457-80dd-17875f0895aa"
-                }
-            ],
-            "Starter": [
-                {
-                    "title": "MASALA OMELET",
-                    "description": "",
-                    "price": 60,
-                    "id": "9241143e-3c41-4cb4-a75e-40d3bd15fda6"
-                },
-                {
-                    "title": "GREEN SALAD",
-                    "description": "SLICED FRESH VEGIES LIKE ONION, TOMATO, CUCUMBER, CARROT.",
-                    "price": 100,
-                    "id": "66d136c3-ad7d-45b6-a0e6-a52f5e719a73"
-                }
-            ],
-            "Gravy": [
-                {
-                    "title": "VEG KOLHAPURI",
-                    "description": "SPICY MIXED VEGETABLE DISH COOKED IN INDIAN GRAVY.",
-                    "price": 195,
-                    "id": "984f38bb-0010-45fd-8ffb-9484ceaf39c2"
-                },
-                {
-                    "title": "VEG KADAI",
-                    "description": "JULIENNE CUT MIX VEG COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 195,
-                    "id": "fd9311d7-07ab-4c65-ba0e-ff4e47977e82"
-                },
-                {
-                    "title": "VEG HANDI",
-                    "description": "DICE CUT MIX VEG COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 195,
-                    "id": "805ac382-d578-4b65-9142-edd098d3d20e"
-                },
-                {
-                    "title": "MUTTER MUSHROOM MASALA",
-                    "description": "FRESH MUSHROOM & GREEN PEAS COOKED IN ONION GRAVY. (MEDIUM SPICY).",
-                    "price": 200,
-                    "id": "1afe91c2-781a-401d-976a-6015a2c89845"
-                },
-                {
-                    "title": "PANEER KADAI",
-                    "description": "MIX VEGGIES WITH PANEER COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 200,
-                    "id": "a1f5bb3a-7c1e-446c-9cad-6753505f4d3b"
-                },
-                {
-                    "title": "PANEER BUTTER MASALA",
-                    "description": "RICH & CREAMY CURRY MADE WITH PANEER, SPICES, ONION, TOMATOES, CASHEWS & BUTTER, GARNISHED WITH FRESH CREAM & BUTTER.",
-                    "price": 200,
-                    "id": "2eee9666-3307-41e2-98c8-078c4d6a15ec"
-                },
-                {
-                    "title": "PANEER MASALA",
-                    "description": "SPICY & FLAVOURFUL PANEER MASALA IS SAUTED IN FRESH SPICES & COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 200,
-                    "id": "37030b97-5e41-4d8a-a8ae-f96d9f711369"
-                },
-                {
-                    "title": "PANEER TIKKA MASALA",
-                    "description": "COOKED PANEER TIKKA FROM TANDOOR ALONG WITH CAPSICUM, ONION, TOMATO THEN COOKED IN ONION, TOMATO GRAVY & TANDOOR MASALA.",
-                    "price": 260,
-                    "id": "382ab042-76ce-4eb7-9e32-6dcae393ff76"
-                },
-                {
-                    "title": "MATAR PANEER",
-                    "description": "RICH & CREAMY CURRY MADE WITH PANEER, SPICES, ONION, TOMATOES, CASHEWS & BUTTER, GARNISHED WITH FRESH CREAM & BUTTER.",
-                    "price": 200,
-                    "id": "e5f91e78-a4d2-4dcf-9a9b-5e28e501083b"
-                },
-                {
-                    "title": "PALAK PANEER",
-                    "description": "BLANCHED SPINACH IS PUREED AND COOKED WITH SPICES, ONION & TOMATOES UNTIL THICK CURRY LIKE CONSISTENCY IS ACHIEVED.",
-                    "price": 200,
-                    "id": "f13f3c8f-c04d-40f1-bd61-17feb8b1491b"
-                },
-                {
-                    "title": "DAL TADKA",
-                    "description": "COOKED DAL FINISHED WITH A TEMPERING MADE OF GHEE & SPICES.",
-                    "price": 140,
-                    "id": "d5d8f44e-cb1d-409c-a72b-7b422fc65ea1"
-                },
-                {
-                    "title": "DAL FRY",
-                    "description": "BOILED TOOR DAL & MOONG DAL WITH ONION, TOMATO, GREEN CHILI, CHOPPED GARLIC & JEERA SAUT\u00c3\u2030D IN BUTTER, GARNISHED WITH FRESH CORIANDER.",
-                    "price": 140,
-                    "id": "dd3d7186-0228-4408-9838-a4c903e52b86"
-                },
-                {
-                    "title": "CHEFS SPECIAL VEG GRAVY",
-                    "description": "IT'S MIX OF VEGIES LIKE BABYCORN,MASHROOM, PANEER, CARROT, BROCCOLI, COOKED IN TANGY TOMATO GRAVY, GARNISHED WITH CRUSHED PAPAD.",
-                    "price": 220,
-                    "id": "17f55853-b8d7-425e-8407-bd6e8527a657"
-                },
-                {
-                    "title": "BUTTER CHICKEN",
-                    "description": "RICH & CREAMY CURRY MADE WITH CHICKEN, SPICES, ONION, TOMATOES, CASHEWS & BUTTER, GARNISHED WITH FRESH CREAM & BUTTER.",
-                    "price": 230,
-                    "id": "0bea7c84-7ef3-4e9a-9a3b-841489b7b44e"
-                },
-                {
-                    "title": "CHICKEN TIKKA MASALA",
-                    "description": "COOKED CHICKEN TIKKA FROM TANDOOR ALONG WITH CAPSICUM, ONION, TOMATO THEN COOKED IN ONION, TOMATO GRAVY & TANDOOR MASALA.",
-                    "price": 300,
-                    "id": "0414376c-4e2e-4e0b-9630-ce87d5951389"
-                },
-                {
-                    "title": "CHICKEN KORMA",
-                    "description": "TRADITIONAL MUGHLAI DISH WHERE CHICKEN IS COOKED WITH SPICES, ONION PASTE, YOGURT & NUTS, RICH & DELICIOUS.",
-                    "price": 250,
-                    "id": "2913e4f9-a1ed-49dd-9fc9-21c6b1d36891"
-                },
-                {
-                    "title": "CHEFS SPECIAL NON-VEG",
-                    "description": "TANDOORI CHICKEN PIECES COOKED IN ONION, TOMATO & TANDOORI MASALA, GARNISHED WITH PLAIN OMLETTE.",
-                    "price": 300,
-                    "id": "c036deda-086d-4d8e-a561-23e307d8c19d"
-                },
-                {
-                    "title": "VEG HYDERABADI",
-                    "description": "MIX VEG COOKED IN GREEN MASALA AND ONION GRAVY LIKE CORIANDER LEAVES, MINT, GREEN CHILI AND CAPSICUM THEN FINISHED WITH CREAM & BUTTER. (SPICY).",
-                    "price": 195,
-                    "id": "c587caa7-50f7-4332-a883-01620013756d"
-                },
-                {
-                    "title": "CHICKEN KOLHAPURI",
-                    "description": "MIX VEG & CHICKEN COOKED IN ONION GRAVY & SPICY MASALA. (SPICY)",
-                    "price": 230,
-                    "id": "8e9d2d08-fe6f-445a-903c-4141014187aa"
-                },
-                {
-                    "title": "CHICKEN HANDI",
-                    "description": "DICE CUT MIX VEG & CHICKEN COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 230,
-                    "id": "3f043150-68bf-4a03-9373-676292e7977a"
-                },
-                {
-                    "title": "CHICKEN KADAI",
-                    "description": "JULIENNE CUT MIX VEG & CHICKEN COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 230,
-                    "id": "c44078d3-a731-4982-aafc-0f97c080c9cc"
-                },
-                {
-                    "title": "CHICKEN MASALA",
-                    "description": "SPICY & FLAVOURFUL CHICKEN MASALA IS SAUTED IN FRESH SPICES & COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 230,
-                    "id": "5442c1f4-a444-49c6-9e7f-1958d8b34a47"
-                },
-                {
-                    "title": "MUTTON MASALA",
-                    "description": "SPICY & FLAVOURFUL MUTTON MASALA IS SAUTED IN FRESH SPICES & COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 350,
-                    "id": "a9ad5cd3-b017-4092-a4ae-bfcd8c444190"
-                },
-                {
-                    "title": "MUTTON KADAI",
-                    "description": "JULIENNE CUT MIX VEG & MUTTON COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 350,
-                    "id": "09690f06-d588-459b-9ad3-1ff247a8af77"
-                },
-                {
-                    "title": "MUTTON HANDI",
-                    "description": "DICE CUT MIX VEG & MUTTON COOKED IN ONION & TOMATO GRAVY.",
-                    "price": 350,
-                    "id": "3951f386-7c7b-4a43-a544-1842358b4825"
-                }
-            ],
-            "Biryani": [
-                {
-                    "title": "VEG BIRYANI",
-                    "description": "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR \"DUM\", SERVED WITH RAITA.",
-                    "price": 170,
-                    "id": "ae60925f-e254-4741-b311-621f1d24e94e"
-                },
-                {
-                    "title": "EGG BIRYANI",
-                    "description": "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES IN YOGURT SPICES & EGG, LAYERD WITH BASMATI RICE AND KEPT FOR \"DUM\", SERVED WITH RAITA.",
-                    "price": 180,
-                    "id": "7a195989-7461-47b0-ab70-77f2e898605a"
-                },
-                {
-                    "title": "PRAWNS BIRYANI",
-                    "description": "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES & PRAWNS IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR \"DUM\", SERVED WITH RAITA.",
-                    "price": 350,
-                    "id": "eb1dff8a-478f-43c5-8bae-f5354172a2cf"
-                },
-                {
-                    "title": "CHICKEN BIRYANI",
-                    "description": "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES & CHICKEN IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR \"DUM\", SERVED WITH RAITA.",
-                    "price": 260,
-                    "id": "acd60ac8-e7e1-4e85-bb5d-1fe7e8b195f0"
-                },
-                {
-                    "title": "MUTTON BIRYANI",
-                    "description": "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES & MUTTON IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR \"DUM\", SERVED WITH RAITA.",
-                    "price": 380,
-                    "id": "40fc23fc-5f18-4378-8e1d-accd0f52bf6e"
-                }
-            ],
-            "Rice": [
-                {
-                    "title": "STEAMED RICE",
-                    "description": "RICE STEAMED IN STEAMMER.",
-                    "price": 90,
-                    "id": "2a0a273f-4035-45cb-a0e2-3d166e1e03d3"
-                },
-                {
-                    "title": "JIRA RICE",
-                    "description": "FRAGRANT BASMATI RICE IS SCENTED WITH BUTTER CUMIN SEEDS CARDAMON & GREEN CHILLY, GARNISHED WITH FRESH CORIENDER.",
-                    "price": 120,
-                    "id": "50d88162-3eea-4001-a977-b5c9a060ff0c"
+                    "srno": 3,
+                    "name": "CAESAR SALAD WITH CHICKEN",
+                    "price": 180
                 },
                 {
-                    "title": "VEG PULAO",
-                    "description": "BASMATI RICE MIXED WITH SPICES & VEGITABLES, AROMATIC DELICIOUS & SUPER HEALTHEY.",
-                    "price": 160,
-                    "id": "0cdaba3f-1095-450a-9848-a4a4e7cd414d"
+                    "srno": 4,
+                    "name": "GREEN SALAD",
+                    "price": 100
                 }
             ]
         }
     },
     {
         "category": "Momos",
-        "subcategory": {
-            "steamed Momo": [
+        "subcategories": {
+            "Momos": [
                 {
-                    "title": "STEAMED MOMOS (VEG)",
-                    "description": "MOMOS ARE STEAM FILLED DUMPLINGS, VEG MINCE FLAVOURED WITH SOYA SAUCE, CHILLIES, PEPPER SOME VEGGIES & ARE STUFFED INSIDE WITH THIN FLOUR DOUGH AND STEAMED.",
-                    "price": 140,
-                    "id": "c25ecd6f-c082-4b0f-9c00-5d8015ebe485"
+                    "srno": 1,
+                    "name": "STEAMED MOMOS (VEG)",
+                    "price": 140
                 },
                 {
-                    "title": "STEAMED MOMOS (CHICKEN)",
-                    "description": "MOMOS ARE STEAM FILLED DUMPLINGS, CHICKEN MINCE FLAVOURED WITH SOYA SAUCE, CHILLIES, PEPPER SOME VEGGIES & ARE STUFFED INSIDE WITH THIN FLOUR DOUGH AND STEAMED.",
-                    "price": 180,
-                    "id": "29792a98-fb8c-4617-a2ac-b5bc1488d48a"
-                }
-            ],
-            "Pan Fried Momo": [
-                {
-                    "title": "PAN FRIED MOMOS (VEG)",
-                    "description": "MOMOS ARE PAN FRIED & TOSSED IN MANCHURIAN SAUCE, SERVED WITH SOYA SAUCE. (6 PCS)",
-                    "price": 160,
-                    "id": "d82e3052-abb0-42fc-ab80-7fda5738b649"
+                    "srno": 2,
+                    "name": "STEAMED MOMOS (CHICKEN)",
+                    "price": 180
                 },
                 {
-                    "title": "PAN FRIED MOMOS (CHICKEN)",
-                    "description": "MOMOS ARE PAN FRIED TOSSED IN MANCHURIAN SAUCE, SERVED WITH SOYA SAUCE. (6 PCS)",
-                    "price": 190,
-                    "id": "90597faf-26b0-4ea5-b273-6b64ab4d2c21"
-                }
-            ],
-            "Fried Momo": [
-                {
-                    "title": "FRIED MOMOS (VEG)",
-                    "description": "MOMOS ARE DEEP FRIED & SERVED WITH SCHEZWAN SAUCE. (6 PCS)",
-                    "price": 150,
-                    "id": "56f81e5f-34ad-4308-8884-5ee6e5ec5233"
+                    "srno": 3,
+                    "name": "PAN FRIED MOMOS (VEG)",
+                    "price": 160
                 },
                 {
-                    "title": "FRIED MOMOS (CHICKEN)",
-                    "description": "MOMOS ARE DEEP FRIED & SERVED WITH SCHEZWAN SAUCE. (6 PCS)",
-                    "price": 180,
-                    "id": "ccd32d9e-47bb-4cb9-8cbe-d5918d6ac743"
-                }
-            ],
-            "Kurkure Momo": [
-                {
-                    "title": "KURKURE MOMOS (VEG)",
-                    "description": "MOMOS ARE COATED IN CRISPY CORNFLAKES & DEEP FRIED, SERVED WITH MAYONESE. (6 PCS)",
-                    "price": 175,
-                    "id": "facbdaee-45e2-48de-b6a1-d129e8b2e24c"
+                    "srno": 4,
+                    "name": "PAN FRIED MOMOS (CHICKEN)",
+                    "price": 190
                 },
                 {
-                    "title": "KURKURE MOMOS (CHICKEN)",
-                    "description": "MOMOS ARE COATED IN CRISPY CORNFLAKES & DEEP FRIED, SERVED WITH MAYONESE. (6 PCS)",
-                    "price": 200,
-                    "id": "85786c38-c899-428e-bc66-6a413b84a392"
-                }
-            ],
-            "Schezwan Tossed Momo": [
-                {
-                    "title": "SCHEZWAN TOSSED MOMOS (VEG)",
-                    "description": "MOMOS ARE TOSSED IN SPICY SCHEZWAN SAUCE, SERVED WITH SCHEZWAN SAUCE. (6 PCS)",
-                    "price": 170,
-                    "id": "c7dc73fe-70d3-43d6-9480-2ae56b3d95a2"
+                    "srno": 5,
+                    "name": "FRIED MOMOS (VEG)",
+                    "price": 150
                 },
                 {
-                    "title": "SCHEZWAN TOSSED MOMOS (CHICKEN)",
-                    "description": "MOMOS ARE TOSSED IN SPICY SCHEZWAN SAUCE, SERVED WITH SCHEZWAN SAUCE. (6 PCS)",
-                    "price": 190,
-                    "id": "f576ed94-9198-45b8-978d-4baaa2283a05"
-                }
-            ],
-            "Butter Garlic Momo": [
-                {
-                    "title": "BUTTER GARLIC MOMOS (VEG)",
-                    "description": "MOMOS ARE TOSSED IN BUTTER, CREAM & GARLIC, SERVED WITH MAYONESE. (6 PCS)",
-                    "price": 170,
-                    "id": "60fa1a27-1aae-4999-8fe5-dedd845de7ce"
+                    "srno": 6,
+                    "name": "FRIED MOMOS (CHICKEN)",
+                    "price": 180
                 },
                 {
-                    "title": "BUTTER GARLIC MOMOS (CHICKEN)",
-                    "description": "MOMOS ARE TOSSED IN BUTTER, CREAM & GARLIC, SERVED WITH MAYONESE. (6 PCS)",
-                    "price": 200,
-                    "id": "20a592df-1a29-4828-8478-cb7cc533d196"
-                }
-            ],
-            "Platter Momo": [
-                {
-                    "title": "MOMOS PLATTER (VEG)",
-                    "description": "VEG MOMO PLATTER 2 PIECES OF EACH FLAVOUR, BUTTER GARLIC, SCHEZWAN TOSSED, KURKURE, STEAM, PAN FRIED. (10 PC)",
-                    "price": 300,
-                    "id": "49260b2d-6b3e-4543-b8c7-f0e06164ca62"
+                    "srno": 7,
+                    "name": "KURKURE MOMOS (VEG)",
+                    "price": 175
                 },
                 {
-                    "title": "MOMOS PLATTER (CHICKEN)",
-                    "description": "CHICKEN MOMO PLATTER 2 PIECES OF EACH FLAVOUR, BUTTER GARLIC, SCHEZWAN TOSSED, KURKURE, STEAM, PAN FRIED. (10 PCS)",
-                    "price": 380,
-                    "id": "fb6a20fd-672a-4a1a-bf69-69954440b409"
-                }
-            ],
-            "Paneer Momo": [
-                {
-                    "title": "PANEER MOMO",
-                    "description": "MOMOS STUFFED WITH FRESH PANEER MINCED, CHOPPED ONION & GARLIC, IT'S STEAMED IN STEAMMER THEN SERVED WITH SCHEZWAN CHUTNEY. (6 PCS)",
-                    "price": 195,
-                    "id": "51f0e775-fb9b-43c9-9c50-78da8c15fa01"
-                }
-            ],
-            "Tandoori Momo": [
-                {
-                    "title": "TANDOORI MOMOS (VEG)",
-                    "description": "VEG MOMOS MARINATED IN TANDOORI MASALA GRILLED IN TANDOOR, SERVED WITH MINT CHUTNEY & SALAD. (8 PCS)",
-                    "price": 180,
-                    "id": "d3019f05-429d-478f-9880-55b87f44f641"
+                    "srno": 8,
+                    "name": "KURKURE MOMOS (CHICKEN)",
+                    "price": 200
                 },
                 {
-                    "title": "TANDOORI MOMOS (CHICKEN)",
-                    "description": "CHICKEN MOMOS MARINATED IN TANDOORI MASALA GRILLED IN TANDOOR, SERVED WITH MINT CHUTNEY & SALAD. (8 PCS)",
-                    "price": 220,
-                    "id": "5b2165ce-6ce0-46f1-ad45-b71da41cd061"
+                    "srno": 9,
+                    "name": "SCHEZWAN TOSSED MOMOS (VEG)",
+                    "price": 170
+                },
+                {
+                    "srno": 10,
+                    "name": "SCHEZWAN TOSSED MOMOS (CHICKEN)",
+                    "price": 190
+                },
+                {
+                    "srno": 11,
+                    "name": "BUTTER GARLIC MOMOS (VEG)",
+                    "price": 170
+                },
+                {
+                    "srno": 12,
+                    "name": "BUTTER GARLIC MOMOS (CHICKEN)",
+                    "price": 200
+                },
+                {
+                    "srno": 13,
+                    "name": "MOMOS PLATTER (VEG)",
+                    "price": 300
+                },
+                {
+                    "srno": 14,
+                    "name": "MOMOS PLATTER (CHICKEN)",
+                    "price": 380
+                },
+                {
+                    "srno": 15,
+                    "name": "PANEER MOMO",
+                    "price": 195
+                },
+                {
+                    "srno": 16,
+                    "name": "TANDOORI MOMOS (VEG)",
+                    "price": 180
+                },
+                {
+                    "srno": 17,
+                    "name": "TANDOORI MOMOS (CHICKEN)",
+                    "price": 220
                 }
             ]
         }
     },
     {
-        "category": "Tandoor",
-        "subcategory": {
+        "category": "Tandoor and Kebabs",
+        "subcategories": {
             "Grilled and Tandoor": [
                 {
-                    "title": "TANDOORI CHICKEN FULL",
-                    "description": "MASALA IS PREPARED FROM HUNG CURD WITH SOME SPICES MIXED INTO IT & CHICKEN IS MARINATED INTO IT, THEN GRILED IN THE TANDOOR UNTILL TENDER, JUICY, SMOKY FLAVOUR IS ADAPTED, SERVED WITH CHUTNEY & SALAD.",
-                    "price": 400,
-                    "id": "827fe172-b550-4ca2-bb33-806d720be155"
+                    "srno": 1,
+                    "name": "TANDOORI CHICKEN FULL",
+                    "price": 400
                 },
                 {
-                    "title": "TANDOORI CHICKEN HALF",
-                    "description": "MASALA IS PREPARED FROM HUNG CURD WITH SOME SPICES MIXED INTO IT & CHICKEN IS MARINATED INTO IT, THEN GRILED IN THE TANDOOR UNTILL TENDER, JUICY, SMOKY FLAVOUR IS ADAPTED, SERVED WITH CHUTNEY & SALAD.",
-                    "price": 220,
-                    "id": "f0c9cc97-d9b2-46ce-b3eb-45256dece96d"
+                    "srno": 2,
+                    "name": "TANDOORI CHICKEN HALF",
+                    "price": 220
                 },
                 {
-                    "title": "TANGDI KEBAB",
-                    "description": "APPETITE MADE FROM CHICKEN DRUMSTICKS MARINATED WITH SPICES, CURD & CREAM, GRILLED IN TANDOOR, SERVED WITH MINT CHUTNEY & GREEN SALAD, SERVED IN 3 PCS.",
-                    "price": 280,
-                    "id": "b3f70e2c-22a6-4f3a-ba37-de7169d7e891"
+                    "srno": 3,
+                    "name": "TANGDI KEBAB",
+                    "price": 280
                 },
                 {
-                    "title": "GRILLED MASHROOM TIKKA",
-                    "description": "FRESH MASHROOM MARINATED IN SPICY CURD & GRILLED IN TANDOOR, SERVED WITH CHUTNEY & SALAD.",
-                    "price": 220,
-                    "id": "8911f2cd-e6e5-40ba-9eae-c6ce16e4defa"
+                    "srno": 8,
+                    "name": "GRILLED MASHROOM TIKKA ",
+                    "price": 220
                 },
                 {
-                    "title": "TANDOORI BROCCOLI",
-                    "description": "FRESH BROCOLLI MIXED WITH HUNG CURD ALONG WITH SPICES LIKE 'AJWIN', CHAT MASALA, KASOORI METHI, BRING OUT FANTASTIC FLAVOUR OF TANDOORI BROCOLLI.",
-                    "price": 290,
-                    "id": "5bcb27bd-c9be-404d-9577-e8248f066aa0"
+                    "srno": 9,
+                    "name": "TANDOORI BROCCOLI",
+                    "price": 290
                 },
                 {
-                    "title": "TANDOORI BABY CORN",
-                    "description": "FRESH BABYCORN MARINATED WITH SPICY CURD & GRILLED IN TANDOOR, SERVED WITH CHUTNEY & SALAD.",
-                    "price": 240,
-                    "id": "1c8e7fa8-f2c4-4a0d-b308-aa91a0dfb2c8"
+                    "srno": 10,
+                    "name": "TANDOORI BABY CORN",
+                    "price": 240
                 },
                 {
-                    "title": "TANDOORI GOBI",
-                    "description": "FRESH CAULIFLOWER MIXED WITH HUNG CURD ALONG WITH SPICES LIKE 'AJWIN', CHAT MASALA, KASOORI METHI, BRING OUT FANTASTIC FLAVOUR OF TANDOOR GOBI.",
-                    "price": 190,
-                    "id": "cfa7d6c7-93e1-4dc5-ade2-34bc98badc98"
+                    "srno": 11,
+                    "name": "TANDOORI GOBI",
+                    "price": 190
                 },
                 {
-                    "title": "TANDOORI WINGS",
-                    "description": "FRESH CHICKEN WINGS MARINATED WITH MIXED SPICES, CHARCOAL GRILLED SMOKEY, TENDER, JUICY, SERVED WITH BBQ SAUCE.",
-                    "price": 250,
-                    "id": "54144e9a-ee25-4f23-801d-f3175ea6bf92"
+                    "srno": 14,
+                    "name": "TANDOORI WINGS",
+                    "price": 250
                 },
                 {
-                    "title": "CHICKEN AFGHANI KEBAB",
-                    "description": "BONELESS CHICKEN MARINATED WITH MINT, YOGURT, CREAM & SPICES, SERVED WITH GREEN CHUTNEY & SALAD.",
-                    "price": 280,
-                    "id": "d0b53937-b0ed-480f-b4a0-3dfb8df462bc"
+                    "srno": 15,
+                    "name": "CHICKEN AFGHANI KEBAB",
+                    "price": 280
                 },
                 {
-                    "title": "TANDOORI GRILLED PRAWNS",
-                    "description": "PRAWNS MARINATED WITH TANDOORI MASALA GRILLED AND GARNISHED WITH BUTTER, SERVED WITH MINT SAUCE & SALAD.",
-                    "price": 380,
-                    "id": "5d50d3c5-70b7-494b-a151-6a2fd07e050f"
+                    "srno": 16,
+                    "name": "GRILLED CHICKEN LOLYPOP",
+                    "price": 230
                 },
                 {
-                    "title": "GRILLED MACKREL",
-                    "description": "MACKREL MARINATED WITH TANDOORI MASALA GRILLED AND THEN FINISHED WITH BUTTER, SERVED WITH MINT SAUCE & SALAD.",
-                    "price": 200,
-                    "id": "1afc0af7-bcd3-4853-82a8-ad014b8ddb15"
+                    "srno": 17,
+                    "name": "TANDOORI GRILLED PRAWNS",
+                    "price": 380
                 },
                 {
-                    "title": "TANDOORI MALAI BROCOLLI",
-                    "description": "MALAI BROCCOLI IS A FLAVORFUL AND DELIGHTFUL APPETIZER WHERE BROCCOLI FLORETS ARE COATED WITH RICH, CREAMY MALAI MARINATED AND GRILLED UNTIL PERFECTLY GOLDEN, SERVED WITH GREEN CHUTNEY AND SALAD.",
-                    "price": 295,
-                    "id": "4f73c479-b630-4e04-b943-d8fc904786aa"
+                    "srno": 18,
+                    "name": "GRILLED MACKREL",
+                    "price": 200
+                },
+                {
+                    "srno": 19,
+                    "name": "TANDOORI MALAI BROCOLLI",
+                    "price": 295
                 }
             ],
             "Kebabs": [
                 {
-                    "title": "MALAI KEBAB",
-                    "description": "CHICKEN MARINATED IN CREAMY YOGURT SOFT & TENDER CHUNKY GRILLED IN TANDOOR, SERVED WITH SALAD AND MINT CHUTNEY. (8 PC)",
-                    "price": 280,
-                    "id": "604e8d53-a6f2-4c0a-9a14-da4690de95d1"
+                    "srno": 1,
+                    "name": "MALAI KEBAB",
+                    "price": 280
                 },
                 {
-                    "title": "HARIYALI CHICKEN TIKKA",
-                    "description": "A BLEND OF MINT AND CORIENDER, CHICKEN MARINATED FOR LONG TIME TO DEVELOP ENOUGH FLAVOUR, GRILLED IN TANDOOR.",
-                    "price": 270,
-                    "id": "f7ac4957-9cbd-408b-8d29-9ab1e369e3f9"
+                    "srno": 2,
+                    "name": "HARIYALI CHICKEN TIKKA",
+                    "price": 270
                 },
                 {
-                    "title": "CHICKEN SHISH TAOUK",
-                    "description": "IT'S A TRADITIONAL MEDITERIAN CUISINE, SIMILAR TO CHICKEN TIKKA, SERVED WITH CHUTNEY & SALAD.",
-                    "price": 280,
-                    "id": "eea593a1-adab-4a45-8c25-6e0ccc33931c"
+                    "srno": 3,
+                    "name": "CHICKEN SHISH TAOUK",
+                    "price": 280
                 },
                 {
-                    "title": "CHICKEN TIKKA",
-                    "description": "CHICKEN TIKKA IS ALSO KNOWN AS 'MURG TIKKA', THESE ARE CHUNKS OF MARINATED WITH SPICED YOGURT GRILLED IN TANDOOR, SERVED WITH CHUTNEY & SALAD.",
-                    "price": 270,
-                    "id": "e8e12d36-8cc1-4ef7-9fca-c7408bc5ac56"
+                    "srno": 4,
+                    "name": "CHICKEN TIKKA",
+                    "price": 270
                 },
                 {
-                    "title": "CHICKEN SEEKH KABAB",
-                    "description": "GROUNDED CHICKEN MINCE SEASONED WITH HERBS & AROMATIC SPICES, SKEWED GRILLED IN TANDOOR SERVED WITH CHUTNEY & SALAD.",
-                    "price": 280,
-                    "id": "79176393-940a-44ec-8622-c02f9ee8d8f6"
+                    "srno": 5,
+                    "name": "CHICKEN SEEKH KABAB",
+                    "price": 280
                 },
                 {
-                    "title": "MUTTON SEEKH KABAB",
-                    "description": "GROUNDED MUTTON MINCE SEASONED WITH HERBS & AROMATIC SPICES, SKEWED GRILLED IN TANDOOR SERVED WITH CHUTNEY & SALAD.",
-                    "price": 340,
-                    "id": "c0c0f19c-c165-426c-b671-09fb7341a269"
+                    "srno": 6,
+                    "name": "MUTTON SEEKH KABAB",
+                    "price": 340
                 },
                 {
-                    "title": "PANEER HARYALI KABAB",
-                    "description": "MARINATED PANEER IN TANDOORI MASALA WHICH IS BLEND OF MINT AND CORRIENDER, MARINATED FOR LONG TIME TO DEVELOP ENOUGH FLAVOUR, GRILLED IN TANDOOR.",
-                    "price": 240,
-                    "id": "d396d8c1-d048-4b11-9845-38228878e7e2"
+                    "srno": 7,
+                    "name": "PANEER HARYALI KABAB",
+                    "price": 240
                 },
                 {
-                    "title": "PANEER TIKKA",
-                    "description": "PANEER CUBES, CAPSICUM, ONION, TOMATO MARINATED IN SPICED YOGURT, SERVED WITH CHUTNEY & SALAD. (8 PC)",
-                    "price": 220,
-                    "id": "1514ad4b-7836-45ba-ab8a-38bc4959b2e0"
+                    "srno": 12,
+                    "name": "PANEER TIKKA",
+                    "price": 220
                 },
                 {
-                    "title": "PANEER MALAI TIKKA",
-                    "description": "PANEER MALAI KEBAB MARINATED WITH FRESH CREAM, MILD SPICE, CASHEW NUTS, SERVED WITH GREEN CHUTNEY & SALAD.",
-                    "price": 250,
-                    "id": "09e1a58f-11c2-48f7-80fb-2cc537689f1d"
+                    "srno": 13,
+                    "name": "PANEER MALAI TIKKA",
+                    "price": 250
                 },
                 {
-                    "title": "VEG SEEKH KEBAB",
-                    "description": "GROUNDED MIX VEG MINCE SEASONED WITH HERBS & AROMATIC SPICES, SKEWED GRILLED IN TANDOOR SERVED WITH CHUTNEY & SALAD.",
-                    "price": 230,
-                    "id": "294dc871-ff5c-49e8-ac58-ee2d028103f5"
+                    "srno": 20,
+                    "name": "VEG SEEKH KEBAB",
+                    "price": 230
                 }
             ],
-            "Roti": [
+            "Bread": [
                 {
-                    "title": "TANDOORI ROTI",
-                    "description": "IT'S A FLATBREAD MADE FROM WHOLE WHEAT & TRADITIONALLY COOKED IN TANDOOR.",
-                    "price": 15,
-                    "id": "cef3fc67-4963-480a-8133-e713f49efd67"
+                    "srno": 1,
+                    "name": "TANDOORI ROTI",
+                    "price": 15
                 },
                 {
-                    "title": "BUTTER ROTI",
-                    "description": "IT'S A FLATBREAD MADE FROM WHOLE WHEAT & TRADITIONALLY COOKED IN TANDOOR & BRUSHED WITH BUTTER ON ROTI.",
-                    "price": 20,
-                    "id": "eefb901e-657c-46f4-8fb0-e431325462ab"
+                    "srno": 2,
+                    "name": "BUTTER ROTI",
+                    "price": 20
                 },
                 {
-                    "title": "BUTTER NAAN",
-                    "description": "MADE WITH FRESH MAIDA COOKED IN TANDOORI, BRUSHED WITH BUTTER OVER NAAN.",
-                    "price": 40,
-                    "id": "2cffb3b3-a3ff-4bde-9ce1-02b59d7133fb"
+                    "srno": 3,
+                    "name": "BUTTER NAAN",
+                    "price": 40
                 },
                 {
-                    "title": "PLAIN NAAN",
-                    "description": "MADE WITH FRESH MAIDA COOKED IN TANDOORI, BRUSHED WITH BUTTER OVER NAAN.",
-                    "price": 30,
-                    "id": "0138a195-6c03-4f5d-bb8b-4945fef025ab"
+                    "srno": 4,
+                    "name": "PLAIN NAAN",
+                    "price": 30
                 },
                 {
-                    "title": "CHEESE GARLIC NAAN",
-                    "description": "GRATED CHEESE STUFFED INSIDE NAAN & CHOPPED GARLIC MINCED PRESSED ON THE NAAN COOKED IN TANDOORI.",
-                    "price": 120,
-                    "id": "d4551536-4563-42a4-bc1a-ae3d334e354b"
+                    "srno": 5,
+                    "name": "CHEESE GARLIC NAAN",
+                    "price": 120
                 },
                 {
-                    "title": "TANDOORI BUTTER PARATHA",
-                    "description": "FLATBREAD MADE FROM FRESH WHEAT FLOUR, BRUSHED BUTTER ON PARATHA, COOKED IN TANDOORI, ALSO KNOWN AS 'LACCHA PARATHA'.",
-                    "price": 40,
-                    "id": "90da71eb-6f58-412d-a97b-69dff1c1541a"
+                    "srno": 6,
+                    "name": "TANDOORI BUTTER PARATHA",
+                    "price": 40
                 },
                 {
-                    "title": "TANDOORI PLAIN PARATHA",
-                    "description": "MADE FROM FRESH WHEAT FLOUR, COOKED IN TANDOORI. ALSO KNOWN AS 'LACCHA PARATHA'.",
-                    "price": 30,
-                    "id": "56e49e34-a206-49e5-883d-5dc8d1ea0f08"
+                    "srno": 7,
+                    "name": "TANDOORI PLAIN PARATHA",
+                    "price": 30
                 },
                 {
-                    "title": "GARLIC NAAN",
-                    "description": "CHOPPED GARLIC MINCED PRESSED ON THE NAAN COOKED IN TANDOORI.",
-                    "price": 45,
-                    "id": "5b5ee3e1-03d4-4445-8db4-aaf4cfe13c21"
+                    "srno": 8,
+                    "name": "GARLIC NAAN",
+                    "price": 45
                 },
                 {
-                    "title": "ONION BUTTER KULCHA",
-                    "description": "STUFFED ONION & CHOPPED GREEN CHILLY, CORIANDER PRESSED ON KULCHA SEASONED WITH WHITE SESAME SEEDS.",
-                    "price": 45,
-                    "id": "51ca7c4f-d523-4856-b7d8-d72bdca0969c"
+                    "srno": 9,
+                    "name": "ONION BUTTER KULCHA",
+                    "price": 45
                 },
                 {
-                    "title": "BUTTER GARLIC NAAN",
-                    "description": "CHOPPED MINCED GARLIC PRESSED ON THE NAAN COOKED IN TANDOORI & BRUSHED BUTTER ON TOP.",
-                    "price": 50,
-                    "id": "d1337c8b-9e73-4430-b4f4-56bf7a1a6235"
+                    "srno": 10,
+                    "name": "BUTTER GARLIC NAAN",
+                    "price": 50
                 }
             ]
         }
     },
     {
-        "category": "Snacks",
-        "subcategory": {
-            "Small bites": [
+        "category": "Chinese",
+        "subcategories": {
+            "Rice": [
                 {
-                    "title": "ROASTED PAPAD",
-                    "description": "",
-                    "price": 30,
-                    "id": "f753e054-051c-4fe6-a835-a1b0e059fe84"
+                    "srno": 1,
+                    "name": "VEG FRIED RICE",
+                    "price": 145
                 },
                 {
-                    "title": "MASALA PAPAD",
-                    "description": "",
-                    "price": 60,
-                    "id": "f60e1ce6-e174-4d87-9a70-fe2622af6cd5"
+                    "srno": 2,
+                    "name": "CHICKEN FRIED RICE",
+                    "price": 170
                 },
                 {
-                    "title": "BOILED PEANUTS",
-                    "description": "",
-                    "price": 60,
-                    "id": "496c9b48-167e-44a0-8e0f-d7281244a235"
+                    "srno": 3,
+                    "name": "EGG FRIED RICE",
+                    "price": 160
                 },
                 {
-                    "title": "BOILED CHANA",
-                    "description": "",
-                    "price": 60,
-                    "id": "8e9dcbe3-1e3d-4601-8a39-4d3acce534c9"
+                    "srno": 4,
+                    "name": "VEG SCHEZWAN FRIED RICE",
+                    "price": 155
                 },
                 {
-                    "title": "NACHOS",
-                    "description": "",
-                    "price": 130,
-                    "id": "0e4aa15a-653a-4741-bfe6-29107a22f9ea"
+                    "srno": 5,
+                    "name": "CHICKEN SCHEZWAN FRIED RICE",
+                    "price": 190
                 },
                 {
-                    "title": "CHEESE CUBES",
-                    "description": "",
-                    "price": 80,
-                    "id": "24f09886-d2ec-4764-b254-306584068c27"
+                    "srno": 6,
+                    "name": "CHEFS SPECIAL VEG FRIED RICE",
+                    "price": 185
                 },
                 {
-                    "title": "BOILED EGG",
-                    "description": "",
-                    "price": 30,
-                    "id": "b1d1f081-23b3-4f35-8a04-b077ba1193f8"
+                    "srno": 7,
+                    "name": "CHEFS SPECIAL NON-VEG FRIED RICE",
+                    "price": 250
                 },
                 {
-                    "title": "PLAIN OMLETTE",
-                    "description": "",
-                    "price": 30,
-                    "id": "c308c198-1a3a-4675-af18-590475fcbce6"
+                    "srno": 8,
+                    "name": "MIX SEAFOOD FRIED RICE",
+                    "price": 280
                 },
                 {
-                    "title": "MASALA OMLETTE",
-                    "description": "",
-                    "price": 60,
-                    "id": "be5adf81-1863-4243-9836-8a5ad23a34f2"
+                    "srno": 9,
+                    "name": "TRIPPLE SCHEZWAN CHICKEN FRIED RICE",
+                    "price": 250
                 },
                 {
-                    "title": "MASALA BOILED CHANA",
-                    "description": "",
-                    "price": 80,
-                    "id": "462874b1-2292-46a7-a6b9-e1aba2fb3c7b"
+                    "srno": 10,
+                    "name": "VEG COMBINATION FRIED RICE",
+                    "price": 155
+                }
+            ],
+            "Noodles": [
+                {
+                    "srno": 1,
+                    "name": "VEG NOODLES",
+                    "price": 150
                 },
                 {
-                    "title": "MASALA BOILED PEANUTS",
-                    "description": "",
-                    "price": 80,
-                    "id": "c9a20bc1-e6c1-4b14-a0c9-0aa344068efe"
+                    "srno": 2,
+                    "name": "CHICKEN NOODLES",
+                    "price": 170
                 },
                 {
-                    "title": "GREEN PEAS MASALA FRY",
-                    "description": "",
-                    "price": 80,
-                    "id": "1445ab55-66e4-4f25-b05f-c4ab243f670f"
+                    "srno": 3,
+                    "name": "VEG SCHEZWAN NOODLES",
+                    "price": 160
                 },
                 {
-                    "title": "HALF FRY EGG",
-                    "description": "",
-                    "price": 30,
-                    "id": "68aaba0d-c180-459c-93e7-64e5d4757ad0"
+                    "srno": 4,
+                    "name": "CHICKEN SCHEZWAN NOODLES",
+                    "price": 180
                 }
             ]
         }
     },
     {
-        "category": "drinks",
-        "subcategory": {
-            "Regular Whiskey": [
+        "category": "Sizzlers",
+        "subcategories": {
+            "Sizzler": [
                 {
-                    "title": "30ML ROYAL STAG",
-                    "description": "",
-                    "price": 30,
-                    "id": "6bc9f9ca-4064-4bdf-9e0b-adb3b96c7c83"
+                    "srno": 1,
+                    "name": "PANEER SIZZLER",
+                    "price": 250
                 },
                 {
-                    "title": "60ML ROYAL STAG",
-                    "description": "",
-                    "price": 50,
-                    "id": "054ca99b-399b-4561-8d10-87b83e34a9ae"
+                    "srno": 2,
+                    "name": "CHICKEN SIZZLER",
+                    "price": 300
                 },
                 {
-                    "title": "90ML ROYAL STAG",
-                    "description": "",
-                    "price": 70,
-                    "id": "7008af01-6efb-4ba9-ab3b-bbd43026f21e"
+                    "srno": 3,
+                    "name": "SEAFOOD SIZZLER",
+                    "price": 350
+                }
+            ]
+        }
+    },
+    {
+        "category": "Pizza & Pasta",
+        "subcategories": {
+            "Pizza": [
+                {
+                    "srno": 1,
+                    "name": "MIX VEG PIZZA (8 INCHES)",
+                    "price": 260
                 },
                 {
-                    "title": "30ML MC DOWELL NO.1",
-                    "description": "",
-                    "price": 30,
-                    "id": "edfa5c57-c888-45eb-af61-d2337c1e209b"
+                    "srno": 2,
+                    "name": "CHICKEN PIZZA (8 INCHES)",
+                    "price": 280
                 },
                 {
-                    "title": "60ML MC DOWELL NO.1",
-                    "description": "",
-                    "price": 50,
-                    "id": "5f9653e5-190f-40e4-b439-b877e00387e7"
+                    "srno": 3,
+                    "name": "SEA FOOD PIZZA (8 INCHES)",
+                    "price": 300
                 },
                 {
-                    "title": "90ML MC DOWELL NO.1",
-                    "description": "",
-                    "price": 70,
-                    "id": "470607d9-6099-431f-8af0-2f3dfc16d332"
+                    "srno": 4,
+                    "name": "CHEFS SPECIAL VEG PIZZA (8 INCHES)",
+                    "price": 275
                 },
                 {
-                    "title": "30ML IMPERIAL BLUE",
-                    "description": "",
-                    "price": 30,
-                    "id": "63861133-0aec-43f5-951a-fc6cd04ad848"
+                    "srno": 5,
+                    "name": "CHEFS SPECIAL NON-VEG PIZZA (8 INCHES)",
+                    "price": 300
                 },
                 {
-                    "title": "60ML IMPERIAL BLUE",
-                    "description": "",
-                    "price": 50,
-                    "id": "db0a718f-ce80-4305-9857-4cfbc6fd0055"
+                    "srno": 6,
+                    "name": "MIX VEG PIZZA (6 INCHES)",
+                    "price": 190
                 },
                 {
-                    "title": "90ML IMPERIAL BLUE",
-                    "description": "",
-                    "price": 70,
-                    "id": "e792b002-41df-4f78-a759-f16a9ac48f87"
+                    "srno": 7,
+                    "name": "CHICKEN PIZZA (6 INCHES)",
+                    "price": 220
                 },
                 {
-                    "title": "30ML ROYAL CHALLENGE",
-                    "description": "",
-                    "price": 30,
-                    "id": "fb5c2f76-3197-43e8-af7d-14810afec10c"
+                    "srno": 8,
+                    "name": "SEA FOOD PIZZA (6 INCHES)",
+                    "price": 250
                 },
                 {
-                    "title": "60ML ROYAL CHALLENGE",
-                    "description": "",
-                    "price": 50,
-                    "id": "56987c75-9869-4dbd-beff-a1edb9c8f591"
+                    "srno": 9,
+                    "name": "CHEFS SPECIAL VEG PIZZA (6 INCHES)",
+                    "price": 220
                 },
                 {
-                    "title": "90ML ROYAL CHALLENGE",
-                    "description": "",
-                    "price": 70,
-                    "id": "cc31b4fe-2e19-4dae-9c1f-d694f832bfa6"
+                    "srno": 10,
+                    "name": "CHEFS SPECIAL NON-VEG PIZZA (6 INCHES)",
+                    "price": 240
                 },
                 {
-                    "title": "30ML MC DOWELL NO.1 DIET",
-                    "description": "",
-                    "price": 30,
-                    "id": "217ceaa3-69d2-4991-9a0f-82b848561f1a"
+                    "srno": 11,
+                    "name": "PANEER PIZZA (6 INCHES)",
+                    "price": 0
                 },
                 {
-                    "title": "60ML MC DOWELL NO.1 DIET",
-                    "description": "",
-                    "price": 50,
-                    "id": "8b476fad-dfc8-470c-870d-73ab93548896"
+                    "srno": 12,
+                    "name": "PANEER PIZZA (8 INCHES)",
+                    "price": 0
                 },
                 {
-                    "title": "90ML MC DOWELL NO.1 DIET",
-                    "description": "",
-                    "price": 70,
-                    "id": "490e0498-8d0c-440f-9c33-1e56250855c8"
+                    "srno": 13,
+                    "name": "Extra Chesse",
+                    "price": 50
                 }
             ],
-            "Premium Whiskey": [
+            "Pasta": [
                 {
-                    "title": "30ML SIGNATURE",
-                    "description": "",
-                    "price": 50,
-                    "id": "386f01fe-d7d4-443b-9de0-38a8dc7dc674"
+                    "srno": 1,
+                    "name": "LASAGNA (VEG)",
+                    "price": 250
                 },
                 {
-                    "title": "60ML SIGNATURE",
-                    "description": "",
-                    "price": 90,
-                    "id": "96c074a7-97f5-4e7f-ba0d-d3ddb48c7ce7"
+                    "srno": 2,
+                    "name": "LASAGNA (CHICKEN)",
+                    "price": 300
                 },
                 {
-                    "title": "90ML SIGNATURE",
-                    "description": "",
-                    "price": 130,
-                    "id": "004e270c-2f1b-430f-b3e2-c6528fec5842"
+                    "srno": 3,
+                    "name": "PASTA (VEG)",
+                    "price": 200
                 },
                 {
-                    "title": "30ML BLENDER'S PRIDE",
-                    "description": "",
-                    "price": 50,
-                    "id": "863fc8d6-936a-47e3-b126-7bd78a2a1b24"
+                    "srno": 4,
+                    "name": "PASTA (VEG)",
+                    "price": 200
                 },
                 {
-                    "title": "60ML BLENDER'S PRIDE",
-                    "description": "",
-                    "price": 90,
-                    "id": "033a4b4c-f0a9-4427-82a9-8eeb703115e5"
+                    "srno": 5,
+                    "name": "PASTA (VEG)",
+                    "price": 200
                 },
                 {
-                    "title": "90ML BLENDER'S PRIDE",
-                    "description": "",
-                    "price": 130,
-                    "id": "c71201b5-9d28-4700-94d9-c83510602ed6"
+                    "srno": 6,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250
                 },
                 {
-                    "title": "30ML ANTIQUITY",
-                    "description": "",
-                    "price": 50,
-                    "id": "036c879d-a8c9-42a3-b537-6bf9f85b9517"
+                    "srno": 7,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250
                 },
                 {
-                    "title": "60ML ANTIQUITY",
-                    "description": "",
-                    "price": 90,
-                    "id": "b6996d74-a591-451f-8c5f-7d65097e6381"
+                    "srno": 8,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250
                 },
                 {
-                    "title": "90ML ANTIQUITY",
-                    "description": "",
-                    "price": 130,
-                    "id": "56cbb71d-c969-4f11-a215-c8294ed5fa63"
+                    "srno": 9,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280
                 },
                 {
-                    "title": "30ML BLENDER'S PRIDE RESERVE",
-                    "description": "",
-                    "price": 60,
-                    "id": "59b7a1d3-0541-470b-9046-f79f3e5c7cd3"
+                    "srno": 10,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280
                 },
                 {
-                    "title": "60ML BLENDER'S PRIDE RESERVE",
-                    "description": "",
-                    "price": 100,
-                    "id": "4f68b56a-945e-4774-8f65-eb0435f2cda7"
+                    "srno": 11,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280
+                }
+            ]
+        }
+    },
+    {
+        "category": "Sandiwich & Burger",
+        "subcategories": {
+            "Sandwich": [
+                {
+                    "srno": 1,
+                    "name": "VEG SANDWICH",
+                    "price": 140
                 },
                 {
-                    "title": "90ML BLENDER'S PRIDE RESERVE",
-                    "description": "",
-                    "price": 150,
-                    "id": "3514d515-d0c3-4a7d-bfec-36ad7b656024"
+                    "srno": 2,
+                    "name": "CHICKEN CLUB SANDWICH",
+                    "price": 180
                 },
                 {
-                    "title": "30ML OAKSMITH GOLD",
-                    "description": "",
-                    "price": 50,
-                    "id": "9b8e956d-a76e-439b-ae59-8c3a05eb5591"
+                    "srno": 3,
+                    "name": "CHICKEN GRILLED SANDWICH",
+                    "price": 170
                 },
                 {
-                    "title": "60ML OAKSMITH GOLD",
-                    "description": "",
-                    "price": 80,
-                    "id": "4ddbfc8e-b982-444c-b648-d42fd310e234"
-                },
-                {
-                    "title": "90ML OAKSMITH GOLD",
-                    "description": "",
-                    "price": 130,
-                    "id": "da7b5ca2-c244-4736-b65c-775a3f48e8e6"
-                },
-                {
-                    "title": "30ML OAKSMITH SILVER",
-                    "description": "",
-                    "price": 30,
-                    "id": "ce18adc4-1052-445c-8d19-7858193ff423"
-                },
-                {
-                    "title": "60ML OAKSMITH SILVER",
-                    "description": "",
-                    "price": 50,
-                    "id": "4430c953-4af7-4eb7-9408-7cf7e67b563e"
-                },
-                {
-                    "title": "90ML OAKSMITH SILVER",
-                    "description": "",
-                    "price": 70,
-                    "id": "b7fa8aa8-72a1-42a4-8154-dfbe8e1e2d9a"
+                    "srno": 4,
+                    "name": "EGG SANDWICH",
+                    "price": 140
                 }
             ],
-            "Scotch Whiskey": [
+            "Burger": [
                 {
-                    "title": "30ML VAT69",
-                    "description": "",
-                    "price": 70,
-                    "id": "8c6f4a95-086c-4af7-b31a-1a24a4606f90"
+                    "srno": 1,
+                    "name": "VEG BURGER",
+                    "price": 190
                 },
                 {
-                    "title": "60ML VAT69",
-                    "description": "",
-                    "price": 130,
-                    "id": "f8f02be3-d21e-4796-aa05-2f43b45cf575"
+                    "srno": 2,
+                    "name": "PANEER BURGER",
+                    "price": 220
                 },
                 {
-                    "title": "90ML VAT69",
-                    "description": "",
-                    "price": 180,
-                    "id": "30853fbc-ead0-40ec-ba38-45850e6b4ece"
+                    "srno": 3,
+                    "name": "CHICKEN BURGER",
+                    "price": 240
                 },
                 {
-                    "title": "30ML DEWARS",
-                    "description": "",
-                    "price": 80,
-                    "id": "06fa3d4a-53a3-4e95-8b18-2d8624e43d1a"
+                    "srno": 4,
+                    "name": "CHICKEN SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 170
                 },
                 {
-                    "title": "60ML DEWARS",
-                    "description": "",
-                    "price": 140,
-                    "id": "ad1e472f-7f62-4531-9e3e-8f57e17f743e"
+                    "srno": 5,
+                    "name": "FALAFEL SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 140
                 },
                 {
-                    "title": "90ML DEWARS",
-                    "description": "",
-                    "price": 220,
-                    "id": "11e3b56a-179e-468a-b15c-2defde635771"
+                    "srno": 6,
+                    "name": "PANEER SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 160
+                }
+            ]
+        }
+    },
+    {
+        "category": "Goan & Seafood",
+        "subcategories": {
+            "Gravy": [
+                {
+                    "srno": 1,
+                    "name": "CHICKEN CAFREAL",
+                    "price": 240
                 },
                 {
-                    "title": "30ML 100 PIPERS",
-                    "description": "",
-                    "price": 90,
-                    "id": "c8f19312-44ec-4f3e-8071-7bdfe390f14a"
-                },
-                {
-                    "title": "60ML 100 PIPERS",
-                    "description": "",
-                    "price": 150,
-                    "id": "5a0c9e13-0f91-4d15-a07a-46e5c461c697"
-                },
-                {
-                    "title": "90ML 100 PIPERS",
-                    "description": "",
-                    "price": 230,
-                    "id": "ec02e748-69ec-4ed3-aec8-73cbb2020679"
-                },
-                {
-                    "title": "30ML BLACK DOG",
-                    "description": "",
-                    "price": 90,
-                    "id": "b6567a2b-dc7c-4c1e-8733-290b6bfe318a"
-                },
-                {
-                    "title": "60ML BLACK DOG",
-                    "description": "",
-                    "price": 150,
-                    "id": "7f81f553-f079-4f4d-aae8-15b97d49c184"
-                },
-                {
-                    "title": "90ML BLACK DOG",
-                    "description": "",
-                    "price": 230,
-                    "id": "bcb254b6-e505-4dda-96f2-a77c8cb47809"
-                },
-                {
-                    "title": "30ML RED LABEL",
-                    "description": "",
-                    "price": 100,
-                    "id": "0a3e107d-a83d-46c6-87a1-1b5e6872c781"
-                },
-                {
-                    "title": "60ML RED LABEL",
-                    "description": "",
-                    "price": 190,
-                    "id": "2e942e4c-4b60-4653-bc64-09212d3bbeb1"
-                },
-                {
-                    "title": "90ML RED LABEL",
-                    "description": "",
-                    "price": 280,
-                    "id": "0a49078c-ba89-4fca-859d-048bcd11b5be"
-                },
-                {
-                    "title": "30ML BLACK & WHITE",
-                    "description": "",
-                    "price": 90,
-                    "id": "2ec91bd2-eba7-4fd8-b44c-c8543574a107"
-                },
-                {
-                    "title": "60ML BLACK & WHITE",
-                    "description": "",
-                    "price": 160,
-                    "id": "3bcd87db-3e53-437f-b412-483fdaf71bf3"
-                },
-                {
-                    "title": "90ML BLACK & WHITE",
-                    "description": "",
-                    "price": 250,
-                    "id": "741428a7-246c-4a35-bec9-79dc6ba0cd19"
-                },
-                {
-                    "title": "30ML TEACHER'S HIGHLAND",
-                    "description": "",
-                    "price": 90,
-                    "id": "9074e958-8b92-4ba7-b484-88cad926b2b3"
-                },
-                {
-                    "title": "60ML TEACHER'S HIGHLAND",
-                    "description": "",
-                    "price": 160,
-                    "id": "c50842e1-6149-43df-a047-85656c43cb0b"
-                },
-                {
-                    "title": "90ML TEACHER'S HIGHLAND",
-                    "description": "",
-                    "price": 240,
-                    "id": "31d4daae-c8c2-4dd5-9913-72ee36711041"
+                    "srno": 2,
+                    "name": "CHICKEN XACUTI",
+                    "price": 220
                 }
             ],
-            "Brandy": [
+            "Rice": [
                 {
-                    "title": "30ML HONEY BEE",
-                    "description": "",
-                    "price": 30,
-                    "id": "6900b36b-de9c-4025-aa0a-cc7e219f165d"
-                },
-                {
-                    "title": "60ML HONEY BEE",
-                    "description": "",
-                    "price": 40,
-                    "id": "7a69c8ef-0310-46a5-996a-18ec652369f5"
-                },
-                {
-                    "title": "90ML HONEY BEE",
-                    "description": "",
-                    "price": 60,
-                    "id": "785f2951-9607-4a7f-b8d2-5803727c7e5d"
-                },
-                {
-                    "title": "30ML MENSION HOUSE",
-                    "description": "",
-                    "price": 30,
-                    "id": "59113720-33da-496c-abf9-63ff87353d6e"
-                },
-                {
-                    "title": "60ML MENSION HOUSE",
-                    "description": "",
-                    "price": 50,
-                    "id": "ba63ac46-fad1-435a-842f-8a12a71e1db7"
-                },
-                {
-                    "title": "90ML MENSION HOUSE",
-                    "description": "",
-                    "price": 70,
-                    "id": "8bbd693f-12bb-4cdb-9790-a96cf499bdfe"
+                    "srno": 1,
+                    "name": "PRAWNS PEAS PULAV",
+                    "price": 280
                 }
             ],
-            "Regular Vodka": [
+            "Curry": [
                 {
-                    "title": "30ML MAGIC MOMENTS",
-                    "description": "",
-                    "price": 30,
-                    "id": "1c8c5bba-8472-486c-87fc-7be4af003b30"
+                    "srno": 1,
+                    "name": "PRAWNS CURRY",
+                    "price": 250
                 },
                 {
-                    "title": "60ML MAGIC MOMENTS",
-                    "description": "",
-                    "price": 50,
-                    "id": "27ddfdc4-8f10-44bf-b8a4-e3c0b1c35523"
+                    "srno": 2,
+                    "name": "KINGFISH CURRY",
+                    "price": 280
                 },
                 {
-                    "title": "90ML MAGIC MOMENTS",
-                    "description": "",
-                    "price": 70,
-                    "id": "d4e04eb6-4d63-463a-a40d-726622588371"
+                    "srno": 3,
+                    "name": "CHONAK CURRY",
+                    "price": 280
                 },
                 {
-                    "title": "30ML ROMANOV",
-                    "description": "",
-                    "price": 30,
-                    "id": "97297c1f-a8f9-4309-9064-78452d28d11b"
+                    "srno": 4,
+                    "name": "TARLE CURRY",
+                    "price": 150
                 },
                 {
-                    "title": "60ML ROMANOV",
-                    "description": "",
-                    "price": 50,
-                    "id": "d769f1c7-1760-46e1-b897-458f791c967d"
+                    "srno": 5,
+                    "name": "BANGDA CURRY",
+                    "price": 150
                 },
                 {
-                    "title": "90ML ROMANOV",
-                    "description": "",
-                    "price": 60,
-                    "id": "79df7f44-ecd9-4d98-9625-16812a372f0a"
-                },
-                {
-                    "title": "30ML SMIRNOFF",
-                    "description": "",
-                    "price": 40,
-                    "id": "3461f321-b252-4ef2-b4b7-8bdfd26bb915"
-                },
-                {
-                    "title": "60ML SMIRNOFF",
-                    "description": "",
-                    "price": 70,
-                    "id": "4b3d580e-c198-40ff-97c1-dc3dd3a3411b"
-                },
-                {
-                    "title": "90ML SMIRNOFF",
-                    "description": "",
-                    "price": 100,
-                    "id": "2723f7f7-c6f0-4d64-a54a-7323066f4878"
+                    "srno": 6,
+                    "name": "VERLI CURRY",
+                    "price": 160
                 }
             ],
-            "Rum": [
+            "Starter": [
                 {
-                    "title": "30ML OLD MONK'S",
-                    "description": "",
-                    "price": 30,
-                    "id": "c5ab6050-9f2a-4c4b-938c-3ed2d720b721"
+                    "srno": 1,
+                    "name": "PRAWNS (RAWA FRY)",
+                    "price": "APS"
                 },
                 {
-                    "title": "60ML OLD MONK'S",
-                    "description": "",
-                    "price": 40,
-                    "id": "855f5195-2c6b-48c7-b169-311dbc1d59d4"
+                    "srno": 2,
+                    "name": "PRAWNS (MASALA FRY)",
+                    "price": 350
                 },
                 {
-                    "title": "90ML OLD MONK'S",
-                    "description": "",
-                    "price": 60,
-                    "id": "4f24df10-50ed-43c8-95e7-79867dd4e341"
+                    "srno": 3,
+                    "name": "KINGFISH (RAWA FRY)",
+                    "price": 350
                 },
                 {
-                    "title": "30ML BACARDI LEMON",
-                    "description": "",
-                    "price": 50,
-                    "id": "d7c27ce1-4979-4f5e-9827-ac4ff5fa009c"
+                    "srno": 4,
+                    "name": "KINGFISH (MASALA FRY)",
+                    "price": 350
                 },
                 {
-                    "title": "60ML BACARDI LEMON",
-                    "description": "",
-                    "price": 80,
-                    "id": "c159df55-dddc-47e7-8e11-799b8832c2eb"
+                    "srno": 5,
+                    "name": "LEPO (RAWA FRY)",
+                    "price": 190
                 },
                 {
-                    "title": "90ML BACARDI LEMON",
-                    "description": "",
-                    "price": 130,
-                    "id": "2cfdfcd8-268a-4211-9c8d-271d6c05d36f"
+                    "srno": 6,
+                    "name": "LEPO (MASALA FRY)",
+                    "price": 190
                 },
                 {
-                    "title": "30ML BACARDI WHITE RUM",
-                    "description": "",
-                    "price": 50,
-                    "id": "9703b4c4-419c-4e74-85a9-9116cf7ac70a"
+                    "srno": 7,
+                    "name": "MACKEREL (RAWA FRY)",
+                    "price": 180
                 },
                 {
-                    "title": "60ML BACARDI WHITE RUM",
-                    "description": "",
-                    "price": 80,
-                    "id": "88c89bc0-c196-4726-bbd1-cff537319bf4"
+                    "srno": 8,
+                    "name": "MACKEREL (MASALA FRY)",
+                    "price": 180
                 },
                 {
-                    "title": "90ML BACARDI WHITE RUM",
-                    "description": "",
-                    "price": 130,
-                    "id": "e470826b-c9c9-4c6d-9635-dbddfd6ba947"
+                    "srno": 9,
+                    "name": "MACKEREL (RECHEADO)",
+                    "price": 180
                 },
                 {
-                    "title": "30ML BACARDI BLACK RUM",
-                    "description": "",
-                    "price": 50,
-                    "id": "0d56c709-bf65-4733-97ef-3621c94593e5"
+                    "srno": 10,
+                    "name": "CHONAK (RAWA FRY)",
+                    "price": 350
                 },
                 {
-                    "title": "60ML BACARDI BLACK RUM",
-                    "description": "",
-                    "price": 80,
-                    "id": "f10ccc07-239b-4510-8a3b-7c3b6315d293"
+                    "srno": 11,
+                    "name": "CHONAK (MASALA FRY)",
+                    "price": 350
                 },
                 {
-                    "title": "90ML BACARDI BLACK RUM",
-                    "description": "",
-                    "price": 130,
-                    "id": "05d0ee2e-2194-48c5-8eef-38ff5298de55"
+                    "srno": 12,
+                    "name": "SILVER FISH (RAWA FRY)",
+                    "price": 160
+                },
+                {
+                    "srno": 13,
+                    "name": "SILVER FISH (MASALA FRY)",
+                    "price": 160
+                },
+                {
+                    "srno": 14,
+                    "name": "SQUID (RAWA FRY)",
+                    "price": 290
+                },
+                {
+                    "srno": 15,
+                    "name": "SQUID (MASALA FRY)",
+                    "price": 290
+                },
+                {
+                    "srno": 16,
+                    "name": "MODSO (RAWA FRY)",
+                    "price": 350
+                },
+                {
+                    "srno": 17,
+                    "name": "MODSO (MASALA FRY)",
+                    "price": 350
+                },
+                {
+                    "srno": 18,
+                    "name": "CHILLY CHICKEN FRY",
+                    "price": 215
+                },
+                {
+                    "srno": 19,
+                    "name": "PRAWNS CHILLY FRY",
+                    "price": 300
+                }
+            ]
+        }
+    },
+    {
+        "category": "Indian",
+        "subcategories": {
+            "Gravy": [
+                {
+                    "srno": 1,
+                    "name": "VEG KOLHAPURI",
+                    "price": 195
+                },
+                {
+                    "srno": 2,
+                    "name": "VEG KADAI",
+                    "price": 195
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG HANDI",
+                    "price": 195
+                },
+                {
+                    "srno": 4,
+                    "name": "MUTTER MUSHROOM MASALA",
+                    "price": 200
+                },
+                {
+                    "srno": 5,
+                    "name": "PANEER KADAI",
+                    "price": 200
+                },
+                {
+                    "srno": 6,
+                    "name": "PANEER BUTTER MASALA",
+                    "price": 200
+                },
+                {
+                    "srno": 7,
+                    "name": "PANEER MASALA",
+                    "price": 200
+                },
+                {
+                    "srno": 8,
+                    "name": "PANEER TIKKA MASALA",
+                    "price": 260
+                },
+                {
+                    "srno": 9,
+                    "name": "MATAR PANEER",
+                    "price": 200
+                },
+                {
+                    "srno": 10,
+                    "name": "PALAK PANEER",
+                    "price": 200
+                },
+                {
+                    "srno": 11,
+                    "name": "DAL TADKA",
+                    "price": 140
+                },
+                {
+                    "srno": 12,
+                    "name": "DAL FRY",
+                    "price": 140
+                },
+                {
+                    "srno": 13,
+                    "name": "CHEFS SPECIAL VEG GRAVY ",
+                    "price": 220
+                },
+                {
+                    "srno": 14,
+                    "name": "BUTTER CHICKEN",
+                    "price": 230
+                },
+                {
+                    "srno": 15,
+                    "name": "CHICKEN TIKKA MASALA",
+                    "price": 300
+                },
+                {
+                    "srno": 16,
+                    "name": "CHICKEN KORMA",
+                    "price": 250
+                },
+                {
+                    "srno": 17,
+                    "name": "CHEFS SPECIAL NON-VEG GRAVY",
+                    "price": 300
+                },
+                {
+                    "srno": 18,
+                    "name": "VEG MAKHANI",
+                    "price": 195
+                },
+                {
+                    "srno": 19,
+                    "name": "VEG HYDERABADI",
+                    "price": 195
+                },
+                {
+                    "srno": 20,
+                    "name": "CHICKEN KOLHAPURI",
+                    "price": 230
+                },
+                {
+                    "srno": 21,
+                    "name": "CHICKEN HANDI",
+                    "price": 230
+                },
+                {
+                    "srno": 22,
+                    "name": "CHICKEN KADAI",
+                    "price": 230
+                },
+                {
+                    "srno": 23,
+                    "name": "CHICKEN MASALA",
+                    "price": 230
+                },
+                {
+                    "srno": 24,
+                    "name": "MUTTON MASALA",
+                    "price": 350
+                },
+                {
+                    "srno": 25,
+                    "name": "MUTTON KADAI",
+                    "price": 350
+                },
+                {
+                    "srno": 26,
+                    "name": "MUTTON HANDI",
+                    "price": 350
                 }
             ],
-            "Cocktail": [
+            "Rice": [
                 {
-                    "title": "MARGARITA",
-                    "description": "",
-                    "price": 180,
-                    "id": "1f054a45-5d99-4814-b8a9-0a3dd9cf3cca"
+                    "srno": 1,
+                    "name": "STEAMED RICE",
+                    "price": 90
                 },
                 {
-                    "title": "GIMLET",
-                    "description": "",
-                    "price": 180,
-                    "id": "41957c31-13df-41f2-b285-d9f818a5fd3e"
+                    "srno": 10,
+                    "name": "VEG PULAO",
+                    "price": 160
                 },
                 {
-                    "title": "VODKA COLIN",
-                    "description": "",
-                    "price": 180,
-                    "id": "b358bc6c-1d83-41b4-8428-92f9bc14feea"
-                },
-                {
-                    "title": "CHEF'S BHOJAN SPECIAL COCKTAIL",
-                    "description": "",
-                    "price": 250,
-                    "id": "87d7744a-60af-4983-9b7d-9be639471e62"
+                    "srno": 6,
+                    "name": "JIRA RICE",
+                    "price": 120
                 }
             ],
-            "Mocktail": [
+            "Biryani": [
                 {
-                    "title": "LIME MOJITO",
-                    "description": "",
-                    "price": 100,
-                    "id": "e5ba76b4-8c9f-4715-afcf-5f5ec9ea6078"
+                    "srno": 1,
+                    "name": "VEG BIRYANI",
+                    "price": 170
                 },
                 {
-                    "title": "ORANGE MOJITO",
-                    "description": "",
-                    "price": 110,
-                    "id": "90d230f1-77d3-441f-aaad-163a102ea9aa"
+                    "srno": 2,
+                    "name": "EGG BIRYANI",
+                    "price": 180
                 },
                 {
-                    "title": "BLUE LAGOON",
-                    "description": "",
-                    "price": 100,
-                    "id": "aadf0ccc-7b7c-4aec-b8be-00acff080ab2"
+                    "srno": 3,
+                    "name": "PRAWNS BIRYANI",
+                    "price": 350
                 },
                 {
-                    "title": "FRUIT PUNCH",
-                    "description": "",
-                    "price": 150,
-                    "id": "d45c7e21-ad89-408e-bfa5-22a140f0c06b"
+                    "srno": 4,
+                    "name": "CHICKEN BIRYANI",
+                    "price": 260
                 },
                 {
-                    "title": "VIRGIN PINA-COLADA",
-                    "description": "",
-                    "price": 150,
-                    "id": "569d285d-a6a8-4176-bc3b-3f2b71a1e08a"
+                    "srno": 5,
+                    "name": "MUTTON BIRYANI",
+                    "price": 380
+                }
+            ]
+        }
+    },
+    {
+        "category": "Thali",
+        "subcategories": {
+            "Thali": [
+                {
+                    "srno": 1,
+                    "name": "SPECIAL FISH THALI",
+                    "price": 250
                 },
                 {
-                    "title": "GINGER PUNCH SODA",
-                    "description": "",
-                    "price": 60,
-                    "id": "a65a5c08-4833-4bc9-b891-a6a5aad22976"
+                    "srno": 2,
+                    "name": "FISH THALI",
+                    "price": 150
                 },
                 {
-                    "title": "CHEF'S BHOJAN SPECIAL MOCKTAIL",
-                    "description": "",
-                    "price": 160,
-                    "id": "b1f19669-dd9f-4e18-b23e-2adf6b809dde"
+                    "srno": 3,
+                    "name": "VEG THALI",
+                    "price": 140
+                }
+            ]
+        }
+    },
+    {
+        "category": "Alcoholic Drinks",
+        "subcategories": {
+            "REGULAR WHISKEY": [
+                {
+                    "srno": 1,
+                    "name": "30ML ROYAL STAG",
+                    "price": 30
                 },
                 {
-                    "title": "POMEGRANETES REFRESHMENT",
-                    "description": "",
-                    "price": 150,
-                    "id": "aed8d6f2-7304-432e-8706-f1926e4b1a65"
+                    "srno": 2,
+                    "name": "60ML ROYAL STAG",
+                    "price": 50
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML ROYAL STAG",
+                    "price": 70
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML MC DOWELL NO.1",
+                    "price": 30
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML MC DOWELL NO.1",
+                    "price": 50
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML MC DOWELL NO.1",
+                    "price": 70
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML IMPERIAL BLUE",
+                    "price": 30
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML IMPERIAL BLUE",
+                    "price": 50
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML IMPERIAL BLUE",
+                    "price": 70
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML ROYAL CHALLENGE",
+                    "price": 30
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML ROYAL CHALLENGE",
+                    "price": 50
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML ROYAL CHALLENGE",
+                    "price": 70
+                },
+                {
+                    "srno": 13,
+                    "name": "30ML MC DOWELL NO.1 DIET",
+                    "price": 30
+                },
+                {
+                    "srno": 14,
+                    "name": "60ML MC DOWELL NO.1 DIET",
+                    "price": 50
+                },
+                {
+                    "srno": 15,
+                    "name": "90ML MC DOWELL NO.1 DIET",
+                    "price": 70
                 }
             ],
-            "Beer": [
+            "PREMIUM WHISKEY": [
                 {
-                    "title": "KINGFISHER PREMIUM PINT",
-                    "description": "",
-                    "price": 80,
-                    "id": "4c58f71f-a769-4bac-af9a-307b846237da"
+                    "srno": 1,
+                    "name": "30ML SIGNATURE",
+                    "price": 50
                 },
                 {
-                    "title": "KINGFISHER STRONG PINT",
-                    "description": "",
-                    "price": 90,
-                    "id": "6a346aa2-cea5-4072-914e-15b4ed45ea1c"
+                    "srno": 2,
+                    "name": "60ML SIGNATURE",
+                    "price": 90
                 },
                 {
-                    "title": "KINGFISHER PREMIUM BIG",
-                    "description": "",
-                    "price": 150,
-                    "id": "493ad6c8-341c-4c90-bb19-b7144dfdc95f"
+                    "srno": 3,
+                    "name": "90ML SIGNATURE",
+                    "price": 130
                 },
                 {
-                    "title": "KINGFISHER STRONG BIG",
-                    "description": "",
-                    "price": 150,
-                    "id": "bb57d7a9-1e11-4816-bed8-76d969d36af7"
+                    "srno": 4,
+                    "name": "30ML BLENDER'S PRIDE",
+                    "price": 50
                 },
                 {
-                    "title": "KINGFISHER PREMIUM CAN",
-                    "description": "",
-                    "price": 120,
-                    "id": "f9caaedb-f5b4-45b9-a2c6-eb3614b0ed21"
+                    "srno": 5,
+                    "name": "60ML BLENDER'S PRIDE",
+                    "price": 90
                 },
                 {
-                    "title": "KINGFISHER STRONG CAN",
-                    "description": "",
-                    "price": 130,
-                    "id": "7cbb65a5-44f9-4877-ab42-09248430626e"
+                    "srno": 6,
+                    "name": "90ML BLENDER'S PRIDE",
+                    "price": 130
                 },
                 {
-                    "title": "BUDWISER BIG",
-                    "description": "",
-                    "price": 160,
-                    "id": "8a82d5c9-cd88-4d9c-bbed-e24f9c65fbce"
+                    "srno": 7,
+                    "name": "30ML ANTIQUITY",
+                    "price": 50
                 },
                 {
-                    "title": "BUDWISER PINT",
-                    "description": "",
-                    "price": 100,
-                    "id": "9b7a97ea-3caa-4926-ad69-57dc4adc43c7"
+                    "srno": 8,
+                    "name": "60ML ANTIQUITY",
+                    "price": 90
                 },
                 {
-                    "title": "CARLSBERG BIG",
-                    "description": "",
-                    "price": 160,
-                    "id": "dc378e8b-9a75-47ac-bdf3-20df27bdfbde"
+                    "srno": 9,
+                    "name": "90ML ANTIQUITY",
+                    "price": 130
                 },
                 {
-                    "title": "CARLSBERG PINT",
-                    "description": "",
-                    "price": 100,
-                    "id": "0997a12a-afe9-4f27-b8d6-6f21134c13a5"
+                    "srno": 10,
+                    "name": "30ML BLENDER'S PRIDE RESERVE",
+                    "price": 60
                 },
                 {
-                    "title": "CARLSBERG CAN",
-                    "description": "",
-                    "price": 140,
-                    "id": "3b07a764-ebdf-451a-91ac-5a6588a1cf71"
+                    "srno": 11,
+                    "name": "60ML BLENDER'S PRIDE RESERVE",
+                    "price": 100
                 },
                 {
-                    "title": "HEINEKEN BIG",
-                    "description": "",
-                    "price": 150,
-                    "id": "51d7c257-271f-456c-9660-23d1ffcd0080"
+                    "srno": 12,
+                    "name": "90ML BLENDER'S PRIDE RESERVE",
+                    "price": 150
                 },
                 {
-                    "title": "HEINEKEN PINT",
-                    "description": "",
-                    "price": 100,
-                    "id": "ec196e01-d4ba-4025-a509-b9628bd37cae"
+                    "srno": 4,
+                    "name": "30ML OAKSMITH GOLD",
+                    "price": 50
                 },
                 {
-                    "title": "HEINEKEN CAN",
-                    "description": "",
-                    "price": 130,
-                    "id": "7e683226-9be4-4e3b-ad50-39eff11853f5"
+                    "srno": 5,
+                    "name": "60ML OAKSMITH GOLD",
+                    "price": 80
                 },
                 {
-                    "title": "BREEZER",
-                    "description": "",
-                    "price": 130,
-                    "id": "7f658e7d-d919-438f-adee-9f781df157e8"
+                    "srno": 6,
+                    "name": "90ML OAKSMITH GOLD",
+                    "price": 130
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML OAKSMITH SILVER",
+                    "price": 30
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML OAKSMITH SILVER",
+                    "price": 50
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML OAKSMITH SILVER",
+                    "price": 70
                 }
             ],
-            "Beverages": [
+            "SCOTCH WHISKEY": [
                 {
-                    "title": "MINERAL WATER BIG",
-                    "description": "",
-                    "price": 20,
-                    "id": "0e9218e7-0e9b-4827-a40d-b632227e24ef"
+                    "srno": 1,
+                    "name": "30ML VAT69",
+                    "price": 70
                 },
                 {
-                    "title": "MINERAL WATER SMALL",
-                    "description": "",
-                    "price": 10,
-                    "id": "e9fac37f-1f92-4b76-9405-86f9b606a5a7"
+                    "srno": 2,
+                    "name": "60ML VAT69",
+                    "price": 130
                 },
                 {
-                    "title": "FRESH LIME SODA",
-                    "description": "",
-                    "price": 40,
-                    "id": "20bcea18-9093-4b77-af7f-09d127a9e786"
+                    "srno": 3,
+                    "name": "90ML VAT69",
+                    "price": 180
                 },
                 {
-                    "title": "ENERGY DRINK",
-                    "description": "",
-                    "price": 50,
-                    "id": "ff32329e-9fa9-499e-ba0f-e06f6a1076cb"
+                    "srno": 4,
+                    "name": "30ML DEWARS",
+                    "price": 80
                 },
                 {
-                    "title": "SOFT DRINK 200ML",
-                    "description": "",
-                    "price": 20,
-                    "id": "346ad469-c6d1-490c-ba31-b2f2005dbb9d"
+                    "srno": 5,
+                    "name": "60ML DEWARS",
+                    "price": 140
                 },
                 {
-                    "title": "KINLEY SODA PUNCH",
-                    "description": "",
-                    "price": 30,
-                    "id": "9ab3d0f9-771f-43dd-bcea-2946120caf4c"
+                    "srno": 6,
+                    "name": "90ML DEWARS",
+                    "price": 220
                 },
                 {
-                    "title": "SODA",
-                    "description": "",
-                    "price": 10,
-                    "id": "90fd3191-5ec7-4507-bb0f-1cefd321c222"
+                    "srno": 7,
+                    "name": "30ML 100 PIPERS",
+                    "price": 90
                 },
                 {
-                    "title": "SOFT DRINK 750ML",
-                    "description": "",
-                    "price": 50,
-                    "id": "fce14814-85fa-4ef2-bacd-e1273fae41e6"
+                    "srno": 8,
+                    "name": "60ML 100 PIPERS",
+                    "price": 150
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML 100 PIPERS",
+                    "price": 230
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML BLACK DOG",
+                    "price": 90
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML BLACK DOG",
+                    "price": 150
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML BLACK DOG",
+                    "price": 230
+                },
+                {
+                    "srno": 13,
+                    "name": "30ML RED LABLE",
+                    "price": 100
+                },
+                {
+                    "srno": 14,
+                    "name": "60ML RED LABLE",
+                    "price": 190
+                },
+                {
+                    "srno": 15,
+                    "name": "90ML RED LABLE",
+                    "price": 280
+                },
+                {
+                    "srno": 16,
+                    "name": "30ML BLACK & WHITE",
+                    "price": 90
+                },
+                {
+                    "srno": 17,
+                    "name": "60ML BLACK & WHITE",
+                    "price": 160
+                },
+                {
+                    "srno": 18,
+                    "name": "90ML BLACK & WHITE",
+                    "price": 250
+                },
+                {
+                    "srno": 19,
+                    "name": "30ML TEACHER'S HIGHLAND",
+                    "price": 90
+                },
+                {
+                    "srno": 20,
+                    "name": "60ML TEACHER'S HIGHLAND",
+                    "price": 160
+                },
+                {
+                    "srno": 21,
+                    "name": "90ML TEACHER'S HIGHLAND",
+                    "price": 240
                 }
             ],
-            "Local Alcohol": [
+            "BRANDY": [
                 {
-                    "title": "30ML URRAK",
-                    "description": "",
-                    "price": 15,
-                    "id": "59de3ec6-043c-4e63-a866-fbc01864da63"
+                    "srno": 1,
+                    "name": "30ML HONEY BEE",
+                    "price": 30
                 },
                 {
-                    "title": "60ML URRAK",
-                    "description": "",
-                    "price": 20,
-                    "id": "72932b59-d7e3-4f68-a167-088434b58711"
+                    "srno": 2,
+                    "name": "60ML HONEY BEE",
+                    "price": 40
                 },
                 {
-                    "title": "90ML URRAK",
-                    "description": "",
-                    "price": 30,
-                    "id": "52e5550a-d287-49de-8940-50bee7ecfc65"
+                    "srno": 3,
+                    "name": "90ML HONEY BEE",
+                    "price": 60
                 },
                 {
-                    "title": "30ML KAJU",
-                    "description": "",
-                    "price": 20,
-                    "id": "589563e5-af99-4c9b-b360-6040f2852be5"
+                    "srno": 4,
+                    "name": "30ML MENSION HOUSE",
+                    "price": 30
                 },
                 {
-                    "title": "60ML KAJU",
-                    "description": "",
-                    "price": 30,
-                    "id": "550e668e-d28d-472d-ad45-bbdc4dc98512"
+                    "srno": 5,
+                    "name": "60ML MENSION HOUSE",
+                    "price": 50
                 },
                 {
-                    "title": "90ML KAJU",
-                    "description": "",
-                    "price": 50,
-                    "id": "d32d4a45-08ba-4b13-891a-7e31c3698286"
+                    "srno": 6,
+                    "name": "90ML MENSION HOUSE",
+                    "price": 70
                 }
             ],
-            "Vodka": [
+            "REGULAR VODKA": [
                 {
-                    "title": "30ML ABSOLUTE VODKA",
-                    "description": "",
-                    "price": 150,
-                    "id": "8d104aad-d6d1-406c-bfe4-6ac475ed952f"
+                    "srno": 1,
+                    "name": "30ML MAGIC MOMENTS",
+                    "price": 30
                 },
                 {
-                    "title": "60ML ABSOLUTE VODKA",
-                    "description": "",
-                    "price": 250,
-                    "id": "8a9672ed-a0a5-4261-a41b-e892263c6700"
+                    "srno": 2,
+                    "name": "60ML MAGIC MOMENTS",
+                    "price": 50
                 },
                 {
-                    "title": "90ML ABSOLUTE VODKA",
-                    "description": "",
-                    "price": 400,
-                    "id": "6fd062cd-18e7-44d9-b46d-8ec3f0be4201"
+                    "srno": 3,
+                    "name": "90ML MAGIC MOMENTS",
+                    "price": 70
                 },
                 {
-                    "title": "30ML JIN",
-                    "description": "",
-                    "price": 60,
-                    "id": "f52fc540-a23a-4a83-888b-40abc2bca3e4"
+                    "srno": 4,
+                    "name": "30ML ROMANOV",
+                    "price": 30
                 },
                 {
-                    "title": "60ML JIN",
-                    "description": "",
-                    "price": 100,
-                    "id": "2e93b0f2-fa63-4729-ae6c-3a3cde4ce461"
+                    "srno": 5,
+                    "name": "60ML ROMANOV",
+                    "price": 50
                 },
                 {
-                    "title": "90ML JIN",
-                    "description": "",
-                    "price": 160,
-                    "id": "05a77e1f-88d0-42e5-92af-c1662b8f6376"
+                    "srno": 6,
+                    "name": "90ML ROMANOV",
+                    "price": 60
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML SMIRNOFF",
+                    "price": 40
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML SMIRNOFF",
+                    "price": 70
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML SMIRNOFF",
+                    "price": 100
+                }
+            ],
+            "RUM": [
+                {
+                    "srno": 1,
+                    "name": "30ML OLD MONK'S",
+                    "price": 30
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML OLD MONK'S",
+                    "price": 40
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML OLD MONK'S",
+                    "price": 60
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML BACARDI LEMON",
+                    "price": 50
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML BACARDI LEMON",
+                    "price": 80
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML BACARDI LEMON",
+                    "price": 130
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML BACARDI WHITE RUM",
+                    "price": 50
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML BACARDI WHITE RUM",
+                    "price": 80
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML BACARDI WHITE RUM",
+                    "price": 130
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML BACARDI BLACK RUM",
+                    "price": 50
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML BACARDI BLACK RUM",
+                    "price": 80
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML BACARDI BLACK RUM",
+                    "price": 130
+                }
+            ],
+            "COCKTAIL": [
+                {
+                    "srno": 1,
+                    "name": "MARGARITA ",
+                    "price": 180
+                },
+                {
+                    "srno": 2,
+                    "name": "GIMLET",
+                    "price": 180
+                },
+                {
+                    "srno": 3,
+                    "name": "VODKA COLIN",
+                    "price": 180
+                },
+                {
+                    "srno": 4,
+                    "name": "CHEF'S BHOJAN SPECIAL COCKTAIL",
+                    "price": 250
+                }
+            ],
+            "BEER": [
+                {
+                    "srno": 1,
+                    "name": "KINGFISHER PREMIUM PINT",
+                    "price": 80
+                },
+                {
+                    "srno": 2,
+                    "name": "KINGFISHER STRONG PINT",
+                    "price": 90
+                },
+                {
+                    "srno": 3,
+                    "name": "KINGFISHER PREMIUM BIG",
+                    "price": 150
+                },
+                {
+                    "srno": 4,
+                    "name": "KINGFISHER STRONG BIG",
+                    "price": 150
+                },
+                {
+                    "srno": 5,
+                    "name": "KINGFISHER PREMIUM CAN",
+                    "price": 120
+                },
+                {
+                    "srno": 6,
+                    "name": "KINGFISHER STRONG CAN",
+                    "price": 130
+                },
+                {
+                    "srno": 7,
+                    "name": "BUDWISER BIG",
+                    "price": 160
+                },
+                {
+                    "srno": 8,
+                    "name": "BUDWISER PINT",
+                    "price": 100
+                },
+                {
+                    "srno": 9,
+                    "name": "CARLSBERG BIG",
+                    "price": 160
+                },
+                {
+                    "srno": 10,
+                    "name": "CARLSBERG PINT",
+                    "price": 100
+                },
+                {
+                    "srno": 11,
+                    "name": "CARLSBERG CAN",
+                    "price": 140
+                },
+                {
+                    "srno": 12,
+                    "name": "HEINEKEN BIG",
+                    "price": 150
+                },
+                {
+                    "srno": 13,
+                    "name": "HEINEKEN PINT",
+                    "price": 100
+                },
+                {
+                    "srno": 14,
+                    "name": "HEINEKEN CAN",
+                    "price": 130
+                },
+                {
+                    "srno": 15,
+                    "name": "BREEZER",
+                    "price": 130
+                }
+            ],
+            "LOCAL ALCOHOL": [
+                {
+                    "srno": 1,
+                    "name": "30ML URRAK",
+                    "price": 15
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML URRAK",
+                    "price": 20
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML URRAK",
+                    "price": 30
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML KAJU",
+                    "price": 20
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML KAJU",
+                    "price": 30
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML KAJU",
+                    "price": 50
+                }
+            ],
+            "VODKA": [
+                {
+                    "srno": 1,
+                    "name": "30ML ABSOLUTE VODKA",
+                    "price": 150
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML ABSOLUTE VODKA",
+                    "price": 250
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML ABSOLUTE VODKA",
+                    "price": 400
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML JIN",
+                    "price": 100
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML JIN",
+                    "price": 160
+                }
+            ],
+            "VODKA ": [
+                {
+                    "srno": 1,
+                    "name": "30ML JIN",
+                    "price": 60
+                }
+            ]
+        }
+    },
+    {
+        "category": "Drinks",
+        "subcategories": {
+            "MOCKTAIL": [
+                {
+                    "srno": 1,
+                    "name": "LIME MOJITO",
+                    "price": 100
+                },
+                {
+                    "srno": 2,
+                    "name": "ORANGE MOJITO",
+                    "price": 110
+                },
+                {
+                    "srno": 3,
+                    "name": "BLUE LAGOON",
+                    "price": 100
+                },
+                {
+                    "srno": 4,
+                    "name": "FRUIT PUNCH",
+                    "price": 150
+                },
+                {
+                    "srno": 5,
+                    "name": "VIRGIN PINA-COLADA",
+                    "price": 150
+                },
+                {
+                    "srno": 6,
+                    "name": "GINGER PUNCH SODA",
+                    "price": 60
+                },
+                {
+                    "srno": 7,
+                    "name": "CHEF'S BHOJAN SPECIAL MOCKTAIL",
+                    "price": 160
+                },
+                {
+                    "srno": 8,
+                    "name": "POMEGRANETES REFRESHMENT",
+                    "price": 150
+                }
+            ],
+            "BEVERAGES": [
+                {
+                    "srno": 1,
+                    "name": "WATER BOTTLE SMALL",
+                    "price": 10
+                },
+                {
+                    "srno": 2,
+                    "name": "WATER BOTTLE BIG",
+                    "price": 20
+                },
+                {
+                    "srno": 3,
+                    "name": "PEPSI",
+                    "price": 20
+                },
+                {
+                    "srno": 4,
+                    "name": "THUMBS UP",
+                    "price": 20
+                },
+                {
+                    "srno": 5,
+                    "name": "COKE",
+                    "price": 20
+                },
+                {
+                    "srno": 6,
+                    "name": "7 UP",
+                    "price": 20
+                },
+                {
+                    "srno": 7,
+                    "name": "SPRITE",
+                    "price": 20
+                },
+                {
+                    "srno": 8,
+                    "name": "DEW",
+                    "price": 20
+                },
+                {
+                    "srno": 9,
+                    "name": "SLICE",
+                    "price": 20
+                },
+                {
+                    "srno": 10,
+                    "name": "LIMCA",
+                    "price": 20
+                },
+                {
+                    "srno": 11,
+                    "name": "MAZA",
+                    "price": 20
+                },
+                {
+                    "srno": 12,
+                    "name": "THUMBS UP 750ML",
+                    "price": 50
+                },
+                {
+                    "srno": 13,
+                    "name": "COKE 750ML ",
+                    "price": 50
+                },
+                {
+                    "srno": 14,
+                    "name": "SPRITE 750ML ",
+                    "price": 50
+                },
+                {
+                    "srno": 15,
+                    "name": "CLUB SODA 750ML",
+                    "price": 30
+                },
+                {
+                    "srno": 16,
+                    "name": "SODA",
+                    "price": 20
+                },
+                {
+                    "srno": 17,
+                    "name": "FRESH LIME SODA",
+                    "price": 40
                 }
             ]
         }
