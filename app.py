@@ -9,6 +9,7 @@ from flask_cors import CORS
 import os
 from bson import ObjectId
 import json
+from datetime import datetime
 from twilio.rest import Client
 
 
@@ -75,12 +76,29 @@ def select_outlet():
     else :
         return redirect(url_for('index'))
 
+def parse_date(date_str):
+    return datetime.strptime(date_str, '%d/%m/%Y, %H:%M:%S')
+
 @app.route('/ponda_orders')
 def ponda_orders():
     orders_cursor = CB_PONDA.find().sort('date_created', -1)
     orders = list(orders_cursor)
     
     for order in orders:
+        try:
+            order['date_created'] = parse_date(order['date_created'])
+        except Exception as e:
+            print(f"Error parsing date for order {order['orderId']}: {e}")
+            order['date_created'] = None
+
+    orders = [order for order in orders if order['date_created'] is not None]
+    
+    sorted_orders = sorted(orders, key=lambda x: x['date_created'], reverse=True)
+    
+    for order in sorted_orders:
+        order['date_created'] = order['date_created'].strftime('%d/%m/%Y, %H:%M:%S')
+    
+    for order in sorted_orders:
         order['_id'] = str(order['_id']) 
         items_list = []
         total_amount = 0
@@ -97,7 +115,7 @@ def ponda_orders():
         order['items_list'] = items_list
         order['total_amount'] = round(total_amount / 1.2, 2)
         
-    return render_template('ponda_orders.html', orders=orders)
+    return render_template('ponda_orders.html', orders=sorted_orders)
 
 @app.route('/margao_orders')
 def margao_orders():
@@ -105,6 +123,20 @@ def margao_orders():
     orders = list(orders_cursor)
     
     for order in orders:
+        try:
+            order['date_created'] = parse_date(order['date_created'])
+        except Exception as e:
+            print(f"Error parsing date for order {order['orderId']}: {e}")
+            order['date_created'] = None
+
+    orders = [order for order in orders if order['date_created'] is not None]
+    
+    sorted_orders = sorted(orders, key=lambda x: x['date_created'], reverse=True)
+    
+    for order in sorted_orders:
+        order['date_created'] = order['date_created'].strftime('%d/%m/%Y, %H:%M:%S')
+    
+    for order in sorted_orders:
         order['_id'] = str(order['_id'])
         items_list = []
         total_amount = 0
@@ -121,7 +153,7 @@ def margao_orders():
             order['items_list'] = items_list
             order['total_amount'] = round(total_amount / 1.2, 2)
         
-    return render_template('margao_orders.html', orders=orders)
+    return render_template('margao_orders.html', orders=sorted_orders)
 
 @app.route('/api/orders', methods=['POST', 'OPTIONS'])
 def save_form_data():
