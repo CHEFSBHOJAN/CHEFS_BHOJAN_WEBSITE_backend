@@ -30,7 +30,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='gevent', engineio_logger=True)
 
 client = MongoClient(
-    'mongodb+srv://crob0008:GYfLnhxdJgeiOTPO@chefsbhojan.oxsu9gm.mongodb.net/',
+    'mongodb+srv://ChefsBhojan:usX7ZS8kPz4Pv@cluster0.eikei2d.mongodb.net/',
     connectTimeoutMS=30000, 
     socketTimeoutMS=None)
 db = client['ORDERS']
