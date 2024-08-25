@@ -431,7 +431,7 @@ def Get_Margao_Status():
     status = MARGAO_STATUS.find_one({}, {'_id': 0, 'status': 1})
     if status:
         return jsonify({'status': status['status']})
-    return jsonify({'status': False})
+    return jsonify({'status': None})
 
 @app.route('/api/Update_Margao_Status', methods=['POST'])
 def Update_Margao_Status():
@@ -450,7 +450,7 @@ def Get_Ponda_Status():
     status = PONDA_STATUS.find_one({}, {'_id': 0, 'status': 1})
     if status:
         return jsonify({'status': status['status']})
-    return jsonify({'status': False})
+    return jsonify({'status': None})
 
 @app.route('/api/Update_Ponda_Status', methods=['POST'])
 def Update_Ponda_Status():
