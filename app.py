@@ -4,6 +4,7 @@ gevent.monkey.patch_all()
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_socketio import SocketIO
 import requests
+from threading import Thread
 from pymongo import MongoClient
 from flask_cors import CORS
 import os
@@ -192,6 +193,7 @@ def save_form_data():
                 }
                 result = CB_PONDA.insert_one(new_order)
                 new_order['_id'] = result.inserted_id
+                Thread(target=send_whatsapp_message, args=(new_order,)).start()
                 socketio.emit('new_order', {'outlet': 'Ponda', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
 
                 send_whatsapp_message(new_order)
@@ -219,7 +221,7 @@ def save_form_data():
                 new_order['_id'] = result.inserted_id
                 socketio.emit('new_order', {'outlet': 'Margao', 'order':  json.loads(json.dumps(new_order, cls=JSONEncoder))})
 
-                send_whatsapp_message(new_order)
+                # Thread(target=send_whatsapp_message, args=(new_order,)).start()
                 
                 return jsonify({'status': 'success', 'message': 'Form data saved successfully'}), 200
             else:
@@ -231,7 +233,7 @@ def save_form_data():
         return jsonify({'status': 'error', 'message': 'Invalid outlet selected'}), 400
 
 def send_whatsapp_message(order):
-    access_token = 'EAAFNtF4tqZA0BOZBQPQKhre2onFphjV6tKARnKIzGKkgftbDk7aWEjvx8WrhuTXX3TlkW6eUfi7WHLTbbaaYIHJxJ5nPdxR98xXsbIbhvXfvsQ4KWiLDvZB6wSpBeIUm039y0ZCvzDcle8HxdwZBFBm7sIpsJp5ecrs9kzsJh9JgsGOQS0kwVVAN2QhYPSvrVH3TguZB7UvyXJ8rRmsPQZD'
+    access_token = 'EAAFNtF4tqZA0BOy5DeelAgBKhF2WfgkbQ6UAJFgVfyio42FPCG0C5lZBpRjNOVjOHxZCZAzrjyBtQLs9vHN6cNJNIQPneoQn0jlRZAlYXODsYg48l3vbNLKRZBrWU1E1tXm23MMoFqFaqwBmWjPNcG3ZB5CZCZA6S4gN56EZButd1V4fcUm0kcBdZCL4E3za448bVlqbH8ll8F8PwTlW8PcSPwjGWeDVDXneH5AtV8ZD'
     phone_number_id = '323798344160879'
     recipient_phone_number = '919923388852'
     
