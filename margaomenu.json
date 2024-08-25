@@ -1,0 +1,680 @@
+[
+    {
+        "category": "Chinese",
+        "subcategory": {
+            "Soup": [
+                {
+                    "title": "VEG MANCHOW SOUP",
+                    "description": "CHINESE VEGETERIAN SOUP MADE WITH MIXED VEGETABLES, GARLIC, GINGER, SOYA SAUCE, GROUND PEPPER & FEW OTHER PANTRY INGREDIENTS, THIS SUPER FLAVORFUL MANCHOW SOUP IS SERVED WITH CRISPY FRIED NOODLES.",
+                    "price": 90,
+                    "id": "fc5d6b90-25df-4fb9-9974-5b9a089aa868"
+                },
+                {
+                    "title": "CHICKEN MANCHOW SOUP",
+                    "description": "CHINESE CHICKEN MANCHOW SOUP MADE WITH VEGGIES AND CHICKEN TOPPED WITH CRISPY FRIED NOODLES.",
+                    "price": 100,
+                    "id": "e7957558-aca9-49cb-98d8-8ad50fec941c"
+                },
+                {
+                    "title": "VEG SWEET CORN SOUP",
+                    "description": "INDO CHINESE STYLE SOUP MADE WITH MIXED VEGETABLES, SWEET CORN KERNELS, HERBS AND SPICES.",
+                    "price": 90,
+                    "id": "ea931f27-1b58-44d5-a1fa-b08c03ef91c3"
+                },
+                {
+                    "title": "CHICKEN SWEET CORN SOUP",
+                    "description": "LITTLE CHUNKS OF CHICKEN COOKED WITH SWEETCORN & STOCK.",
+                    "price": 110,
+                    "id": "f7ad7332-b644-4ca8-ada3-73f0722cfa0b"
+                },
+                {
+                    "title": "VEG HOT & SOUR SOUP",
+                    "description": "IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT.",
+                    "price": 90,
+                    "id": "2ec5e467-2c7a-46af-93d7-ea59183e0efb"
+                },
+                {
+                    "title": "CHICKEN HOT & SOUR SOUP",
+                    "description": "IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES, CHICKEN & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT.",
+                    "price": 100,
+                    "id": "a02c51d0-6512-4349-896f-6e04029795f2"
+                },
+                {
+                    "title": "VEG CLEAR SOUP",
+                    "description": "SOUP MADE BY SIMMERING VEGIES STOCK.",
+                    "price": 80,
+                    "id": "34740eac-b7c8-4bf8-8149-4209d8f31a09"
+                },
+                {
+                    "title": "CHICKEN CLEAR SOUP",
+                    "description": "SOUP MADE BY SIMMERING VEGIES & CHICKEN STOCK.",
+                    "price": 100,
+                    "id": "03916edb-d67e-43a7-be5d-6f2832506bac"
+                },
+                {
+                    "title": "SEA FOOD TOM YUM SOUP",
+                    "description": "TOM YUM SOUP IS SPICY THAI SOUP MADE WITH COCONUT CREAM.",
+                    "price": 150,
+                    "id": "54bf391f-1114-4b3b-b4e0-2c9577ce5e6b"
+                }
+            ],
+            "Starter": [
+                {
+                    "title": "CHICKEN 65",
+                    "description": "IT'S A BITE SIZE PIECES OF CHICKEN COATED IN SPICY MASALA MARINATED WITH CHILI POWDER, TURMERIC, GARAM MASALA POWDER, LEMON JUICE, GINGER, GARLIC, EGGS, RICE FLOUR THEN DEEP FRIED, SERVED WITH SCHEZWAN SAUCE.",
+                    "price": 215,
+                    "id": "dd58eaf8-1cb6-4ec0-8def-179857e53e44"
+                },
+                {
+                    "title": "CHICKEN CHILLY",
+                    "description": "BONELESS CHICKEN IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
+                    "price": 215,
+                    "id": "61782dd8-9f26-416c-97aa-1880ed7a65bd"
+                },
+                {
+                    "title": "CRISPY CHICKEN",
+                    "description": "SHREDDED CHICKEN BREAST BONELESS COATED WITH CORN STARCH, FLOUR & BAKING SODA, TOSSED WITH SCHEZWAN SAUCE & SEASONING.",
+                    "price": 225,
+                    "id": "c992a962-b5c9-4af0-9008-544493f379cc"
+                },
+                {
+                    "title": "CHICKEN LOLLYPOP",
+                    "description": "BATTER COATED DEEP FRIED CHICKEN WINGS CRISPY FRIED SERVED WITH SCHEZWAN SAUCE.",
+                    "price": 180,
+                    "id": "aecfd52c-d36d-4efb-8a89-fd87941049db"
+                },
+                {
+                    "title": "HONEY CHICKEN",
+                    "description": "THIS HONEY CHICKEN IS CRISPY PIECES OF CHICKEN BREAST THAT ARE FRIED TO GOLDEN BROWN PERFECTION, THEN TOSSED IN A SWEET AND SAVORY HONEY SAUCE.",
+                    "price": 240,
+                    "id": "2117bb52-0215-4a2c-a35d-813c9cb2197b"
+                },
+                {
+                    "title": "CHICKEN DRY FRY",
+                    "description": "DRY FRY IT'S SIMILAR TO CHICKEN PAKODA WITH BONE, MIXED WITH CHILI POWDER, LEMON JUICE, GARAM MASALA THEN DEEP FRIED, GARNISHED WITH CHUTNEY & CHOPPED CORIANDER.",
+                    "price": 220,
+                    "id": "f4ff794a-5ce5-4c58-bbb7-5d64f31e68f7"
+                },
+                {
+                    "title": "CHICKEN SPRING ROLL",
+                    "description": "PASTRY SHEETS ARE FILLED WITH VEGETABLE, CHICKEN & EGGS, THEN DEEP FRIED SERVED WITH SCHEZWAN SAUCE.",
+                    "price": 220,
+                    "id": "02869f8b-baa2-4a7a-a44b-dd3c862499b7"
+                },
+                {
+                    "title": "CHICKEN SALT & PEPPER",
+                    "description": "CRISPY SEASONED CHICKEN FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
+                    "price": 235,
+                    "id": "fd8b451a-9934-46ba-9454-df99c36bb7bb"
+                },
+                {
+                    "title": "CHICKEN MANCHURIAN DRY / GRAVY",
+                    "description": "BONELESS FRIED CHICKEN PAKODA SAUT\u00c3\u2030 WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY / GRAVY.",
+                    "price": 220,
+                    "id": "83827d4d-af1f-4c42-a3df-297f64b8cb0e"
+                },
+                {
+                    "title": "GOLDEN FRIED PRAWNS",
+                    "description": "GOLDEN FRIED PRAWNS IS THE PERFECT STARTER DISH WITH JUMBO PRAWNS COATED WITH CRISPY GOLDEN BATTER FRIED, SERVED WITH MAYO DIPPING.",
+                    "price": 325,
+                    "id": "75ac3a7a-420f-44de-8243-c34ec0ccf2a5"
+                },
+                {
+                    "title": "PRAWNS CHILLY DRY / GRAVY",
+                    "description": "PRAWNS IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
+                    "price": 300,
+                    "id": "2e7a05ee-07d4-494c-933c-9c3b6b6e4298"
+                },
+                {
+                    "title": "PANEER CHILLY DRY / GRAVY",
+                    "description": "PANEER IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
+                    "price": 195,
+                    "id": "c2e78868-ad09-4f7d-8e8f-cba22be4566f"
+                },
+                {
+                    "title": "PANEER MANCHURIAN",
+                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
+                    "price": 195,
+                    "id": "c1c3a932-84b8-4e1a-84c6-03bb0dc41edb"
+                },
+                {
+                    "title": "VEG CRISPY",
+                    "description": "VEG CRISPY IS BASICALLY BATTER FRIED VEGGIES LATER STIR FRIED IN SCHZEWAN SAUCE. CRISPY FRIED VEGETABLES",
+                    "price": 180,
+                    "id": "aec7533d-24a8-4c99-9fa4-bde521126f28"
+                },
+                {
+                    "title": "VEG SPRING ROLL",
+                    "description": "PASTRY SHEETS ARE FILLED WITH VEGETABLE, DEEP FRIED SERVED WITH SCHEZWAN SAUCE.",
+                    "price": 180,
+                    "id": "b411c8ed-85c2-4dba-82fc-739f1c700697"
+                },
+                {
+                    "title": "BABY CORN CHILLY DRY / GRAVY",
+                    "description": "CRISPY FRIED BABY CORN SAUT\u00c3\u2030 WITH ONION CAPSICUM, CHILLY & CHILI SAUCE, SERVED DRY / GRAVY.",
+                    "price": 190,
+                    "id": "7cb48670-a15d-4bf9-b757-a58452d78eea"
+                },
+                {
+                    "title": "HONEY SESAME POTATO",
+                    "description": "CRISPY CUBES FRIED POTATOES, TOSSED WITH HONEY AND SESAME SEEDS.",
+                    "price": 190,
+                    "id": "3a0d8f9d-750e-4013-9d7e-aae385da11b0"
+                },
+                {
+                    "title": "PANEER 65",
+                    "description": "PANEER CRISPY PAKODA SAUTED WITH INDIAN MIX MASALA LIKE CURRY LEAVES, MUSTARD SEEDS, CURD, CAPSICUM, ONION, SPICY & TANGY, SERVED IN DRY / GRAVY.",
+                    "price": 195,
+                    "id": "8a1a8064-c9eb-40b7-b8f9-eb40af3d8cbf"
+                },
+                {
+                    "title": "PANEER SALT & PEPPER",
+                    "description": "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY.",
+                    "price": 210,
+                    "id": "211d5898-368b-40e3-aabe-3b8929d0577b"
+                },
+                {
+                    "title": "VEG MANCHURIAN DRY / GRAVY",
+                    "description": "VEGIES PAKODA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY / GRAVY.",
+                    "price": 180,
+                    "id": "fc6f32ac-218b-4c69-aa78-57bcf94b3acf"
+                }
+            ],
+            "Mains": [
+                {
+                    "title": "CHICKEN FRIED RICE",
+                    "description": "STIR FRIED RICE WITH COOKED CHICKEN BREAST, EGG & VEGGIES.",
+                    "price": 160,
+                    "id": "ff9efdac-17ee-4314-8296-7334ae55fbb7"
+                },
+                {
+                    "title": "VEG FRIED RICE",
+                    "description": "STIR FRIED RICE WITH EGG & VEGGIES.",
+                    "price": 140,
+                    "id": "2e5050f8-ed01-4373-a2d5-d76a46bb1a93"
+                },
+                {
+                    "title": "CHICKEN HAKA NOODLES",
+                    "description": "NOODLES STIR FRIED WITH CHICKEN BREAST & VEGETABLES.",
+                    "price": 160,
+                    "id": "bd508d04-b927-4127-aa54-c44f878d68cf"
+                },
+                {
+                    "title": "VEG HAKA NOODLES",
+                    "description": "NOODLES STIR FRIED WITH EGG & VEGETABLES.",
+                    "price": 140,
+                    "id": "26e089be-abc1-4a5a-b507-2b5b1a8e27c7"
+                },
+                {
+                    "title": "CHICKEN MANCHURIAN",
+                    "description": "CRISPY FRIED CHICKEN PAKORA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED WITH FRIED RICE / NOODLES.",
+                    "price": 240,
+                    "id": "adf2e3f5-586d-40b8-a174-faf709fd0737"
+                },
+                {
+                    "title": "VEG MANCHURIAN",
+                    "description": "CRISPY FRIED VEGETABLE PAKORA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED WITH FRIED RICE / NOODLES.",
+                    "price": 190,
+                    "id": "f7d20e3f-dec5-4be9-8d9f-32e258715271"
+                },
+                {
+                    "title": "CHICKEN SWEET CORN",
+                    "description": "CHICKEN BREAST DICED & SAUTEED IN SWEET CORN SAUCE.",
+                    "price": 225,
+                    "id": "09d0e53b-a002-4f9c-b601-e8308a9b8567"
+                },
+                {
+                    "title": "CHICKEN CHILLY GRAVY",
+                    "description": "BONELESS CHICKEN IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES.",
+                    "price": 225,
+                    "id": "27971576-8365-4840-97a7-c384cfc980fd"
+                },
+                {
+                    "title": "CHICKEN GARLIC SAUCE",
+                    "description": "CHICKEN BREAST DICED & SAUTEED IN GARLIC SAUCE.",
+                    "price": 225,
+                    "id": "ee0a60ca-d677-40cc-9552-928961f887f9"
+                },
+                {
+                    "title": "CHICKEN BLACK PEPPER",
+                    "description": "CHICKEN BREAST DICED & SAUTEED IN BLACK PEPPER SAUCE.",
+                    "price": 225,
+                    "id": "85e50b9e-df0b-4e92-9560-16e2944f9860"
+                },
+                {
+                    "title": "CHICKEN WITH CASHEW NUTS",
+                    "description": "CHICKEN BREAST DICED & SAUTEED WITH CASHEW NUTS.",
+                    "price": 225,
+                    "id": "c9cff49b-5ad8-4ddb-9559-d5454db61fb0"
+                },
+                {
+                    "title": "CHICKEN WITH BROCOLLI",
+                    "description": "CHICKEN BREAST DICED & SAUTEED WITH BROCOLLI.",
+                    "price": 225,
+                    "id": "ad95de01-dc79-4e79-bbc9-c4c8e9f87074"
+                },
+                {
+                    "title": "VEG BLACK PEPPER",
+                    "description": "VEGETABLES STIR FRIED WITH BLACK PEPPER SAUCE.",
+                    "price": 170,
+                    "id": "9ad9fd57-f846-479e-bdf6-86f0a11115f7"
+                },
+                {
+                    "title": "VEG GARLIC SAUCE",
+                    "description": "VEGETABLES STIR FRIED WITH GARLIC SAUCE.",
+                    "price": 170,
+                    "id": "47542a29-59d3-4aa8-92a8-36deaac7e01c"
+                },
+                {
+                    "title": "VEG SWEET CORN",
+                    "description": "VEGETABLES STIR FRIED WITH SWEET CORN SAUCE.",
+                    "price": 170,
+                    "id": "e4b26261-bdf2-4d96-9fbe-6e46e79ea3e6"
+                },
+                {
+                    "title": "VEG CASHEW NUTS",
+                    "description": "VEGETABLES STIR FRIED WITH CASHEW NUTS.",
+                    "price": 170,
+                    "id": "9ef4d766-f544-46ae-9ae8-77d753bf48fb"
+                },
+                {
+                    "title": "VEG BROCOLLI",
+                    "description": "VEGETABLES STIR FRIED WITH BROCOLLI.",
+                    "price": 170,
+                    "id": "8a613ca7-809c-4fd4-aa6f-c77cc0a6727c"
+                },
+                {
+                    "title": "PRAWNS FRIED RICE",
+                    "description": "STIR FRIED RICE WITH COOKED PRAWNS, EGG & VEGGIES.",
+                    "price": 200,
+                    "id": "a1b38a83-da13-47d5-9a79-76d4c6790b43"
+                },
+                {
+                    "title": "PRAWNS HAKA NOODLES",
+                    "description": "NOODLES STIR FRIED WITH PRAWNS & VEGETABLES.",
+                    "price": 200,
+                    "id": "43937ab9-c135-48d0-9861-7737b223ac9f"
+                },
+                {
+                    "title": "VEG SCHEZWAN FRIED RICE",
+                    "description": "STIR FRIED RICE WITH VEGETABLES AND SCHEZWAN SAUCE.",
+                    "price": 160,
+                    "id": "9abda751-a29b-4a83-ae87-75901e906aa9"
+                },
+                {
+                    "title": "SCHEZWAN CHICKEN FRIED RICE",
+                    "description": "STIR FRIED RICE WITH CHICKEN AND SCHEZWAN SAUCE.",
+                    "price": 190,
+                    "id": "4353edcd-c41d-4466-af5a-290ca39b218e"
+                },
+                {
+                    "title": "EGG FRIED RICE",
+                    "description": "STIR FRIED RICE WITH EGG AND VEGGIES.",
+                    "price": 160,
+                    "id": "c4a14a65-e117-48aa-a70a-91e5b879ca20"
+                },
+                {
+                    "title": "SCHEZWAN EGG FRIED RICE",
+                    "description": "STIR FRIED RICE WITH EGG AND SCHEZWAN SAUCE.",
+                    "price": 170,
+                    "id": "4b029c40-c34b-40c3-a424-17187af146bb"
+                },
+                {
+                    "title": "MIXED FRIED RICE (NON VEG)",
+                    "description": "STIR FRIED RICE WITH CHICKEN, PRAWNS, AND VEGGIES.",
+                    "price": 250,
+                    "id": "363e3012-1023-477b-b4c4-e630ea9befb2"
+                },
+                {
+                    "title": "VEG SCHEZWAN NOODLES",
+                    "description": "STIR FRIED NOODLES WITH VEGETABLES AND SCHEZWAN SAUCE.",
+                    "price": 160,
+                    "id": "b24a93c6-365f-42b5-99b8-5d4129faa0b2"
+                },
+                {
+                    "title": "CHICKEN SCHEZWAN NOODLES",
+                    "description": "STIR FRIED NOODLES WITH CHICKEN AND SCHEZWAN SAUCE.",
+                    "price": 190,
+                    "id": "0013fa03-c95f-40bd-9e42-f0835f23d581"
+                },
+                {
+                    "title": "EGG NOODLES",
+                    "description": "STIR FRIED NOODLES WITH EGG AND VEGGIES.",
+                    "price": 160,
+                    "id": "f3eb0c5f-d9b1-4b31-b830-f63dee1709c9"
+                },
+                {
+                    "title": "EGG SCHEZWAN NOODLES",
+                    "description": "STIR FRIED NOODLES WITH EGG AND SCHEZWAN SAUCE.",
+                    "price": 170,
+                    "id": "526b02d1-24a6-46fd-96b0-e9194a0736e7"
+                },
+                {
+                    "title": "VEG CHOWMIN",
+                    "description": "STIR FRIED NOODLES WITH VEGETABLES.",
+                    "price": 160,
+                    "id": "4cf43d0e-8922-434e-bad6-1915b53f03e2"
+                },
+                {
+                    "title": "CHICKEN CHOWMIN",
+                    "description": "STIR FRIED NOODLES WITH CHICKEN.",
+                    "price": 180,
+                    "id": "ea9b259a-6008-40e6-983b-ab16a4c7d0f7"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Indian",
+        "subcategory": {
+            "Rice": [
+                {
+                    "title": "CHICKEN BIRYANI",
+                    "description": "RICE COOKED WITH CHICKEN BREAST, CARAMELIZED ONIONS, YOGURT AND SPICES.",
+                    "price": 220,
+                    "id": "2e537f9b-2a66-4490-ab76-1691e97ade38"
+                },
+                {
+                    "title": "VEG BIRYANI",
+                    "description": "RICE COOKED WITH MIXED VEGETABLES, CARAMELIZED ONIONS, YOGURT AND SPICES.",
+                    "price": 180,
+                    "id": "4e26e0cc-7e94-4f54-bade-809cd9212b8a"
+                },
+                {
+                    "title": "CHICKEN PULAO",
+                    "description": "RICE COOKED WITH CHICKEN BREAST, VEGGIES, AND SPICES.",
+                    "price": 200,
+                    "id": "cec97399-5a30-47d3-ab1b-be850fbecb07"
+                },
+                {
+                    "title": "VEG PULAO",
+                    "description": "RICE COOKED WITH MIXED VEGETABLES AND SPICES.",
+                    "price": 160,
+                    "id": "9689842e-8809-4221-a693-524da38660f9"
+                },
+                {
+                    "title": "JEERA RICE",
+                    "description": "RICE STIR FRIED WITH CUMIN SEEDS.",
+                    "price": 130,
+                    "id": "6ed514bd-1fd9-4494-892a-f84be6716819"
+                },
+                {
+                    "title": "PLAIN RICE",
+                    "description": "SIMPLY COOKED WHITE RICE.",
+                    "price": 100,
+                    "id": "09e4a09a-54dc-42fd-a392-3ee182ef4f39"
+                }
+            ],
+            "Main Course": [
+                {
+                    "title": "CHICKEN TIKKA MASALA",
+                    "description": "GRILLED CHICKEN COOKED IN TOMATO-BASED GRAVY WITH CREAM.",
+                    "price": 250,
+                    "id": "ebc27b91-bfe3-4db9-8f85-2af023556ed7"
+                },
+                {
+                    "title": "BUTTER CHICKEN",
+                    "description": "CHICKEN COOKED IN BUTTERY TOMATO GRAVY WITH CREAM.",
+                    "price": 250,
+                    "id": "494557a9-49e4-4b73-9bdc-c7380d42e2a5"
+                },
+                {
+                    "title": "CHICKEN KORMA",
+                    "description": "CHICKEN COOKED IN A CREAMY YOGURT AND SPICE GRAVY.",
+                    "price": 250,
+                    "id": "5d39d0c1-b88d-47a7-a243-f31992fbd433"
+                },
+                {
+                    "title": "CHICKEN SAAG",
+                    "description": "CHICKEN COOKED WITH SPINACH IN SPICY GRAVY.",
+                    "price": 250,
+                    "id": "0587dd0d-a86e-4086-806f-5f36e71105a4"
+                },
+                {
+                    "title": "CHICKEN DO PYAZA",
+                    "description": "CHICKEN COOKED WITH ONIONS IN A SPICY GRAVY.",
+                    "price": 250,
+                    "id": "c5480960-e405-4144-8097-2c8e5d2d0fe0"
+                },
+                {
+                    "title": "MUTTON ROGAN JOSH",
+                    "description": "MUTTON COOKED IN A SPICY YOGURT AND TOMATO GRAVY.",
+                    "price": 280,
+                    "id": "4a83d433-2c8e-4432-9bd6-d20e3b3803ce"
+                },
+                {
+                    "title": "MUTTON KORMA",
+                    "description": "MUTTON COOKED IN A CREAMY YOGURT AND SPICE GRAVY.",
+                    "price": 280,
+                    "id": "df71814c-d6ea-4d74-8fc7-4593bae165e3"
+                },
+                {
+                    "title": "MUTTON SAAG",
+                    "description": "MUTTON COOKED WITH SPINACH IN SPICY GRAVY.",
+                    "price": 280,
+                    "id": "0c552cdf-1948-4ba5-85f6-74a582b34a1c"
+                },
+                {
+                    "title": "VEG KORMA",
+                    "description": "MIXED VEGETABLES COOKED IN A CREAMY YOGURT AND SPICE GRAVY.",
+                    "price": 200,
+                    "id": "568d9172-da82-4e49-ad1c-7b740786f33a"
+                },
+                {
+                    "title": "VEG TIKKA MASALA",
+                    "description": "GRILLED VEGETABLES COOKED IN TOMATO-BASED GRAVY WITH CREAM.",
+                    "price": 200,
+                    "id": "0d32b1a9-49ee-4b6a-ba33-9e303d87ff31"
+                },
+                {
+                    "title": "VEG SAAG",
+                    "description": "VEGETABLES COOKED WITH SPINACH IN SPICY GRAVY.",
+                    "price": 200,
+                    "id": "8d2d4b05-a4b7-41ff-b282-5254c17e501a"
+                },
+                {
+                    "title": "VEG DO PYAZA",
+                    "description": "VEGETABLES COOKED WITH ONIONS IN A SPICY GRAVY.",
+                    "price": 200,
+                    "id": "90530054-c50d-4e38-b9cb-148a5409f8a9"
+                },
+                {
+                    "title": "DAL MAKHANI",
+                    "description": "BLACK LENTILS COOKED IN A BUTTERY GRAVY.",
+                    "price": 180,
+                    "id": "5790d35e-fa81-40a2-b9af-38743c747bc0"
+                },
+                {
+                    "title": "CHANA MASALA",
+                    "description": "CHICKPEAS COOKED IN A SPICY TOMATO GRAVY.",
+                    "price": 180,
+                    "id": "89f1cafd-b495-41a3-b35a-55806a7ffd8a"
+                },
+                {
+                    "title": "PALAK PANEER",
+                    "description": "COTTAGE CHEESE COOKED WITH SPINACH IN A SPICY GRAVY.",
+                    "price": 200,
+                    "id": "aca4e128-a9a8-4b50-ba75-1c741f3bd65a"
+                },
+                {
+                    "title": "ALOO GOBI",
+                    "description": "POTATOES AND CAULIFLOWER COOKED WITH SPICES.",
+                    "price": 160,
+                    "id": "9ad73295-7449-419c-b1e4-07722a02c4a9"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Arabic",
+        "subcategory": {
+            "Mains": [
+                {
+                    "title": "KABIA RICE",
+                    "description": "ARABIC STYLE RICE DISH.",
+                    "price": "TBD",
+                    "id": "8ef88386-b7f9-4b2a-a96d-8fd08b3ce6f2"
+                },
+                {
+                    "title": "MANDI",
+                    "description": "ARABIC RICE DISH WITH MEAT.",
+                    "price": "TBD",
+                    "id": "6f8921cb-3bfd-4d25-83ad-88974c4479d0"
+                },
+                {
+                    "title": "QUZI",
+                    "description": "ARABIC RICE DISH WITH SLOW COOKED MEAT.",
+                    "price": "TBD",
+                    "id": "f042df9e-11ea-4ee4-9cdc-4a821ea3827f"
+                },
+                {
+                    "title": "MACHBOOS",
+                    "description": "SPICED RICE WITH MEAT.",
+                    "price": "TBD",
+                    "id": "788a7a95-adda-42cb-aea1-51d5d122e8a1"
+                },
+                {
+                    "title": "MANSAF",
+                    "description": "TRADITIONAL JORDANIAN RICE DISH.",
+                    "price": "TBD",
+                    "id": "eafa3e7a-ce52-416e-8236-54418be552f1"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Momos",
+        "subcategory": {
+            "Momos": [
+                {
+                    "title": "VEG STEAMED MOMOS",
+                    "description": "STEAMED MOMOS FILLED WITH MIXED VEGETABLES.",
+                    "price": 150,
+                    "id": "97f6fc43-a7f9-4caf-afff-2ff4781c5a5a"
+                },
+                {
+                    "title": "VEG KURKURE MOMOS",
+                    "description": "CRISPY KURKURE MOMOS FILLED WITH VEGETABLES.",
+                    "price": 180,
+                    "id": "2f50534a-0149-46cb-8fe0-e06d73618ae2"
+                },
+                {
+                    "title": "VEG BUTTER GARLIC MOMOS",
+                    "description": "BUTTER GARLIC FLAVORED MOMOS FILLED WITH VEGETABLES.",
+                    "price": 180,
+                    "id": "a64b17c4-f154-4909-8c70-ab585b1298c8"
+                },
+                {
+                    "title": "STEAMED PANEER MOMOS",
+                    "description": "STEAMED MOMOS FILLED WITH PANEER.",
+                    "price": 200,
+                    "id": "dd4acebf-0c07-47f4-85dd-cd93c74d5266"
+                },
+                {
+                    "title": "CHICKEN STEAMED MOMOS",
+                    "description": "STEAMED MOMOS FILLED WITH CHICKEN.",
+                    "price": 190,
+                    "id": "b5d8860a-ddcd-4096-ab25-b524dae52245"
+                },
+                {
+                    "title": "CHICKEN KURKURE MOMOS",
+                    "description": "CRISPY KURKURE MOMOS FILLED WITH CHICKEN.",
+                    "price": 220,
+                    "id": "1af43d9a-ca42-4d51-a36a-1da802549c69"
+                },
+                {
+                    "title": "CHICKEN BUTTER GARLIC MOMOS",
+                    "description": "BUTTER GARLIC FLAVORED MOMOS FILLED WITH CHICKEN.",
+                    "price": 220,
+                    "id": "60d0b749-c55b-4d06-84fe-8a588af057ae"
+                },
+                {
+                    "title": "CHICKEN SCHEZWAN MOMOS",
+                    "description": "SCHEZWAN SAUCE FLAVORED MOMOS FILLED WITH CHICKEN.",
+                    "price": 200,
+                    "id": "0b12b3bd-5e05-43d0-8a3c-55794f4e2224"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Continental",
+        "subcategory": {
+            "Full Course Meal": [
+                {
+                    "title": "GRILLED CHICKEN BREAST WITH SAUTED VEGGIES DIP",
+                    "description": "GRILLED CHICKEN BREAST SERVED WITH SAUTED VEGGIES AND DIP.",
+                    "price": 450,
+                    "id": "52b0d8d5-00d5-4aac-9379-4f9e42b84611"
+                },
+                {
+                    "title": "GRILLED FISH WITH CHIPS AND BUTTER RICE",
+                    "description": "GRILLED FISH SERVED WITH CHIPS AND BUTTER RICE.",
+                    "price": 480,
+                    "id": "e7ec3019-665f-44d3-a66b-ce028959e07e"
+                },
+                {
+                    "title": "DEEP FRIED CHICKEN DRUMSTICK WITH BLACK PEPPER SAUCE",
+                    "description": "DEEP FRIED CHICKEN DRUMSTICK SERVED WITH BLACK PEPPER SAUCE.",
+                    "price": 450,
+                    "id": "5d1034ad-cdb0-4810-8a3a-59ef9195e1ef"
+                },
+                {
+                    "title": "CHICKEN WITH MASHROOM CREAM SAUTED VEGIES AND SAUCE",
+                    "description": "CHICKEN SERVED WITH MASHROOM CREAM SAUTED VEGGIES AND SAUCE.",
+                    "price": 400,
+                    "id": "e5a56a13-50a0-4342-808d-1a8b9153ff95"
+                },
+                {
+                    "title": "GRILLED PANEER WITH HERB RICE & SAUTED VEGGIES",
+                    "description": "GRILLED PANEER SERVED WITH HERB RICE AND SAUTED VEGGIES.",
+                    "price": 400,
+                    "id": "ab5ee296-0669-4d33-830e-ff3b8af5b1d7"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Rice",
+        "subcategory": {
+            "Rice": [
+                {
+                    "title": "JIRA RICE",
+                    "description": "RICE COOKED WITH CUMIN SEEDS.",
+                    "price": 120,
+                    "id": "9725d6c9-88d5-4529-aa24-6bc9d3507123"
+                },
+                {
+                    "title": "DAL KHICHDI",
+                    "description": "RICE AND LENTILS COOKED TOGETHER.",
+                    "price": 130,
+                    "id": "29645ddf-178d-49b8-b3dd-23ffc578ae1d"
+                },
+                {
+                    "title": "CURD RICE",
+                    "description": "RICE MIXED WITH CURD.",
+                    "price": 140,
+                    "id": "6d659eca-6e83-4275-821a-d8e96a141d50"
+                },
+                {
+                    "title": "MUTTON BIRYANI",
+                    "description": "SPICED RICE WITH MUTTON.",
+                    "price": 300,
+                    "id": "9e118109-e055-48df-9d33-93fd154e7b1e"
+                },
+                {
+                    "title": "CHICKEN BIRYANI",
+                    "description": "SPICED RICE WITH CHICKEN.",
+                    "price": 280,
+                    "id": "15f855e5-7441-4a88-a4d1-ea02ce0086b1"
+                },
+                {
+                    "title": "VEG BIRYANI",
+                    "description": "SPICED RICE WITH MIXED VEGETABLES.",
+                    "price": 250,
+                    "id": "d1507564-df4b-481a-8fef-b4ffbe4a105e"
+                }
+            ]
+        }
+    }
+]
