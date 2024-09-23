@@ -36,6 +36,8 @@ client = MongoClient(
     connectTimeoutMS=30000, 
     socketTimeoutMS=None)
 db = client['ORDERS']
+Mdb = client['DIGITALMENU']
+CB_webMenu = Mdb['WEBSITE_MENU']
 CB_PONDA = db['CB_PONDA']
 CB_MARGAO = db['CB_MARGAO']
 MARGAO_STATUS = db['CB_MARGOA_STATUS']
@@ -162,6 +164,22 @@ def margao_orders():
         
     return render_template('margao_orders.html', orders=sorted_orders)
 
+@app.route('/api/get_menu', methods=['GET'])
+def get_menu():
+    try:
+        menu_data = list(CB_webMenu.find({}, {'_id': 0})) 
+        
+        if menu_data:
+            response = jsonify({"status": "success", "menu": menu_data})
+            print(response)
+            response.headers['Content-Type'] = 'application/json'  # Ensure JSON content type
+            return response, 200
+        
+        else:
+            return jsonify({"status": "error", "message": "No menu data found"}), 404
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+    
 @app.route('/api/orders', methods=['POST', 'OPTIONS'])
 def save_form_data():
     if request.method == 'OPTIONS':
