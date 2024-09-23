@@ -312,7 +312,7 @@ def send_whatsapp_message(order):
         
         
 def send_whatsapp_message_to_customer(order ,status):
-    access_token = 'EAAFNtF4tqZA0BO4vTDnFJQ7iWdT4UUa04JwLm4B8Kjwt6Q5uOKVVh9Fk8DEYdrOUV9qvWt7u1opHW6yOySaLTwPuOkLrL6CfziL9rMAMhaxtjZAk9RI3NjoHg6dmsGPPBHK8GKZCQrqrZCYTrK5tiMK7WN7ZCTFqAwzQz3jGEMktt3sRFzkvBk3hqgH6uGfe1byfwGi8N8U5NrzYkaQUZD'
+    access_token = 'EAAFNtF4tqZA0BOZBQPQKhre2onFphjV6tKARnKIzGKkgftbDk7aWEjvx8WrhuTXX3TlkW6eUfi7WHLTbbaaYIHJxJ5nPdxR98xXsbIbhvXfvsQ4KWiLDvZB6wSpBeIUm039y0ZCvzDcle8HxdwZBFBm7sIpsJp5ecrs9kzsJh9JgsGOQS0kwVVAN2QhYPSvrVH3TguZB7UvyXJ8rRmsPQZD'
     phone_number_id = '323798344160879'
     recipient_phone_number = f'91{order["phone"]}'
     items_summary = "\n".join([f"{item['name']}: {item['quantity']}" for item in order['items']])
@@ -483,6 +483,54 @@ def Update_Ponda_Status():
         PONDA_STATUS.update_one({}, {'$set': {'status': False}})
         return jsonify({'status': 'success', 'message': 'Margao marked as Off'}), 200
     return jsonify({'status': 'error', 'message': 'Invalid request'}), 400
+
+# digital menu backend
+
+@app.route('/api/getmenumargao', methods=['GET'])
+def MargaoMenu():
+    if request.method == 'OPTIONS':
+        return jsonify({'status': 'success', 'message': 'CORS preflight request handled successfully'}), 200
+    
+    try:
+        menu_file_path = os.path.join(os.path.dirname(__file__), 'margaomenu.json')
+        with open(menu_file_path, 'r') as file:
+            dishes = json.load(file)
+        return jsonify({'dishes': dishes}), 200
+    except FileNotFoundError:
+        error_message = "menu.json file not found"
+        print(error_message)
+        return jsonify({'error': error_message}), 500
+    except json.JSONDecodeError:
+        error_message = "Error decoding JSON from menu.json"
+        print(error_message)
+        return jsonify({'error': error_message}), 500
+    except Exception as e:
+        error_message = f"An unexpected error occurred: {str(e)}"
+        print(error_message)
+        return jsonify({'error': error_message}), 500
+    
+@app.route('/api/getmenuponda', methods=['GET'])
+def PondaMenu():
+    if request.method == 'OPTIONS':
+        return jsonify({'status': 'success', 'message': 'CORS preflight request handled successfully'}), 200
+    
+    try:
+        menu_file_path = os.path.join(os.path.dirname(__file__), 'pondamenu.json')
+        with open(menu_file_path, 'r') as file:
+            dishes = json.load(file)
+        return jsonify({'dishes': dishes}), 200
+    except FileNotFoundError:
+        error_message = "menu.json file not found"
+        print(error_message)
+        return jsonify({'error': error_message}), 500
+    except json.JSONDecodeError:
+        error_message = "Error decoding JSON from menu.json"
+        print(error_message)
+        return jsonify({'error': error_message}), 500
+    except Exception as e:
+        error_message = f"An unexpected error occurred: {str(e)}"
+        print(error_message)
+        return jsonify({'error': error_message}), 500
 
 if __name__ == "__main__":
     socketio.run(app, debug=True, host='0.0.0.0', port=8080)

@@ -1,0 +1,2350 @@
+[
+    {
+        "category": "Soups",
+        "subcategory": {
+            "Soup": [
+                {
+                    "srno": 1,
+                    "name": "VEG MANCHOW SOUP",
+                    "price": 90,
+                    "id": "7cc6b311-4382-479c-89fc-aeca8cff8918"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN MANCHOW SOUP",
+                    "price": 100,
+                    "id": "c30dbc84-c8d8-4e13-9511-99ee184b97e8"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG SWEET CORN SOUP",
+                    "price": 90,
+                    "id": "1d2b2427-154b-41ab-a5c0-9177375a5122"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN SWEET CORN SOUP",
+                    "price": 110,
+                    "id": "3819ef23-e37e-4135-85f3-b018b666c327"
+                },
+                {
+                    "srno": 5,
+                    "name": "VEG HOT & SOUR SOUP",
+                    "price": 90,
+                    "id": "a9898612-04ef-4bae-8f6b-c474fbff9c14"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHICKEN HOT & SOUR SOUP",
+                    "price": 100,
+                    "id": "7370e404-dccc-4cbc-b84b-d213e97e3f6f"
+                },
+                {
+                    "srno": 7,
+                    "name": "VEG CLEAR SOUP",
+                    "price": 80,
+                    "id": "754368bb-4150-436d-8977-277ea46e74a7"
+                },
+                {
+                    "srno": 8,
+                    "name": "CHICKEN CLEAR SOUP",
+                    "price": 100,
+                    "id": "ce651069-a7f8-46a4-a0d1-9dc5d9aeb694"
+                },
+                {
+                    "srno": 9,
+                    "name": "TOMATO SHORBA",
+                    "price": 80,
+                    "id": "f1f66ae7-989a-45db-a69b-d2f1b587a900"
+                },
+                {
+                    "srno": 10,
+                    "name": "CREAM OF MUSHROOM",
+                    "price": 120,
+                    "id": "b84bc54a-1edd-4364-a941-60854e8c9d08"
+                },
+                {
+                    "srno": 11,
+                    "name": "CREAM OF CHICKEN",
+                    "price": 130,
+                    "id": "11fe0bb8-df55-441e-ba95-c97f3b0360ef"
+                },
+                {
+                    "srno": 12,
+                    "name": "VEG DUMPLING SOUP",
+                    "price": 100,
+                    "id": "547b2e77-c3e6-43ca-84f0-c662c2e4ec05"
+                },
+                {
+                    "srno": 13,
+                    "name": "CHICKEN DUMPLING SOUP",
+                    "price": 110,
+                    "id": "35658a20-8289-4927-af82-16d532e16efe"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Starters",
+        "subcategory": {
+            "Starter": [
+                {
+                    "srno": 1,
+                    "name": "ROASTED PAPAD",
+                    "price": 30,
+                    "id": "8d975c6d-3234-4c0a-b45b-1c30c974a879"
+                },
+                {
+                    "srno": 2,
+                    "name": "MASALA PAPAD",
+                    "price": 60,
+                    "id": "e1949681-8ed9-440f-aad2-2299d908fdce"
+                },
+                {
+                    "srno": 3,
+                    "name": "BOILED PEANUTS",
+                    "price": 60,
+                    "id": "bc266284-d3ae-46b6-a81e-06ce1c43ec29"
+                },
+                {
+                    "srno": 4,
+                    "name": "BOILED CHANA",
+                    "price": 60,
+                    "id": "2653f4b5-d15b-414b-859c-3f7b35e8216e"
+                },
+                {
+                    "srno": 5,
+                    "name": "NACHOS",
+                    "price": 130,
+                    "id": "ac03c182-5649-4672-bf27-acecf64b641e"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHEESE CUBES",
+                    "price": 80,
+                    "id": "cd5379d5-17e2-4430-81f9-29977f14de71"
+                },
+                {
+                    "srno": 7,
+                    "name": "BOILED EGG",
+                    "price": 30,
+                    "id": "653603d0-99af-46c0-ab5b-4e7bb47fb9cf"
+                },
+                {
+                    "srno": 8,
+                    "name": "PLAIN OMLETTE",
+                    "price": 30,
+                    "id": "e01af1ee-5e1e-4139-a1a2-5c74f5ae7a60"
+                },
+                {
+                    "srno": 9,
+                    "name": "MASALA OMLETTE",
+                    "price": 60,
+                    "id": "57aa7833-d65a-4d2a-bec9-378d8888d89d"
+                },
+                {
+                    "srno": 10,
+                    "name": "MASALA BOILED CHANA",
+                    "price": 80,
+                    "id": "06efce50-7e88-4a72-a297-5d8790a00eae"
+                },
+                {
+                    "srno": 11,
+                    "name": "MASALA BOILED PEANUTS",
+                    "price": 80,
+                    "id": "6c9681ac-1d9a-4c86-b12c-0e7c807b88af"
+                },
+                {
+                    "srno": 12,
+                    "name": "GREEN PEAS MASALA FRY",
+                    "price": 80,
+                    "id": "3b209075-0f18-4d18-b245-360a9485d65a"
+                },
+                {
+                    "srno": 13,
+                    "name": "HALF FRY EGG",
+                    "price": 30,
+                    "id": "68dd9fea-c66a-4ba1-b9e0-2e99de4c9da3"
+                },
+                {
+                    "srno": 14,
+                    "name": "CHICKEN CHILLY",
+                    "price": 215,
+                    "id": "0a8d60e9-a24f-4803-8abd-39261a89d802"
+                },
+                {
+                    "srno": 15,
+                    "name": "CRISPY CHICKEN",
+                    "price": 225,
+                    "id": "2fed49a6-7b14-4d57-a82e-3769541fe8a1"
+                },
+                {
+                    "srno": 16,
+                    "name": "CHICKEN LOLLYPOP",
+                    "price": 180,
+                    "id": "d3b1b060-352e-4356-be26-bd959708aa45"
+                },
+                {
+                    "srno": 17,
+                    "name": "HONEY CHICKEN",
+                    "price": 240,
+                    "id": "782e9738-5cb3-41a9-af7f-eeb1a68abd5b"
+                },
+                {
+                    "srno": 18,
+                    "name": "CHICKEN DRY FRY",
+                    "price": 220,
+                    "id": "c0799647-bbe7-4e4e-89de-0378e8074fe2"
+                },
+                {
+                    "srno": 19,
+                    "name": "CHICKEN SPRING ROLL",
+                    "price": 220,
+                    "id": "acee4c54-fb82-49db-b034-f5d1e0d9c499"
+                },
+                {
+                    "srno": 20,
+                    "name": "CHICKEN SALT & PEPPER",
+                    "price": 235,
+                    "id": "274c18e3-1b3e-47f7-9371-e62ad1d84c44"
+                },
+                {
+                    "srno": 21,
+                    "name": "CHICKEN MANCHURIAN DRY / GRAVY",
+                    "price": 220,
+                    "id": "d235552e-bfc7-4204-b538-236799447f85"
+                },
+                {
+                    "srno": 22,
+                    "name": "PANEER MANCHURIAN",
+                    "price": 195,
+                    "id": "bfd52ca4-0e05-4859-a803-18e8621a9867"
+                },
+                {
+                    "srno": 23,
+                    "name": "VEG CRISPY",
+                    "price": 180,
+                    "id": "2eff9f50-3494-4ff1-b996-dc0c94acdc24"
+                },
+                {
+                    "srno": 24,
+                    "name": "VEG SPRING ROLL",
+                    "price": 180,
+                    "id": "bb314c8f-d514-4d03-8a03-071466f51a26"
+                },
+                {
+                    "srno": 25,
+                    "name": "BABY CORN CHILLY DRY / GRAVY",
+                    "price": 190,
+                    "id": "60978cdd-d75c-4541-a58a-edd6662bcbf6"
+                },
+                {
+                    "srno": 26,
+                    "name": "HONEY SESAME POTATO",
+                    "price": 190,
+                    "id": "bdcab1a0-1711-4850-bea0-18b39bf9b4af"
+                },
+                {
+                    "srno": 27,
+                    "name": "PANEER 65",
+                    "price": 195,
+                    "id": "9a40dc30-4bd6-45ee-9efc-a7ed6d5319a2"
+                },
+                {
+                    "srno": 28,
+                    "name": "PANEER SALT & PEPPER",
+                    "price": 210,
+                    "id": "175d56a2-0e50-4c04-9347-262fd4fbc120"
+                },
+                {
+                    "srno": 29,
+                    "name": "VEG MANCHURIAN DRY / GRAVY",
+                    "price": 180,
+                    "id": "73782a90-253e-4033-8706-cad6fba3b484"
+                },
+                {
+                    "srno": 30,
+                    "name": "GOBI MANCHURIAN DRY / GRAVY",
+                    "price": 170,
+                    "id": "ecf4e6cb-ddd5-491a-8d15-799098709f27"
+                },
+                {
+                    "srno": 31,
+                    "name": "MUSHROOM CHILLY DRY / GRAVY",
+                    "price": 185,
+                    "id": "a508788a-68c6-413a-80e1-caa72037ab52"
+                },
+                {
+                    "srno": 32,
+                    "name": "CHICKEN MASALA LOLLYPOP",
+                    "price": 200,
+                    "id": "68868535-85f8-48e9-9268-e3c5896c8429"
+                },
+                {
+                    "srno": 33,
+                    "name": "FRENCH FRIES",
+                    "price": 120,
+                    "id": "997e707d-e06e-4439-b477-903d068cbf7e"
+                },
+                {
+                    "srno": 34,
+                    "name": "CHEESY FRENCH FRIES",
+                    "price": 160,
+                    "id": "43083383-712a-4ac2-9618-d8d618e6543c"
+                },
+                {
+                    "srno": 35,
+                    "name": "POTATO WEDGES",
+                    "price": 130,
+                    "id": "e864945e-3d3d-480f-8f5b-50af653b03bf"
+                },
+                {
+                    "srno": 36,
+                    "name": "BBQ CHICKEN WINGS",
+                    "price": 220,
+                    "id": "d0e62fe0-cf84-4799-a0d3-5b2a28028d2a"
+                },
+                {
+                    "srno": 37,
+                    "name": "CHICKEN NUGGETS",
+                    "price": 190,
+                    "id": "2790e71d-e8eb-4b83-b9c4-8ec2f292dfef"
+                },
+                {
+                    "srno": 38,
+                    "name": "ONION RINGS",
+                    "price": 140,
+                    "id": "37bc35cf-20ca-4947-9b4a-6e8ed0220d87"
+                },
+                {
+                    "srno": 39,
+                    "name": "CHEESE STUFFED BUTTON MUSHROOMS",
+                    "price": 220,
+                    "id": "13c1f837-fc92-444c-9d5a-e0e32a15702a"
+                },
+                {
+                    "srno": 40,
+                    "name": "FALAFEL",
+                    "price": 180,
+                    "id": "2a4727bb-8d5d-48b9-b09c-f4b30d485a0d"
+                },
+                {
+                    "srno": 41,
+                    "name": "CHEESE CORN BALLS",
+                    "price": 220,
+                    "id": "a5bca479-a017-4bf8-8f1f-74d93bd87fbc"
+                },
+                {
+                    "srno": 42,
+                    "name": "CHICKEN TAWA FRY",
+                    "price": 250,
+                    "id": "b7f03593-2948-4e94-a299-de31f85a7588"
+                },
+                {
+                    "srno": 43,
+                    "name": "CHICKEN RAWA FRY",
+                    "price": 240,
+                    "id": "a0cc28f4-83fa-44c9-b71a-083ed62c0825"
+                },
+                {
+                    "srno": 44,
+                    "name": "CALAMARI CHILLY FRY",
+                    "price": 290,
+                    "id": "e89f0d59-42d3-4534-bcd1-fb2a0744fd13"
+                },
+                {
+                    "srno": 45,
+                    "name": "GOLDEN FRIED PRAWNS",
+                    "price": 325,
+                    "id": "d904ffdb-7789-4d53-a755-6f963b0c56fb"
+                },
+                {
+                    "srno": 46,
+                    "name": "CRISPY SARDINE",
+                    "price": 140,
+                    "id": "95159769-b8e3-425c-9d9e-e9fab01bd0d8"
+                },
+                {
+                    "srno": 47,
+                    "name": "CRISPY CALAMARI",
+                    "price": 295,
+                    "id": "3bded346-a50a-4a66-b723-ca806fc71e76"
+                },
+                {
+                    "srno": 48,
+                    "name": "PANEER CHILLY DRY / GRAVY",
+                    "price": 195,
+                    "id": "152461d5-a61f-4366-b625-2aa6e1b83689"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Salads",
+        "subcategory": {
+            "Salad": [
+                {
+                    "srno": 1,
+                    "name": "GREEK SALAD",
+                    "price": 170,
+                    "id": "9d19e256-4445-44de-a307-e57a6fa9eee9"
+                },
+                {
+                    "srno": 2,
+                    "name": "MIX SALAD WITH POMEGRANATES",
+                    "price": 175,
+                    "id": "fa3299b1-c246-4d17-8b2a-c326def202b9"
+                },
+                {
+                    "srno": 3,
+                    "name": "CAESAR SALAD WITH CHICKEN",
+                    "price": 180,
+                    "id": "60f4eb64-5b27-4257-ac76-21a9bc42f7a8"
+                },
+                {
+                    "srno": 4,
+                    "name": "GREEN SALAD",
+                    "price": 100,
+                    "id": "16bcf93c-f4ba-4fe8-8913-5e0025a725ad"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Momos",
+        "subcategory": {
+            "Momos": [
+                {
+                    "srno": 1,
+                    "name": "STEAMED MOMOS (VEG)",
+                    "price": 140,
+                    "id": "fe78bb8a-a959-439b-9e46-4c47368526af"
+                },
+                {
+                    "srno": 2,
+                    "name": "STEAMED MOMOS (CHICKEN)",
+                    "price": 180,
+                    "id": "15ddbecf-dc9a-4135-b913-9c96784cc42d"
+                },
+                {
+                    "srno": 3,
+                    "name": "PAN FRIED MOMOS (VEG)",
+                    "price": 160,
+                    "id": "d2cd64f5-5fc7-4316-964a-907d7fdd73e6"
+                },
+                {
+                    "srno": 4,
+                    "name": "PAN FRIED MOMOS (CHICKEN)",
+                    "price": 190,
+                    "id": "00bb19a2-6b9b-4d75-b5b8-59cdad990b9a"
+                },
+                {
+                    "srno": 5,
+                    "name": "FRIED MOMOS (VEG)",
+                    "price": 150,
+                    "id": "d4ac5699-fbda-4093-bb8d-aac7dca16d3b"
+                },
+                {
+                    "srno": 6,
+                    "name": "FRIED MOMOS (CHICKEN)",
+                    "price": 180,
+                    "id": "b1aed0b9-bcee-4b99-b87e-5d22f3453e31"
+                },
+                {
+                    "srno": 7,
+                    "name": "KURKURE MOMOS (VEG)",
+                    "price": 175,
+                    "id": "c5b28cc3-8013-401a-a775-c5a87f60e218"
+                },
+                {
+                    "srno": 8,
+                    "name": "KURKURE MOMOS (CHICKEN)",
+                    "price": 200,
+                    "id": "f898196f-7cf8-4aca-9de5-439d152e40a8"
+                },
+                {
+                    "srno": 9,
+                    "name": "SCHEZWAN TOSSED MOMOS (VEG)",
+                    "price": 170,
+                    "id": "e1290ad5-077a-4e05-a230-77c3f70272b6"
+                },
+                {
+                    "srno": 10,
+                    "name": "SCHEZWAN TOSSED MOMOS (CHICKEN)",
+                    "price": 190,
+                    "id": "e341c30b-717b-4312-975b-17e9ea346b3b"
+                },
+                {
+                    "srno": 11,
+                    "name": "BUTTER GARLIC MOMOS (VEG)",
+                    "price": 170,
+                    "id": "13597f96-41ee-4a2f-9afb-4026029dff78"
+                },
+                {
+                    "srno": 12,
+                    "name": "BUTTER GARLIC MOMOS (CHICKEN)",
+                    "price": 200,
+                    "id": "1a1740cb-0860-45d2-893f-ea462e0d8357"
+                },
+                {
+                    "srno": 13,
+                    "name": "MOMOS PLATTER (VEG)",
+                    "price": 300,
+                    "id": "bcdc3330-a9dd-4cf1-a420-019079c928d8"
+                },
+                {
+                    "srno": 14,
+                    "name": "MOMOS PLATTER (CHICKEN)",
+                    "price": 380,
+                    "id": "07df6ad0-1301-4189-bc84-5c28961846ea"
+                },
+                {
+                    "srno": 15,
+                    "name": "PANEER MOMO",
+                    "price": 195,
+                    "id": "c12469c6-aa6e-431f-88d4-89ad57b72672"
+                },
+                {
+                    "srno": 16,
+                    "name": "TANDOORI MOMOS (VEG)",
+                    "price": 180,
+                    "id": "c1c81334-18d0-4462-95f0-d51b8c41d464"
+                },
+                {
+                    "srno": 17,
+                    "name": "TANDOORI MOMOS (CHICKEN)",
+                    "price": 220,
+                    "id": "d80dfd6b-6655-4724-bbff-4deaf2ea6275"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Tandoor and Kebabs",
+        "subcategory": {
+            "Grilled and Tandoor": [
+                {
+                    "srno": 1,
+                    "name": "TANDOORI CHICKEN FULL",
+                    "price": 400,
+                    "id": "bb5dc6f2-5f03-436e-bd0b-ca44432de224"
+                },
+                {
+                    "srno": 2,
+                    "name": "TANDOORI CHICKEN HALF",
+                    "price": 220,
+                    "id": "984a528f-3518-4406-a41b-c33de4fd882a"
+                },
+                {
+                    "srno": 3,
+                    "name": "TANGDI KEBAB",
+                    "price": 280,
+                    "id": "bdfef690-a2a0-4106-bd0d-e142b349314f"
+                },
+                {
+                    "srno": 8,
+                    "name": "GRILLED MASHROOM TIKKA ",
+                    "price": 220,
+                    "id": "157837fc-bd3d-4a10-9d0f-9565c501fa1d"
+                },
+                {
+                    "srno": 9,
+                    "name": "TANDOORI BROCCOLI",
+                    "price": 290,
+                    "id": "28805ce4-bf27-41c4-8cce-351c127b3d9b"
+                },
+                {
+                    "srno": 10,
+                    "name": "TANDOORI BABY CORN",
+                    "price": 240,
+                    "id": "c1e64015-d724-4f95-b9d2-e84347e153f8"
+                },
+                {
+                    "srno": 11,
+                    "name": "TANDOORI GOBI",
+                    "price": 190,
+                    "id": "012bc229-70a1-4a9a-9fae-df4dda0de929"
+                },
+                {
+                    "srno": 14,
+                    "name": "TANDOORI WINGS",
+                    "price": 250,
+                    "id": "8e81be55-00a7-441c-b604-7ac96c2abacc"
+                },
+                {
+                    "srno": 15,
+                    "name": "CHICKEN AFGHANI KEBAB",
+                    "price": 280,
+                    "id": "19406b62-99ae-4a3f-8006-c0947f98fb18"
+                },
+                {
+                    "srno": 16,
+                    "name": "GRILLED CHICKEN LOLYPOP",
+                    "price": 230,
+                    "id": "2d6c7b1c-b8c9-4295-a511-b9ec576b0a6c"
+                },
+                {
+                    "srno": 17,
+                    "name": "TANDOORI GRILLED PRAWNS",
+                    "price": 380,
+                    "id": "4b1802ad-0fbc-4175-934b-c2c75a1f4a81"
+                },
+                {
+                    "srno": 18,
+                    "name": "GRILLED MACKREL",
+                    "price": 200,
+                    "id": "a47bc065-1cd6-4008-83db-b48318e27381"
+                },
+                {
+                    "srno": 19,
+                    "name": "TANDOORI MALAI BROCOLLI",
+                    "price": 295,
+                    "id": "9b3893e7-fee2-4db5-b265-26204102ae72"
+                }
+            ],
+            "Kebabs": [
+                {
+                    "srno": 1,
+                    "name": "MALAI KEBAB",
+                    "price": 280,
+                    "id": "d97ea5bc-b3bc-4a7c-a2b6-d3591ed5c997"
+                },
+                {
+                    "srno": 2,
+                    "name": "HARIYALI CHICKEN TIKKA",
+                    "price": 270,
+                    "id": "b9e8557d-dec5-46c5-bbc9-4f0b8401b8a6"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN SHISH TAOUK",
+                    "price": 280,
+                    "id": "f2733318-83fa-4d08-8c6a-e1851988caaf"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN TIKKA",
+                    "price": 270,
+                    "id": "415de737-3285-49f3-9be9-d6c31838b8e6"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHICKEN SEEKH KABAB",
+                    "price": 280,
+                    "id": "e0d1a586-f0b2-4b87-a1bc-d9b0441ef234"
+                },
+                {
+                    "srno": 6,
+                    "name": "MUTTON SEEKH KABAB",
+                    "price": 340,
+                    "id": "eb7bd60c-1d37-4515-9369-5065ca8fe81f"
+                },
+                {
+                    "srno": 7,
+                    "name": "PANEER HARYALI KABAB",
+                    "price": 240,
+                    "id": "c4224f04-b836-478a-a2af-4172f5f5ba0b"
+                },
+                {
+                    "srno": 12,
+                    "name": "PANEER TIKKA",
+                    "price": 220,
+                    "id": "6d5e5e8e-3c55-4770-b42f-7cb404feb74f"
+                },
+                {
+                    "srno": 13,
+                    "name": "PANEER MALAI TIKKA",
+                    "price": 250,
+                    "id": "7dc6b029-a574-4693-a471-470afb639856"
+                },
+                {
+                    "srno": 20,
+                    "name": "VEG SEEKH KEBAB",
+                    "price": 230,
+                    "id": "c8758500-cd7e-4e93-a3ba-ce409440d9ac"
+                }
+            ],
+            "Bread": [
+                {
+                    "srno": 1,
+                    "name": "TANDOORI ROTI",
+                    "price": 15,
+                    "id": "36230e29-b6ca-48c8-825c-48b880fb6fd1"
+                },
+                {
+                    "srno": 2,
+                    "name": "BUTTER ROTI",
+                    "price": 20,
+                    "id": "3bd50584-1c95-427b-8722-c3b85fe0bce4"
+                },
+                {
+                    "srno": 3,
+                    "name": "BUTTER NAAN",
+                    "price": 40,
+                    "id": "bd836315-127d-407a-be10-8500be41db0a"
+                },
+                {
+                    "srno": 4,
+                    "name": "PLAIN NAAN",
+                    "price": 30,
+                    "id": "16651216-114e-48a7-bc51-41fa43f62cef"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHEESE GARLIC NAAN",
+                    "price": 120,
+                    "id": "ae052274-d6a8-4e0c-ac1d-f499be99ebb9"
+                },
+                {
+                    "srno": 6,
+                    "name": "TANDOORI BUTTER PARATHA",
+                    "price": 40,
+                    "id": "71b2cd14-34d9-4e89-8ced-8589b4138c91"
+                },
+                {
+                    "srno": 7,
+                    "name": "TANDOORI PLAIN PARATHA",
+                    "price": 30,
+                    "id": "412ea4ac-080b-4e15-9bbf-95e88529c6f1"
+                },
+                {
+                    "srno": 8,
+                    "name": "GARLIC NAAN",
+                    "price": 45,
+                    "id": "a455b457-8161-4b4e-a798-a7fc52a4e9ee"
+                },
+                {
+                    "srno": 9,
+                    "name": "ONION BUTTER KULCHA",
+                    "price": 45,
+                    "id": "c7d210a9-66ce-40ca-9e20-848b90e76add"
+                },
+                {
+                    "srno": 10,
+                    "name": "BUTTER GARLIC NAAN",
+                    "price": 50,
+                    "id": "cd59448d-3aa9-4698-86b3-00acd3e02bea"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Chinese",
+        "subcategory": {
+            "Rice": [
+                {
+                    "srno": 1,
+                    "name": "VEG FRIED RICE",
+                    "price": 145,
+                    "id": "59f819d4-ede7-4820-b6f4-bd0a3d7aac8f"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN FRIED RICE",
+                    "price": 170,
+                    "id": "6b755b94-36f6-4cfb-aac0-b859b3eccf17"
+                },
+                {
+                    "srno": 3,
+                    "name": "EGG FRIED RICE",
+                    "price": 160,
+                    "id": "db12d82e-7e00-401a-9d71-b3370952ddc1"
+                },
+                {
+                    "srno": 4,
+                    "name": "VEG SCHEZWAN FRIED RICE",
+                    "price": 155,
+                    "id": "cd33d784-96f6-472c-9b3e-0a7191d76695"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHICKEN SCHEZWAN FRIED RICE",
+                    "price": 190,
+                    "id": "a05918e2-2923-489c-a0e0-e4ad1c935c43"
+                },
+                {
+                    "srno": 6,
+                    "name": "CHEFS SPECIAL VEG FRIED RICE",
+                    "price": 185,
+                    "id": "782c2e9f-4160-4e4e-bf6e-f2fa12a1f96b"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHEFS SPECIAL NON-VEG FRIED RICE",
+                    "price": 250,
+                    "id": "3c31eec8-5b62-469a-b9c6-ceafba2fe1a9"
+                },
+                {
+                    "srno": 8,
+                    "name": "MIX SEAFOOD FRIED RICE",
+                    "price": 280,
+                    "id": "fae512e1-4da2-4e8f-8004-968c323609b9"
+                },
+                {
+                    "srno": 9,
+                    "name": "TRIPPLE SCHEZWAN CHICKEN FRIED RICE",
+                    "price": 250,
+                    "id": "690a071c-9f5d-49da-b001-0bb88919b66f"
+                },
+                {
+                    "srno": 10,
+                    "name": "VEG COMBINATION FRIED RICE",
+                    "price": 155,
+                    "id": "f3498062-35ba-4838-a793-f0309889d6ab"
+                }
+            ],
+            "Noodles": [
+                {
+                    "srno": 1,
+                    "name": "VEG NOODLES",
+                    "price": 150,
+                    "id": "dc93f320-c183-49b8-b413-81ffafc230ce"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN NOODLES",
+                    "price": 170,
+                    "id": "2e354c51-d7aa-42ba-900f-2b5934406746"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG SCHEZWAN NOODLES",
+                    "price": 160,
+                    "id": "00bfb0e5-4618-4ef7-9086-735bd22f9362"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN SCHEZWAN NOODLES",
+                    "price": 180,
+                    "id": "266755b1-2d5e-4e20-af87-0fa7fb8dc755"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Sizzlers",
+        "subcategory": {
+            "Sizzler": [
+                {
+                    "srno": 1,
+                    "name": "PANEER SIZZLER",
+                    "price": 250,
+                    "id": "c182bef4-29b7-4428-912c-3469d14e4b71"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN SIZZLER",
+                    "price": 300,
+                    "id": "ca200d86-f0ce-4108-ba83-c3cc8cdf53e6"
+                },
+                {
+                    "srno": 3,
+                    "name": "SEAFOOD SIZZLER",
+                    "price": 350,
+                    "id": "923cea75-2e7d-4ce8-b79d-9fa3181c763f"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Pizza & Pasta",
+        "subcategory": {
+            "Pizza": [
+                {
+                    "srno": 1,
+                    "name": "MIX VEG PIZZA (8 INCHES)",
+                    "price": 260,
+                    "id": "db2dc264-342f-486f-9c86-14c96ff03015"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN PIZZA (8 INCHES)",
+                    "price": 280,
+                    "id": "1914c9e0-1471-4205-910f-96aab88836a3"
+                },
+                {
+                    "srno": 3,
+                    "name": "SEA FOOD PIZZA (8 INCHES)",
+                    "price": 300,
+                    "id": "3066b4f7-21f1-4079-a81d-6e345a3708b6"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHEFS SPECIAL VEG PIZZA (8 INCHES)",
+                    "price": 275,
+                    "id": "de5b64fb-ff4c-4d72-93d8-3d4cac894a27"
+                },
+                {
+                    "srno": 5,
+                    "name": "CHEFS SPECIAL NON-VEG PIZZA (8 INCHES)",
+                    "price": 300,
+                    "id": "1eebb432-a252-4189-9386-4b96d7eda1fb"
+                },
+                {
+                    "srno": 6,
+                    "name": "MIX VEG PIZZA (6 INCHES)",
+                    "price": 190,
+                    "id": "bda3cb00-d277-4f8f-a972-5a729bc5cfd6"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHICKEN PIZZA (6 INCHES)",
+                    "price": 220,
+                    "id": "54495d27-764a-47db-9608-aa0c916f6429"
+                },
+                {
+                    "srno": 8,
+                    "name": "SEA FOOD PIZZA (6 INCHES)",
+                    "price": 250,
+                    "id": "02c86caf-02b6-4b38-a634-6b9d887c6399"
+                },
+                {
+                    "srno": 9,
+                    "name": "CHEFS SPECIAL VEG PIZZA (6 INCHES)",
+                    "price": 220,
+                    "id": "e7bd8ebb-456f-4d81-831c-b2a7d0f74792"
+                },
+                {
+                    "srno": 10,
+                    "name": "CHEFS SPECIAL NON-VEG PIZZA (6 INCHES)",
+                    "price": 240,
+                    "id": "b8916cf2-d831-4bdb-9fc8-eb2bfcb70f84"
+                },
+                {
+                    "srno": 11,
+                    "name": "PANEER PIZZA (6 INCHES)",
+                    "price": 210,
+                    "id": "fc59764e-9611-445a-95f4-3540839e3a00"
+                },
+                {
+                    "srno": 12,
+                    "name": "PANEER PIZZA (8 INCHES)",
+                    "price": 270,
+                    "id": "0d4217ec-5f00-428a-b840-0ac4105cb4e1"
+                },
+                {
+                    "srno": 13,
+                    "name": "Extra Chesse",
+                    "price": 50,
+                    "id": "ebf5bb9e-b4f7-4803-9035-99de644678b9"
+                }
+            ],
+            "Pasta": [
+                {
+                    "srno": 1,
+                    "name": "LASAGNA (VEG)",
+                    "price": 250,
+                    "id": "4c594941-e4d1-419d-ba8d-fe70f3e930ed"
+                },
+                {
+                    "srno": 2,
+                    "name": "LASAGNA (CHICKEN)",
+                    "price": 300,
+                    "id": "9ad67eb0-2449-4bfd-8e52-a44ba7378238"
+                },
+                {
+                    "srno": 3,
+                    "name": "PASTA (VEG)",
+                    "price": 200,
+                    "id": "38d3b969-4363-4cd3-8dc7-e7ec5603e135"
+                },
+                {
+                    "srno": 4,
+                    "name": "PASTA (VEG)",
+                    "price": 200,
+                    "id": "383bdb58-a5b9-4673-8172-be523d53336e"
+                },
+                {
+                    "srno": 5,
+                    "name": "PASTA (VEG)",
+                    "price": 200,
+                    "id": "beaf5a25-5040-46f6-92ce-ad24afa86fe0"
+                },
+                {
+                    "srno": 6,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250,
+                    "id": "11466ac4-da98-410b-8fdb-5f8b26367a42"
+                },
+                {
+                    "srno": 7,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250,
+                    "id": "bb4acddd-77f6-4015-aece-a0c2d7f8e865"
+                },
+                {
+                    "srno": 8,
+                    "name": "PASTA (CHICKEN)",
+                    "price": 250,
+                    "id": "0275f4f2-6247-4a46-8c23-d8b8375a7c7b"
+                },
+                {
+                    "srno": 9,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280,
+                    "id": "cba5157c-c56f-4156-ac72-7238c6e5c462"
+                },
+                {
+                    "srno": 10,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280,
+                    "id": "9eca7bfa-c2f3-4617-a161-425eb1850fc1"
+                },
+                {
+                    "srno": 11,
+                    "name": "SEA FOOD PASTA",
+                    "price": 280,
+                    "id": "1e8f6053-3458-4e22-a107-de961407a3ff"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Sandiwich & Burger",
+        "subcategory": {
+            "Sandwich": [
+                {
+                    "srno": 1,
+                    "name": "VEG SANDWICH",
+                    "price": 140,
+                    "id": "d78986fd-c095-4bb6-8ef4-3e8b854c52a4"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN CLUB SANDWICH",
+                    "price": 180,
+                    "id": "9f18a7e3-0075-48e0-8bf9-d199b1db757e"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN GRILLED SANDWICH",
+                    "price": 170,
+                    "id": "b880310c-a292-45e1-8fc8-057ce41e9dc3"
+                },
+                {
+                    "srno": 4,
+                    "name": "EGG SANDWICH",
+                    "price": 140,
+                    "id": "1a5b4581-b0dd-4b22-a776-d781beeea2c6"
+                }
+            ],
+            "Burger": [
+                {
+                    "srno": 1,
+                    "name": "VEG BURGER",
+                    "price": 190,
+                    "id": "f34cd7ed-5cd1-4303-b661-17739191bfc5"
+                },
+                {
+                    "srno": 2,
+                    "name": "PANEER BURGER",
+                    "price": 220,
+                    "id": "2a83f9e2-476e-40eb-8430-4e4544fa5418"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHICKEN BURGER",
+                    "price": 240,
+                    "id": "c3466a71-41de-418f-97d9-f2a22db14ee5"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 170,
+                    "id": "19324315-3884-468b-956d-24b5fb681a17"
+                },
+                {
+                    "srno": 5,
+                    "name": "FALAFEL SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 140,
+                    "id": "bf0624a2-a3cd-4d2d-a26f-3ac934eedf4a"
+                },
+                {
+                    "srno": 6,
+                    "name": "PANEER SHAWARMA (WITH FRENCH FRIES & SALAD)",
+                    "price": 160,
+                    "id": "6ecf8bdc-d9d5-4fa0-b021-aa698cf1f8d2"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Goan & Seafood",
+        "subcategory": {
+            "Gravy": [
+                {
+                    "srno": 1,
+                    "name": "CHICKEN CAFREAL",
+                    "price": 240,
+                    "id": "3a2184c2-fd8b-42f3-bccd-5660dc1fb317"
+                },
+                {
+                    "srno": 2,
+                    "name": "CHICKEN XACUTI",
+                    "price": 220,
+                    "id": "9bf2c410-ff02-41f7-bd5e-4a44625ede36"
+                }
+            ],
+            "Rice": [
+                {
+                    "srno": 1,
+                    "name": "PRAWNS PEAS PULAV",
+                    "price": 280,
+                    "id": "67cb763c-ec47-43c4-8728-3187888af649"
+                }
+            ],
+            "Curry": [
+                {
+                    "srno": 1,
+                    "name": "PRAWNS CURRY",
+                    "price": 250,
+                    "id": "7921d83c-dfdf-401c-b590-8d3eda7d8c6e"
+                },
+                {
+                    "srno": 2,
+                    "name": "KINGFISH CURRY",
+                    "price": 280,
+                    "id": "6155ecee-8809-4999-a65c-5e66d4c1717c"
+                },
+                {
+                    "srno": 3,
+                    "name": "CHONAK CURRY",
+                    "price": 280,
+                    "id": "da2e3601-f007-4869-b5f7-bc68892359a6"
+                },
+                {
+                    "srno": 4,
+                    "name": "TARLE CURRY",
+                    "price": 150,
+                    "id": "4179eb45-9935-4297-9fa3-eadba6030320"
+                },
+                {
+                    "srno": 5,
+                    "name": "BANGDA CURRY",
+                    "price": 150,
+                    "id": "c791a90b-f8c9-480a-9e41-57362cf401c1"
+                },
+                {
+                    "srno": 6,
+                    "name": "VERLI CURRY",
+                    "price": 160,
+                    "id": "ef9e2b60-5343-4691-bd9e-4b70d7b92f23"
+                }
+            ],
+            "Starter": [
+                {
+                    "srno": 1,
+                    "name": "PRAWNS (RAWA FRY)",
+                    "price": "APS",
+                    "id": "3dd5e8c8-2f0c-4aa7-9009-458cc924c476"
+                },
+                {
+                    "srno": 2,
+                    "name": "PRAWNS (MASALA FRY)",
+                    "price": 350,
+                    "id": "64ecbf31-5b1e-472e-a6f7-09d37f61c0b6"
+                },
+                {
+                    "srno": 3,
+                    "name": "KINGFISH (RAWA FRY)",
+                    "price": 350,
+                    "id": "39dd38b2-2a91-40b6-b892-980379ab4794"
+                },
+                {
+                    "srno": 4,
+                    "name": "KINGFISH (MASALA FRY)",
+                    "price": 350,
+                    "id": "c517f4ec-2673-45ec-b05b-ebfe2bf20db9"
+                },
+                {
+                    "srno": 5,
+                    "name": "LEPO (RAWA FRY)",
+                    "price": 190,
+                    "id": "1b4f5428-5707-4839-ba95-ada77b9b88a0"
+                },
+                {
+                    "srno": 6,
+                    "name": "LEPO (MASALA FRY)",
+                    "price": 190,
+                    "id": "a71a09d4-0e71-4095-a2e0-7334623dec09"
+                },
+                {
+                    "srno": 7,
+                    "name": "MACKEREL (RAWA FRY)",
+                    "price": 180,
+                    "id": "e15d1562-a8a3-4faa-b8c5-b7610681cf31"
+                },
+                {
+                    "srno": 8,
+                    "name": "MACKEREL (MASALA FRY)",
+                    "price": 180,
+                    "id": "79774bc2-9dbf-48f0-8c77-b0a23c7d5523"
+                },
+                {
+                    "srno": 9,
+                    "name": "MACKEREL (RECHEADO)",
+                    "price": 180,
+                    "id": "b8c81440-8b6a-46f4-a8d4-8628fb171198"
+                },
+                {
+                    "srno": 10,
+                    "name": "CHONAK (RAWA FRY)",
+                    "price": 350,
+                    "id": "b70eb204-ea42-4315-90bc-6a3a049950cc"
+                },
+                {
+                    "srno": 11,
+                    "name": "CHONAK (MASALA FRY)",
+                    "price": 350,
+                    "id": "d8181aae-3aea-4247-91a8-ae36b953a737"
+                },
+                {
+                    "srno": 12,
+                    "name": "SILVER FISH (RAWA FRY)",
+                    "price": 160,
+                    "id": "c8d03a9a-9904-4d17-bc70-b2233e6c0225"
+                },
+                {
+                    "srno": 13,
+                    "name": "SILVER FISH (MASALA FRY)",
+                    "price": 160,
+                    "id": "a83d9c2c-f29f-41ee-8661-6acc1a7004df"
+                },
+                {
+                    "srno": 14,
+                    "name": "SQUID (RAWA FRY)",
+                    "price": 290,
+                    "id": "5ffd574d-30fd-487a-9ef0-2f5e61f029c8"
+                },
+                {
+                    "srno": 15,
+                    "name": "SQUID (MASALA FRY)",
+                    "price": 290,
+                    "id": "7708e14e-a420-4965-9a25-033d6ceb6790"
+                },
+                {
+                    "srno": 16,
+                    "name": "MODSO (RAWA FRY)",
+                    "price": 350,
+                    "id": "7780c658-415c-4534-9d32-b4b663addbce"
+                },
+                {
+                    "srno": 17,
+                    "name": "MODSO (MASALA FRY)",
+                    "price": 350,
+                    "id": "6dea70bc-0adc-4519-9595-55055362f63f"
+                },
+                {
+                    "srno": 18,
+                    "name": "CHILLY CHICKEN FRY",
+                    "price": 215,
+                    "id": "9270778a-d4a0-4144-8a2d-795b4c928144"
+                },
+                {
+                    "srno": 19,
+                    "name": "PRAWNS CHILLY FRY",
+                    "price": 300,
+                    "id": "0c10fb89-3ca3-4698-b099-58987255dfe1"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Indian",
+        "subcategory": {
+            "Gravy": [
+                {
+                    "srno": 1,
+                    "name": "VEG KOLHAPURI",
+                    "price": 195,
+                    "id": "24995e69-a312-4601-81dd-9f944276dc88"
+                },
+                {
+                    "srno": 2,
+                    "name": "VEG KADAI",
+                    "price": 195,
+                    "id": "dc22b425-6f77-4119-a2f2-fc99e689197b"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG HANDI",
+                    "price": 195,
+                    "id": "cccc657d-8557-44d1-8d10-a51828326195"
+                },
+                {
+                    "srno": 4,
+                    "name": "MUTTER MUSHROOM MASALA",
+                    "price": 200,
+                    "id": "fe4d7cf8-7f4f-44d2-806b-fab79a4a86e5"
+                },
+                {
+                    "srno": 5,
+                    "name": "PANEER KADAI",
+                    "price": 200,
+                    "id": "25b113b0-ec67-44bc-94ea-722fff77ab36"
+                },
+                {
+                    "srno": 6,
+                    "name": "PANEER BUTTER MASALA",
+                    "price": 200,
+                    "id": "80f8e9c4-850c-436d-8916-f9d84509ea3c"
+                },
+                {
+                    "srno": 7,
+                    "name": "PANEER MASALA",
+                    "price": 200,
+                    "id": "8e581a54-6c63-414b-ab9b-2178a217b6ad"
+                },
+                {
+                    "srno": 8,
+                    "name": "PANEER TIKKA MASALA",
+                    "price": 260,
+                    "id": "3d67b301-844c-4c72-a75e-375d9d2b3339"
+                },
+                {
+                    "srno": 9,
+                    "name": "MATAR PANEER",
+                    "price": 200,
+                    "id": "b57dd4b7-f3dd-496a-9e8f-ac82d738fcdc"
+                },
+                {
+                    "srno": 10,
+                    "name": "PALAK PANEER",
+                    "price": 200,
+                    "id": "9ae4f92e-dce6-4887-a7e2-73773d5968b9"
+                },
+                {
+                    "srno": 11,
+                    "name": "DAL TADKA",
+                    "price": 140,
+                    "id": "09147518-207a-4e52-9602-65353d3c2478"
+                },
+                {
+                    "srno": 12,
+                    "name": "DAL FRY",
+                    "price": 140,
+                    "id": "63fc083d-bec3-49cf-bd16-ef30eefb8283"
+                },
+                {
+                    "srno": 13,
+                    "name": "CHEFS SPECIAL VEG GRAVY ",
+                    "price": 220,
+                    "id": "cd4edcf1-8f09-47d9-b7b5-c78fe867d35a"
+                },
+                {
+                    "srno": 14,
+                    "name": "BUTTER CHICKEN",
+                    "price": 230,
+                    "id": "32c1cce3-f3c2-4dd7-867c-a4bbc0440041"
+                },
+                {
+                    "srno": 15,
+                    "name": "CHICKEN TIKKA MASALA",
+                    "price": 300,
+                    "id": "7bf1494c-ed06-4604-91f8-468ac0430f56"
+                },
+                {
+                    "srno": 16,
+                    "name": "CHICKEN KORMA",
+                    "price": 250,
+                    "id": "14929ba0-84b5-493f-af7f-cf67909de381"
+                },
+                {
+                    "srno": 17,
+                    "name": "CHEFS SPECIAL NON-VEG GRAVY",
+                    "price": 300,
+                    "id": "5b129c39-93e6-4c4e-8728-0d481bdf4db4"
+                },
+                {
+                    "srno": 18,
+                    "name": "VEG MAKHANI",
+                    "price": 195,
+                    "id": "a28e6ab6-8780-410f-8fea-ec926974d78c"
+                },
+                {
+                    "srno": 19,
+                    "name": "VEG HYDERABADI",
+                    "price": 195,
+                    "id": "31484df6-7c92-4a8b-b8fb-a9aa8df02e49"
+                },
+                {
+                    "srno": 20,
+                    "name": "CHICKEN KOLHAPURI",
+                    "price": 230,
+                    "id": "453404a9-6946-4f9c-b748-da4eb9d94216"
+                },
+                {
+                    "srno": 21,
+                    "name": "CHICKEN HANDI",
+                    "price": 230,
+                    "id": "50d795c3-7430-4b64-a7bb-834077de6ba4"
+                },
+                {
+                    "srno": 22,
+                    "name": "CHICKEN KADAI",
+                    "price": 230,
+                    "id": "4de8aa97-8c1d-447b-8c2b-532493b9db07"
+                },
+                {
+                    "srno": 23,
+                    "name": "CHICKEN MASALA",
+                    "price": 230,
+                    "id": "ef034a02-a980-42a2-918d-afcf7c632419"
+                },
+                {
+                    "srno": 24,
+                    "name": "MUTTON MASALA",
+                    "price": 350,
+                    "id": "744f74d7-4ee9-43d8-9de3-48484ae837c4"
+                },
+                {
+                    "srno": 25,
+                    "name": "MUTTON KADAI",
+                    "price": 350,
+                    "id": "ebbd37ed-cdbf-421d-a2c7-19ad04ed7661"
+                },
+                {
+                    "srno": 26,
+                    "name": "MUTTON HANDI",
+                    "price": 350,
+                    "id": "43fa94e7-06f4-4783-9127-3112b65c7777"
+                }
+            ],
+            "Rice": [
+                {
+                    "srno": 1,
+                    "name": "STEAMED RICE",
+                    "price": 90,
+                    "id": "573d37a6-ccb2-4f6f-80d5-bebf0a20d751"
+                },
+                {
+                    "srno": 10,
+                    "name": "VEG PULAO",
+                    "price": 160,
+                    "id": "62c5246b-ea17-42a5-831c-304814ae2079"
+                },
+                {
+                    "srno": 6,
+                    "name": "JIRA RICE",
+                    "price": 120,
+                    "id": "05ae4edc-75ab-4f6f-ad22-fa8b81b3ae73"
+                }
+            ],
+            "Biryani": [
+                {
+                    "srno": 1,
+                    "name": "VEG BIRYANI",
+                    "price": 170,
+                    "id": "cc159912-cca5-46b0-a018-dcfe740f9f9a"
+                },
+                {
+                    "srno": 2,
+                    "name": "EGG BIRYANI",
+                    "price": 180,
+                    "id": "99eff484-d864-4691-ac2b-5f2e9617ef4c"
+                },
+                {
+                    "srno": 3,
+                    "name": "PRAWNS BIRYANI",
+                    "price": 350,
+                    "id": "9956264a-a640-4927-beb3-10650a74ea41"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHICKEN BIRYANI",
+                    "price": 260,
+                    "id": "45ad4f85-2ed4-4a7f-aa40-03e7c705dcba"
+                },
+                {
+                    "srno": 5,
+                    "name": "MUTTON BIRYANI",
+                    "price": 380,
+                    "id": "7040d866-141c-49c3-9560-8b4a5ae779ba"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Thali",
+        "subcategory": {
+            "Thali": [
+                {
+                    "srno": 1,
+                    "name": "SPECIAL FISH THALI",
+                    "price": 250,
+                    "id": "16662a2e-b9cd-4e13-b2ee-c0fc9d8685b7"
+                },
+                {
+                    "srno": 2,
+                    "name": "FISH THALI",
+                    "price": 150,
+                    "id": "b10bb791-a26e-4c62-a40d-1aa97819ccfa"
+                },
+                {
+                    "srno": 3,
+                    "name": "VEG THALI",
+                    "price": 140,
+                    "id": "c07b959a-31cc-4171-8250-6759be0f8ac1"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Alcoholic Drinks",
+        "subcategory": {
+            "REGULAR WHISKEY": [
+                {
+                    "srno": 1,
+                    "name": "30ML ROYAL STAG",
+                    "price": 30,
+                    "id": "e75d57a4-2b35-421f-9278-c1dd87720052"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML ROYAL STAG",
+                    "price": 50,
+                    "id": "0b582cc9-3a4b-4fb7-9c8f-84439219ed3e"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML ROYAL STAG",
+                    "price": 70,
+                    "id": "e8a4a72e-a7f4-40eb-94d2-1ccb137ba0c9"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML MC DOWELL NO.1",
+                    "price": 30,
+                    "id": "b896cd04-f074-46a6-abbd-2bf73fda63e3"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML MC DOWELL NO.1",
+                    "price": 50,
+                    "id": "cfcade72-8b05-42e3-a5ea-8fd0c19766e4"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML MC DOWELL NO.1",
+                    "price": 70,
+                    "id": "9d3a0db8-520d-4a77-bc04-10480ac6eeb0"
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML IMPERIAL BLUE",
+                    "price": 30,
+                    "id": "475d22b6-b859-41b8-91b8-47280f7e3eb6"
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML IMPERIAL BLUE",
+                    "price": 50,
+                    "id": "cb139084-d917-409d-8354-c7675ce0a6fa"
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML IMPERIAL BLUE",
+                    "price": 70,
+                    "id": "6de19de0-32e1-4d6e-bea4-d5709fe209f8"
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML ROYAL CHALLENGE",
+                    "price": 30,
+                    "id": "ea9bbac0-0d4d-4ac4-93dc-69884d0da4a6"
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML ROYAL CHALLENGE",
+                    "price": 50,
+                    "id": "21a496b0-dce2-4c9e-916b-c556b37f8820"
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML ROYAL CHALLENGE",
+                    "price": 70,
+                    "id": "7bff5463-582a-43ef-8b3b-6e24749c439a"
+                },
+                {
+                    "srno": 13,
+                    "name": "30ML MC DOWELL NO.1 DIET",
+                    "price": 30,
+                    "id": "5789d93d-df4a-4f06-9b3f-7858499e592f"
+                },
+                {
+                    "srno": 14,
+                    "name": "60ML MC DOWELL NO.1 DIET",
+                    "price": 50,
+                    "id": "9d6e549a-75be-434b-8ccf-674df54ab38d"
+                },
+                {
+                    "srno": 15,
+                    "name": "90ML MC DOWELL NO.1 DIET",
+                    "price": 70,
+                    "id": "901e6847-7ba4-4fde-b369-3631770a4476"
+                }
+            ],
+            "PREMIUM WHISKEY": [
+                {
+                    "srno": 1,
+                    "name": "30ML SIGNATURE",
+                    "price": 50,
+                    "id": "02983993-208c-46ca-a956-4cd89fee050e"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML SIGNATURE",
+                    "price": 90,
+                    "id": "ba539284-9f72-421a-a237-2be454a78cdd"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML SIGNATURE",
+                    "price": 130,
+                    "id": "1f2ecc96-bbb6-440d-895a-8799ccf4dc50"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML BLENDER'S PRIDE",
+                    "price": 50,
+                    "id": "932dd7f6-ecc5-46f5-9d7a-273433181c0a"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML BLENDER'S PRIDE",
+                    "price": 90,
+                    "id": "0ab72b93-f596-4993-a601-4492e509d1ee"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML BLENDER'S PRIDE",
+                    "price": 130,
+                    "id": "1cbef74f-c680-4039-b2b4-a3b6405ff325"
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML ANTIQUITY",
+                    "price": 50,
+                    "id": "b6b0ca29-3e7d-466d-b1a8-7a2ad2cb5602"
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML ANTIQUITY",
+                    "price": 90,
+                    "id": "ceccecb7-e8cb-4e58-a994-1fa910c47187"
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML ANTIQUITY",
+                    "price": 130,
+                    "id": "52c872be-a725-4ef6-8eea-30f80ff0ed1b"
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML BLENDER'S PRIDE RESERVE",
+                    "price": 60,
+                    "id": "39d2e36a-ef64-4c6c-8a3a-3fdeb7e1ef03"
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML BLENDER'S PRIDE RESERVE",
+                    "price": 100,
+                    "id": "b13bdc7f-b888-43c1-834f-300b9707861a"
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML BLENDER'S PRIDE RESERVE",
+                    "price": 150,
+                    "id": "3e8f117d-4e68-4730-b2aa-e1e67f81c972"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML OAKSMITH GOLD",
+                    "price": 50,
+                    "id": "4fcadf10-aabf-4dc1-a1b4-d705895881b9"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML OAKSMITH GOLD",
+                    "price": 80,
+                    "id": "74f35623-1200-472e-9bd8-e459440b86fd"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML OAKSMITH GOLD",
+                    "price": 130,
+                    "id": "42058f80-5f9f-43aa-a282-07fe2e3183e5"
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML OAKSMITH SILVER",
+                    "price": 30,
+                    "id": "ef862ce5-03bd-4228-b63c-9212ac81d2ed"
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML OAKSMITH SILVER",
+                    "price": 50,
+                    "id": "a1f66ff9-1b92-4ebd-8ca3-62ef3653933a"
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML OAKSMITH SILVER",
+                    "price": 70,
+                    "id": "967483a1-e444-4aa1-bbd2-353cb39b7319"
+                }
+            ],
+            "SCOTCH WHISKEY": [
+                {
+                    "srno": 1,
+                    "name": "30ML VAT69",
+                    "price": 70,
+                    "id": "e0cce908-1626-43f6-a052-992783f89e39"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML VAT69",
+                    "price": 130,
+                    "id": "afb05d12-ad51-480a-a10e-37ab5b780a54"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML VAT69",
+                    "price": 180,
+                    "id": "1292ced9-9c1f-47cc-96f1-52463b416074"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML DEWARS",
+                    "price": 80,
+                    "id": "270698a9-76af-47eb-af40-48a8bb256334"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML DEWARS",
+                    "price": 140,
+                    "id": "91fb49f4-fb74-43ed-995f-0aed4379d46f"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML DEWARS",
+                    "price": 220,
+                    "id": "135a24d6-e1b2-4013-b3cd-a8267a7a8482"
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML 100 PIPERS",
+                    "price": 90,
+                    "id": "f8107325-5dd0-4e3a-84d9-61df04e85168"
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML 100 PIPERS",
+                    "price": 150,
+                    "id": "deca2d3d-ade5-46a5-811c-77326db42b08"
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML 100 PIPERS",
+                    "price": 230,
+                    "id": "13802768-8a4f-432e-ad5c-97e6b37a2be7"
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML BLACK DOG",
+                    "price": 90,
+                    "id": "7575ea8c-176b-4f9a-a4bb-1c0c540f3a4f"
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML BLACK DOG",
+                    "price": 150,
+                    "id": "b2846285-5d4a-4375-afd9-1c6eb80a8642"
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML BLACK DOG",
+                    "price": 230,
+                    "id": "09bae9b2-33db-4485-9e92-273d534dee36"
+                },
+                {
+                    "srno": 13,
+                    "name": "30ML RED LABLE",
+                    "price": 100,
+                    "id": "ec998d17-2bbd-4787-9ea8-b0da16bc99ad"
+                },
+                {
+                    "srno": 14,
+                    "name": "60ML RED LABLE",
+                    "price": 190,
+                    "id": "88d79d45-4cc2-4691-8f53-ba80d99a0a76"
+                },
+                {
+                    "srno": 15,
+                    "name": "90ML RED LABLE",
+                    "price": 280,
+                    "id": "5ba6aa24-ab98-44ef-9b6f-467b0b82a8ca"
+                },
+                {
+                    "srno": 16,
+                    "name": "30ML BLACK & WHITE",
+                    "price": 90,
+                    "id": "12310157-1fb8-4b7f-8de2-a109ef03640f"
+                },
+                {
+                    "srno": 17,
+                    "name": "60ML BLACK & WHITE",
+                    "price": 160,
+                    "id": "68d8edd3-6a9b-4b61-9c59-b236da5a914f"
+                },
+                {
+                    "srno": 18,
+                    "name": "90ML BLACK & WHITE",
+                    "price": 250,
+                    "id": "abb3e174-3496-42be-a97c-5b370bf686ce"
+                },
+                {
+                    "srno": 19,
+                    "name": "30ML TEACHER'S HIGHLAND",
+                    "price": 90,
+                    "id": "ff24ef0c-b1ec-45da-8aa7-0223b91d7ee2"
+                },
+                {
+                    "srno": 20,
+                    "name": "60ML TEACHER'S HIGHLAND",
+                    "price": 160,
+                    "id": "2198abff-5700-4d44-9f88-ca1ac2d27ca6"
+                },
+                {
+                    "srno": 21,
+                    "name": "90ML TEACHER'S HIGHLAND",
+                    "price": 240,
+                    "id": "1ba89cec-c017-4f3e-98e4-8e7b1a44b469"
+                }
+            ],
+            "BRANDY": [
+                {
+                    "srno": 1,
+                    "name": "30ML HONEY BEE",
+                    "price": 30,
+                    "id": "bc53a7cd-fd09-4db5-bb34-7f038a08f14f"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML HONEY BEE",
+                    "price": 40,
+                    "id": "0d148b54-0b52-40db-b6b1-9857dab2fcf8"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML HONEY BEE",
+                    "price": 60,
+                    "id": "39e9d726-eeab-4034-8eca-abb585f54557"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML MENSION HOUSE",
+                    "price": 30,
+                    "id": "6f964ffe-718b-44a6-b3fa-759972df6981"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML MENSION HOUSE",
+                    "price": 50,
+                    "id": "0c10364b-8853-484a-a006-13bae6966d85"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML MENSION HOUSE",
+                    "price": 70,
+                    "id": "895895af-67f1-4d3f-b29b-18d5ee01f983"
+                }
+            ],
+            "REGULAR VODKA": [
+                {
+                    "srno": 1,
+                    "name": "30ML MAGIC MOMENTS",
+                    "price": 30,
+                    "id": "c9d31e5f-61da-49a6-b33e-b48681ad00c1"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML MAGIC MOMENTS",
+                    "price": 50,
+                    "id": "aefe955a-ba18-4a50-a6ce-14a4673ffbe3"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML MAGIC MOMENTS",
+                    "price": 70,
+                    "id": "dcf3cc91-4074-4da9-8f99-203e47df0648"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML ROMANOV",
+                    "price": 30,
+                    "id": "ea43c66d-9201-4f23-8115-1a05d90e880f"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML ROMANOV",
+                    "price": 50,
+                    "id": "896ad850-2ca6-45ea-b127-71209692d250"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML ROMANOV",
+                    "price": 60,
+                    "id": "6b1e1117-a46a-47d0-a017-93e6d5d45663"
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML SMIRNOFF",
+                    "price": 40,
+                    "id": "9ee8586c-78c4-4eb8-b796-eac7c5fa7907"
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML SMIRNOFF",
+                    "price": 70,
+                    "id": "e21fc59e-03d7-4e8e-a715-0a8ec7bad829"
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML SMIRNOFF",
+                    "price": 100,
+                    "id": "57e9839c-36cd-4543-ac1c-62e8237c2f95"
+                }
+            ],
+            "RUM": [
+                {
+                    "srno": 1,
+                    "name": "30ML OLD MONK'S",
+                    "price": 30,
+                    "id": "dfa9239d-b490-4b4a-beb3-d88befa80c6b"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML OLD MONK'S",
+                    "price": 40,
+                    "id": "52b429dc-d1ed-40ef-aae9-9b14f1748ed4"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML OLD MONK'S",
+                    "price": 60,
+                    "id": "0afdb7ad-bf48-4e0f-bc68-de3bd3442faf"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML BACARDI LEMON",
+                    "price": 50,
+                    "id": "cc7da161-63a8-4725-8215-11996b75dbe3"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML BACARDI LEMON",
+                    "price": 80,
+                    "id": "9ce97993-1d48-4d9c-8884-74fffc6063e8"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML BACARDI LEMON",
+                    "price": 130,
+                    "id": "533c5be9-ed8d-4971-a130-9bf68feb8ff0"
+                },
+                {
+                    "srno": 7,
+                    "name": "30ML BACARDI WHITE RUM",
+                    "price": 50,
+                    "id": "1bfa8ed5-9d38-41c2-a67f-5119e1bb56c7"
+                },
+                {
+                    "srno": 8,
+                    "name": "60ML BACARDI WHITE RUM",
+                    "price": 80,
+                    "id": "b46b15a2-2bd4-412f-aef4-6c703510879b"
+                },
+                {
+                    "srno": 9,
+                    "name": "90ML BACARDI WHITE RUM",
+                    "price": 130,
+                    "id": "ea9c6ee0-b978-4af4-9f8e-a8bbf7977e9a"
+                },
+                {
+                    "srno": 10,
+                    "name": "30ML BACARDI BLACK RUM",
+                    "price": 50,
+                    "id": "447826f2-6516-4d34-9648-f969df09f6b6"
+                },
+                {
+                    "srno": 11,
+                    "name": "60ML BACARDI BLACK RUM",
+                    "price": 80,
+                    "id": "fe55c6d0-349c-48e8-bca5-c22a1d7027e3"
+                },
+                {
+                    "srno": 12,
+                    "name": "90ML BACARDI BLACK RUM",
+                    "price": 130,
+                    "id": "63f21771-d6bc-4841-b57f-4cae2195e880"
+                }
+            ],
+            "COCKTAIL": [
+                {
+                    "srno": 1,
+                    "name": "MARGARITA ",
+                    "price": 180,
+                    "id": "8e9ab508-b5db-4d18-a215-ed4a2fb924ff"
+                },
+                {
+                    "srno": 2,
+                    "name": "GIMLET",
+                    "price": 180,
+                    "id": "6fcbab42-78e8-4f2c-b7f4-7afa63536801"
+                },
+                {
+                    "srno": 3,
+                    "name": "VODKA COLIN",
+                    "price": 180,
+                    "id": "35ffc56f-e8b6-4bbe-b793-f405732dfb29"
+                },
+                {
+                    "srno": 4,
+                    "name": "CHEF'S BHOJAN SPECIAL COCKTAIL",
+                    "price": 250,
+                    "id": "6a36511e-f881-48ee-b360-2d3bb4715195"
+                }
+            ],
+            "BEER": [
+                {
+                    "srno": 1,
+                    "name": "KINGFISHER PREMIUM PINT",
+                    "price": 80,
+                    "id": "a77c5ed0-fe5b-4a43-bb72-9936d9a2b56d"
+                },
+                {
+                    "srno": 2,
+                    "name": "KINGFISHER STRONG PINT",
+                    "price": 90,
+                    "id": "1e7ca9ed-cbdf-4c45-abec-2f571bf920e4"
+                },
+                {
+                    "srno": 3,
+                    "name": "KINGFISHER PREMIUM BIG",
+                    "price": 150,
+                    "id": "c99da278-8503-404f-b767-6559f3ff4ec7"
+                },
+                {
+                    "srno": 4,
+                    "name": "KINGFISHER STRONG BIG",
+                    "price": 150,
+                    "id": "753b63d3-ca5b-4beb-8aad-521acc15cf41"
+                },
+                {
+                    "srno": 5,
+                    "name": "KINGFISHER PREMIUM CAN",
+                    "price": 120,
+                    "id": "c53bfe48-0e70-48ab-a015-1923e8b058f4"
+                },
+                {
+                    "srno": 6,
+                    "name": "KINGFISHER STRONG CAN",
+                    "price": 130,
+                    "id": "cc377d31-0928-4af5-8a71-9805695b9471"
+                },
+                {
+                    "srno": 7,
+                    "name": "BUDWISER BIG",
+                    "price": 160,
+                    "id": "02a09c2a-343d-4eda-a62e-33da0af83d9f"
+                },
+                {
+                    "srno": 8,
+                    "name": "BUDWISER PINT",
+                    "price": 100,
+                    "id": "1ab0f6e4-93ec-4629-88d0-048c13b09790"
+                },
+                {
+                    "srno": 9,
+                    "name": "CARLSBERG BIG",
+                    "price": 160,
+                    "id": "1cae8916-fb09-4954-a747-07c292b14610"
+                },
+                {
+                    "srno": 10,
+                    "name": "CARLSBERG PINT",
+                    "price": 100,
+                    "id": "de3936f4-5624-4d37-a438-2e3cee86ca75"
+                },
+                {
+                    "srno": 11,
+                    "name": "CARLSBERG CAN",
+                    "price": 140,
+                    "id": "33ec82a5-d60b-43b7-882a-898597f64b18"
+                },
+                {
+                    "srno": 12,
+                    "name": "HEINEKEN BIG",
+                    "price": 150,
+                    "id": "057ad4d6-3b3c-4273-bfa6-3b9479ce8e9e"
+                },
+                {
+                    "srno": 13,
+                    "name": "HEINEKEN PINT",
+                    "price": 100,
+                    "id": "cfffff0a-5e41-4e79-b284-3a010d9b9d3a"
+                },
+                {
+                    "srno": 14,
+                    "name": "HEINEKEN CAN",
+                    "price": 130,
+                    "id": "4bc283ec-0590-41b2-9f77-2e15aceeaadb"
+                },
+                {
+                    "srno": 15,
+                    "name": "BREEZER",
+                    "price": 130,
+                    "id": "3b1a79fe-f31c-40ac-aa01-eb9deddc06cf"
+                }
+            ],
+            "LOCAL ALCOHOL": [
+                {
+                    "srno": 1,
+                    "name": "30ML URRAK",
+                    "price": 15,
+                    "id": "3c2c1471-1790-493b-9850-a3e0eb851e2f"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML URRAK",
+                    "price": 20,
+                    "id": "09a03b39-cae0-4c0c-b457-59895e9a8867"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML URRAK",
+                    "price": 30,
+                    "id": "9e29fecd-b282-487e-ac40-5a0280a541b7"
+                },
+                {
+                    "srno": 4,
+                    "name": "30ML KAJU",
+                    "price": 20,
+                    "id": "5056cd04-2131-424c-8189-660319708776"
+                },
+                {
+                    "srno": 5,
+                    "name": "60ML KAJU",
+                    "price": 30,
+                    "id": "e4d386ee-4ce0-4adf-b7dc-4035eb0b0d76"
+                },
+                {
+                    "srno": 6,
+                    "name": "90ML KAJU",
+                    "price": 50,
+                    "id": "0e862771-5638-4ed6-82c1-84389ff4448b"
+                }
+            ],
+            "VODKA": [
+                {
+                    "srno": 1,
+                    "name": "30ML ABSOLUTE VODKA",
+                    "price": 150,
+                    "id": "ce8589e5-faec-4c19-a352-7af735a19f25"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML ABSOLUTE VODKA",
+                    "price": 250,
+                    "id": "b10e32b9-c199-481a-afd9-e21f43e02b19"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML ABSOLUTE VODKA",
+                    "price": 400,
+                    "id": "6daa92ff-1c4c-4180-b1ca-259c4014e0dd"
+                },
+                {
+                    "srno": 2,
+                    "name": "60ML JIN",
+                    "price": 100,
+                    "id": "385d04df-2d48-4e26-a7b0-8f6968634373"
+                },
+                {
+                    "srno": 3,
+                    "name": "90ML JIN",
+                    "price": 160,
+                    "id": "46f69881-46fd-4235-8f8f-4ba67dac6b25"
+                }
+            ],
+            "VODKA ": [
+                {
+                    "srno": 1,
+                    "name": "30ML JIN",
+                    "price": 60,
+                    "id": "ab6d8f70-5f65-406f-bfd9-093d6a29b23e"
+                }
+            ]
+        }
+    },
+    {
+        "category": "Drinks",
+        "subcategory": {
+            "MOCKTAIL": [
+                {
+                    "srno": 1,
+                    "name": "LIME MOJITO",
+                    "price": 100,
+                    "id": "370b9b83-0b9d-4877-8d56-68a647b394e0"
+                },
+                {
+                    "srno": 2,
+                    "name": "ORANGE MOJITO",
+                    "price": 110,
+                    "id": "be98769f-0f3f-4d65-8310-e400344837e0"
+                },
+                {
+                    "srno": 3,
+                    "name": "BLUE LAGOON",
+                    "price": 100,
+                    "id": "613a1f45-0291-4721-8e1a-1811e8213645"
+                },
+                {
+                    "srno": 4,
+                    "name": "FRUIT PUNCH",
+                    "price": 150,
+                    "id": "86866649-1405-45c7-b885-f2605d1a96b2"
+                },
+                {
+                    "srno": 5,
+                    "name": "VIRGIN PINA-COLADA",
+                    "price": 150,
+                    "id": "3cbf4eb1-ac47-480d-a457-3131c5818444"
+                },
+                {
+                    "srno": 6,
+                    "name": "GINGER PUNCH SODA",
+                    "price": 60,
+                    "id": "c68eced6-4732-448d-bf0d-392d749217a7"
+                },
+                {
+                    "srno": 7,
+                    "name": "CHEF'S BHOJAN SPECIAL MOCKTAIL",
+                    "price": 160,
+                    "id": "f138e7e0-1f74-4a9b-be2e-d47da21329d4"
+                },
+                {
+                    "srno": 8,
+                    "name": "POMEGRANETES REFRESHMENT",
+                    "price": 150,
+                    "id": "3510134b-a92d-48d1-ab8c-0f1d2063870d"
+                }
+            ],
+            "BEVERAGES": [
+                {
+                    "srno": 1,
+                    "name": "WATER BOTTLE SMALL",
+                    "price": 10,
+                    "id": "4a2bcc6d-949c-4d7f-a7cd-c00a40f334f6"
+                },
+                {
+                    "srno": 2,
+                    "name": "WATER BOTTLE BIG",
+                    "price": 20,
+                    "id": "e3f05b83-a9b8-42ad-bc60-5e4b95bcec50"
+                },
+                {
+                    "srno": 3,
+                    "name": "PEPSI",
+                    "price": 20,
+                    "id": "6455ccfc-fd76-4c20-a810-39b862f9f71f"
+                },
+                {
+                    "srno": 4,
+                    "name": "THUMBS UP",
+                    "price": 20,
+                    "id": "c74c5abe-c885-4be1-8466-f1aa1326ca5f"
+                },
+                {
+                    "srno": 5,
+                    "name": "COKE",
+                    "price": 20,
+                    "id": "eff6804d-3b61-4f0b-a8d0-fcb6917b17b8"
+                },
+                {
+                    "srno": 6,
+                    "name": "7 UP",
+                    "price": 20,
+                    "id": "e0589057-2ab0-477e-9da0-2b7a848943dc"
+                },
+                {
+                    "srno": 7,
+                    "name": "SPRITE",
+                    "price": 20,
+                    "id": "fae643b6-6858-4585-b771-fa9bb9724902"
+                },
+                {
+                    "srno": 8,
+                    "name": "DEW",
+                    "price": 20,
+                    "id": "70e70875-7100-4a0a-8edb-47216b70c29f"
+                },
+                {
+                    "srno": 9,
+                    "name": "SLICE",
+                    "price": 20,
+                    "id": "a72e9dbc-5ac4-4c1c-a929-21fe392d6ff7"
+                },
+                {
+                    "srno": 10,
+                    "name": "LIMCA",
+                    "price": 20,
+                    "id": "a8800e7c-943b-41f3-aa41-ab48346343d6"
+                },
+                {
+                    "srno": 11,
+                    "name": "MAZA",
+                    "price": 20,
+                    "id": "1f18fdc7-3de5-4cfa-bc41-959d07cdd62a"
+                },
+                {
+                    "srno": 12,
+                    "name": "THUMBS UP 750ML",
+                    "price": 50,
+                    "id": "8f8bd89a-c5ee-48bd-b683-c5690abb8c94"
+                },
+                {
+                    "srno": 13,
+                    "name": "COKE 750ML ",
+                    "price": 50,
+                    "id": "d378cf34-baee-40bd-8b50-cfe90a86578b"
+                },
+                {
+                    "srno": 14,
+                    "name": "SPRITE 750ML ",
+                    "price": 50,
+                    "id": "da9d6b0c-2cfe-4f6c-8677-7065c78d257b"
+                },
+                {
+                    "srno": 15,
+                    "name": "CLUB SODA 750ML",
+                    "price": 30,
+                    "id": "1c5bcf48-7b7a-40ec-9451-d50bff5ffcc9"
+                },
+                {
+                    "srno": 16,
+                    "name": "SODA",
+                    "price": 20,
+                    "id": "0349743b-f744-4f8b-97b7-dd66073f73fa"
+                },
+                {
+                    "srno": 17,
+                    "name": "FRESH LIME SODA",
+                    "price": 40,
+                    "id": "792d129b-3308-445d-aea7-a3b94d4206d1"
+                }
+            ]
+        }
+    }
+]
