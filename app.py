@@ -107,7 +107,7 @@ def ponda_orders():
         total_amount = 0
         
         for item in order['items']:
-            item_total = item['price'] * item['quantity']
+            item_total = int(item['price']) * int(item['quantity'])
             items_list.append({
                 'name': item['name'],
                 'quantity': item['quantity'],
@@ -148,7 +148,7 @@ def margao_orders():
         total_amount = 0
         
         for item in order['items']:
-            item_total = item['price'] * item['quantity']
+            item_total = int(item['price']) * int(item['quantity'])
             items_list.append({
                 'name': item['name'],
                 'quantity': item['quantity'],
@@ -174,7 +174,6 @@ def get_menu():
             print(response)
             response.headers['Content-Type'] = 'application/json'  # Ensure JSON content type
             return response, 200
-        
         else:
             return jsonify({"status": "error", "message": "No menu data found"}), 404
     except Exception as e:
